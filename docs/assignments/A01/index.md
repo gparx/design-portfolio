@@ -2,10 +2,10 @@
 
 
 ## Portfolio Analysis
-Portfolio 1: Nathaniel Murcin 
+Portfolio 1: Nathaniel Murcin
 Link: https://nmurcin.github.io/
 
-Navigability: Nathaniel's portfolio is easily accessible within under 5 seconds, presenting a clickable link to present his past projects as soon as you open his GitHub. The minimalized page and use of negative space allows the viewer to focus on the important details. Projects are detailed. including clear photos, descriptions, skills used and important details the viewer might be looking for.
+Navigability: Nathaniel's portfolio is easily accessible within under 5 seconds, presenting a clickable link to present his past projects as soon as you open his GitHub. The minimalized page and use of negative space allows the viewer to focus on the important details. Projects are detailed including clear photos, descriptions, skills used and important details the viewer might be looking for.
 
 Reproducibility: While Nathaniel has an impressive resume and portfolio, his displayed work is more generalized and lacking extreme/technical detail for someone looking for specific engineering skills. Whether this was intentional or not, a colleague would have difficulties replicating any work associated with his profile without further details and explanations.
 
