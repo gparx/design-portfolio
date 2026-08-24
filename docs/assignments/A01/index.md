@@ -12,6 +12,18 @@ Reproducibility: While Nathaniel has an impressive resume and portfolio, his dis
 Evidence of Reasoning: The portfolio does an excellent job at displaying skill, some manufacturing information and some decision making, but not enough to follow the process concisely. The portfolio seems to focus on displaying final results rather than problem solving skills and/or thought processes.
 
 Professional Tone: After completely looking over Nathaniel's portfolio, I believe the language and presentation are appropriate to show an engineering employer and I believe that it was constructed for that purpose. However, grammatically it can be improved. Additionally, while a resume/portfolio should be concise and avoid containing excess information, there is opportunity to direct anyone to more technical information if they are interested.
+
+Portfolio 2: Rohan Joshi
+Link: https://rohanjoshi3.github.io/
+
+Navigability: The portfolio can be busy and hard to look at. In comparison to Nathaniel, Rohan utilized all of his negative space and the projects are largely displayed as soon as you open the page. Despite this, an employer could easily location an interesting or relevant project within 60 seconds.
+
+Reproducibility: Some projects within Rohan's portfolio actually can be replicated to similar quality. Detailed analysis on methods, tools, and the design process were documented for various projects. While his projects are detailed, I believe a colleague would still find it difficult to replicate the work entirely.
+
+Evidence of Reasoning: The portfolio and projects walk through thought processes and problem solving skills, even showing failed methods and how they were fixed. For example, the 3D lattice structure design was strong but inefficient at first according to Rohan. Detailed thought processes and breadcrumbs showed how it ended up at its final revision.
+
+Professional Tone: The professional tone, grammar and technical knowledge is very refined and professional. His portfolio shows that he knows what he's talking about, contains no grammatical errors and knows engineering language
+
 ## Decide
 
 
