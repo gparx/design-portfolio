@@ -1,6 +1,6 @@
 # A1 – Build Your Professional Portfolio
 
-
+### Analyze
 ## Portfolio Analysis
 Portfolio 1: Nathaniel Murcin
 Link: https://nmurcin.github.io/
@@ -24,7 +24,9 @@ Evidence of Reasoning: The portfolio and projects walk through thought processes
 
 Professional Tone: The professional tone, grammar and technical knowledge is very refined and professional. His portfolio shows that he knows what he's talking about, contains no grammatical errors and knows engineering language
 
-## Decide
+## Product Analysis - Bag Closure Clip
+The "Bag Closure Clip" utilizes a spring-clamp and leveraging pieces to clamp down on something, such as a bag. The user applies a moment force to the opposing sides on the clamping side, then releases where intended to clamp down at.
+<img width="3024" height="4032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
 
 
 ## Communicate
