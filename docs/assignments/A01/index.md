@@ -1,9 +1,5 @@
 # A1 – Build Your Professional Portfolio
 
-## Analyze
-
----
-
 # Portfolio Analysis
 ---
 
