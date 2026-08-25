@@ -34,7 +34,7 @@ After completely looking over Nathaniel's portfolio, I believe the language and 
 
 ### Navigability
 
-The portfolio can be busy and hard to look at. In comparison to Nathaniel, Rohan utilized all of his negative space and the projects are largely displayed as soon as you open the page. Despite this, an employer could easily location an interesting or relevant project within 60 seconds.
+The portfolio can be busy and hard to look at. In comparison to Nathaniel, Rohan utilized all of his negative space and the projects are largely displayed as soon as you open the page. Despite this, an employer could easily locate an interesting or relevant project within 60 seconds.
 
 ### Reproducibility
 
