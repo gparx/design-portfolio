@@ -86,9 +86,9 @@ In the image above you can see the dictating mechanism, the clamping spring. A s
 ## Plastic Clamps
 
 <img width="3024" height="3024" alt="IMG_9933" src="https://github.com/user-attachments/assets/a620bb89-396c-4b74-af7c-daacd083019c" />
-
+<p align="center">
 The plastic clamps are for allowing the clamping force to actually take effect. The longer jaws are extended for a longer range of use while the shorter side is only used to apply a small amount of force to open.
-
+</p>
 ---
 
 ## Patent Research
