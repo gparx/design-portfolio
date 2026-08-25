@@ -27,6 +27,10 @@ Professional Tone: The professional tone, grammar and technical knowledge is ver
 ## Product Analysis - Bag Closure Clip
 What is the primary function of this product? The "Bag Closure Clip" utilizes a spring-clamp and leveraging pieces to clamp down on something, such as a bag. The user applies a moment force to the opposing sides on the clamping side, then releases where intended to clamp down at.
 
+What equation governs its primary behavior? The bag clip utilizes moment force equilibrium, ∑M = 0 where M=Fd. M is moment, F is force, and d is the distance that the force acts from its pivot. 
+
+What assumption makes this model valid for its intended usage? We would assume that the clamping sides are rigid bodies and do not break or we assume that the user does not apply unnecessarily excessive force.
+
 
 <img width="2024" height="3032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
 
