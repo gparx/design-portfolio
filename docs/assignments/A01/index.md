@@ -20,7 +20,7 @@ While Nathaniel has an impressive resume and portfolio, his displayed work is mo
 
 ### Evidence of Reasoning
 
-The portfolio does an excellent job at displaying skill, some manufacturing information and some decision making, but not enough to follow the process concisely. The portfolio seems to focus on displaying final results rather than problem solving skills and/or thought processes.
+The portfolio displays engineering skills, manufacturing information and decision making, but not enough to follow the process concisely. The portfolio seems to focus on displaying final results rather than problem solving skills and/or thought processes.
 
 ### Professional Tone
 
@@ -46,7 +46,7 @@ The portfolio and projects walk through thought processes and problem solving sk
 
 ### Professional Tone
 
-The professional tone, grammar and technical knowledge is very refined and professional. His portfolio shows that he knows what he's talking about, contains no grammatical errors and knows engineering language
+The tone, grammar and technical knowledge is very refined and come accross as professional to someone looking for someone who is knowlegeable and able to learn, such as an employer or academic advisor. His portfolio shows that he knows what he's talking about, contains no grammatical errors and knows engineering language
 
 ---
 
