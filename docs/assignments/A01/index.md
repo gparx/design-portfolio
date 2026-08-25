@@ -34,6 +34,10 @@ What assumption makes this model valid for its intended usage? We would assume t
 
 <img width="2024" height="3032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
 
+In the image above you can see the dictating mechanism, the clamping spring. A spring is coiled and extends two arms to each plastic clamp and applies opposing moments causing the clamp to remain closed at rest. When enough force is applied to the spring side that it exceeds the spring force, the clips jaws will open, allowing something to be inserted between.
+
+<img width="3024" height="3024" alt="IMG_9933" src="https://github.com/user-attachments/assets/a620bb89-396c-4b74-af7c-daacd083019c" />
+
 
 ## Communicate
 
