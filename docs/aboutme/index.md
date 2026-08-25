@@ -3,7 +3,7 @@
 ## Grant Parker
 ### Mechanical Engineering Student
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## Professional Introduction
 
