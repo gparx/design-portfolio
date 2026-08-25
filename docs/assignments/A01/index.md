@@ -104,3 +104,7 @@ The most relative patent available that is not a design patent and explains the 
 ## Alternative Devices
 
 Alternative devices that could serve the same purpose or serve its purpose better: Binder clips and clothes pins because they can be manufactured cheaper, require less parts and existed before the bag clip.
+
+## Engineering Decisions
+
+One clear distinction between the original patent and the design patent is its minimalization of material and space. The original patent for a bag clip contains the same spring and clamping mechanism but uses much larger clamping pieces. This remodel reduces material and space while remaining consistent with its purpose. This decision was likely to maximize profit due to a low demand and small market.
