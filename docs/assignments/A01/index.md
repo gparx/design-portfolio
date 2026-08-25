@@ -26,7 +26,7 @@ Professional Tone: The professional tone, grammar and technical knowledge is ver
 
 ## Product Analysis - Bag Closure Clip
 The "Bag Closure Clip" utilizes a spring-clamp and leveraging pieces to clamp down on something, such as a bag. The user applies a moment force to the opposing sides on the clamping side, then releases where intended to clamp down at.
-<img width="2024" height="3032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
+<img width="1024" height="2032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
 
 
 ## Communicate
