@@ -114,3 +114,7 @@ Alternative devices that could serve the same purpose or serve its purpose bette
 ## Engineering Decisions
 
 One clear distinction between the original patent and the design patent is its minimalization of material and space. The original patent for a bag clip contains the same spring and clamping mechanism but uses much larger clamping pieces. This remodel reduces material and space while remaining consistent with its purpose. This decision was likely to maximize profit due to a low demand and small market.
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
