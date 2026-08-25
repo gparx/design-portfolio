@@ -17,7 +17,7 @@ Continuing my education I will expand my knowledge and expertise on mechanics, e
 
 **What does it mean to defend an engineering decision — and do you currently know how to do it?**
 
-To defend an engineering decision is to accept the possibility of failure, but also the effects of that failure. The effects of that failure can range from losing a company money, ruining your reputation to even catastrophic human casualties. All of these possibilities must be considered when defending an engineering decision. As for "do you currently know how to do it?" The answer is no, I do not know how to currently do it. 
+To defend an engineering decision is to accept the possibility of failure, but also the effects of that failure. The effects of that failure can range from losing a company money, ruining your reputation to even catastrophic human casualties. All of these possibilities must be considered when defending an engineering decision. As for "do you currently know how to do it?" The answer is no, I do not know how to currently do it but eager to learn how by the end of this course. 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
