@@ -78,9 +78,9 @@ We would assume that the clamping sides are rigid bodies and do not break or we 
 ## Clamping Spring
 
 <img width="2024" height="3032" alt="IMG_9931" src="https://github.com/user-attachments/assets/9883e1b4-511c-474e-b1d4-659f144dacb2" />
-
+<p align="center">
 In the image above you can see the dictating mechanism, the clamping spring. A spring is coiled and extends two arms to each plastic clamp and applies opposing moments causing the clamp to remain closed at rest. When enough force is applied to the spring side that it exceeds the spring force, the clips jaws will open, allowing something to be inserted between. There is also a small pin hold both the clamps and the spring together.
-
+</p>
 ---
 
 ## Plastic Clamps
