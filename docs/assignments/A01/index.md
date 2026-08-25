@@ -1,12 +1,12 @@
 # A1 – Build Your Professional Portfolio
 
 
-<p align="center">
-Homepage Identity 
+
+# Homepage Identity 
 ---
 My homepage is designed as a mechanical engineering portfolio for colleagues, employers and graduate advisors. Information within this pages consists of coursework, projects and my personal thought processes and problem solving skills. It is my intention for all relevant information to be easily accessible and locatable within my page. Additional, more personal information about me can also be found within my page as well if that is relevant to you.
-</p>
-# Portfolio Analysis
+
+
 ---
 
 ## Portfolio 1: Nathaniel Murcin
