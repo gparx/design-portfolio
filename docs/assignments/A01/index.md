@@ -40,3 +40,6 @@ In the image above you can see the dictating mechanism, the clamping spring. A s
 
 The plastic clamps are for allowing the clamping force to actually take effect. The longer jaws are extended for a longer range of use while the shorter side is only used to apply a small amount of force to open. 
 
+Patent Research: The most relative patent available that is not a design patent and that explains the design in depth is US4394791A, authored by Francis R. Groth in July 26, 1986.
+
+Alternative devices that could serve the same purpose or serve its purpose better: Binder clips and clothes pins because they can be manufactured cheaper, require less parts and existed before the bag clip.
