@@ -10,7 +10,7 @@ My homepage is designed as a mechanical engineering portfolio for colleagues, em
 Titles size and format changed, borderlines added and spaced out content for better visual appearance and to space information out.
 
 # Documentation Standard
-One genuine standard that I will hold for myself this semester will be to act as if all of this is visible to employers and graduate advisors. All of the work that I do is to achieve my dreams and I want all of my work to reflect the integrity of those fantasies so that maybe some day I may achieve them.
+One genuine standard that I will hold for myself this semester will be to act as if all of this is visible to employers and graduate advisors. All of the work that I do is to achieve my dreams, and I want all of my work to reflect the integrity of those dreams so that some day I may achieve them. Furthermore, I want to utilize the skills that I gain within this class to build a seperate, professional and long term portfolio for display.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
