@@ -97,7 +97,7 @@ The plastic clamps are for allowing the clamping force to actually take effect. 
 
 # Patent Research
 
-The most relative patent available that is not a design patent and that explains the design in depth is US4394791A, authored by Francis R. Groth in July 26, 1986.
+The most relative patent available that is not a design patent and explains the design in depth is US4394791A, authored by Francis R. Groth in July 26, 1986.
 
 ---
 
