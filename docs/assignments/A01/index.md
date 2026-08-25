@@ -50,7 +50,7 @@ The portfolio and projects walk through thought processes and problem solving sk
 
 The tone, grammar and technical knowledge is very refined and come accross as professional to someone looking for someone who is knowlegeable and able to learn, such as an employer or academic advisor. His portfolio shows that he knows what he's talking about, contains no grammatical errors and knows engineering language
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # Product Analysis - Bag Closure Clip
 
