@@ -784,7 +784,7 @@ $$
 
 ## CAD Files
 
-**[Download the completed CAD files]()**
+**[Download the completed CAD files](docs/assignments/A02/TRUSS (2).zip)**
 
 > The downloadable file should include the truss part, pin part, and completed assembly.
 
