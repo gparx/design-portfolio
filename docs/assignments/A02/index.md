@@ -791,6 +791,6 @@ $$
 | CAD modeling | [ ] |
 | CAD assembly and mass properties | [ ] |
 | Portfolio documentation | [ ] |
-| **Total Time** | **[ ]** |
+| **Total Time** | **[15 HRS]** |
 
 <br><br>
