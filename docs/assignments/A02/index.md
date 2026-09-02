@@ -785,12 +785,12 @@ $$
 
 | Task | Time |
 |---|---:|
-| Truss geometry and FBDs | [ ] |
-| Analytical calculations | [ ] |
-| Pin calculations | [ ] |
-| CAD modeling | [ ] |
-| CAD assembly and mass properties | [ ] |
-| Portfolio documentation | [ ] |
+| Truss geometry and FBDs | [3 HRS] |
+| Analytical calculations | [3 HRS] |
+| Pin calculations | [2 HRS] |
+| CAD modeling | [2 HRS] |
+| CAD assembly and mass properties | [1 HR] |
+| Portfolio documentation | [2 HRS] |
 | **Total Time** | **[15 HRS]** |
 
 <br><br>
