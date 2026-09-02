@@ -33,7 +33,7 @@ General Steps for this project includes:
 - Pin safety factor: [**4**]
 - Pin connection type: [**Single Sheer**]
 
-[Embed original design-constraint figure here.]
+[docs/assignments/A02/Screenshot 2026-09-02 192436.png]
 
 ![Design Constraints](IMAGE_PATH)
 
