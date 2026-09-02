@@ -38,46 +38,15 @@ General Steps for this project includes:
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-# 1. Documentation
-
-## Design Process
-
-<img width="1290" height="865" alt="Screenshot 2026-09-02 193952" src="https://github.com/user-attachments/assets/7eef4f57-a767-49af-ad2c-ae81190829fe" />
-
-
-<br>
-
-### Process Notes
-
-- [Step / observation]
-- [Step / observation]
-- [Step / observation]
-
-<br>
-
-### Mistakes and Revisions
-
-[Describe a mistake or problem encountered.]
-
-[Explain how the problem was identified.]
-
-[Explain what was changed to correct it.]
-
-<br>
-
-### Time Spent
-
-**Total project time:** [ ]
-
-<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
-
 # 2. Truss Design
 
 ## 2a. Overall Truss Geometry
 
 ### Initial Truss Design
 
-[Explain why this truss geometry was selected.]
+<img width="1290" height="865" alt="Screenshot 2026-09-02 193952" src="https://github.com/user-attachments/assets/7eef4f57-a767-49af-ad2c-ae81190829fe" />
+
+Initially looking at the problem, I didn't know where to start. My initial thought process was to make this as simple as possible while maintaining the standards and quality that I expected from the design. After doing some researching online I became aware of an equation that I had not seen before. While it is not entirely applicable here I made use of it. **M + R = 2J**, in other words, the number of members + the number of support reactions = 2x the number of joints. Noticing that this would make my truss even more simple than I imagined, I quicky drew out a fifth member that would help cancel out opposing forces.
 
 [Explain how the geometry satisfies the required locations and loads.]
 
