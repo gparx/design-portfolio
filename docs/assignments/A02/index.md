@@ -789,7 +789,7 @@ $$
 | Analytical calculations | [3 HRS] |
 | Pin calculations | [2 HRS] |
 | CAD modeling | [2 HRS] |
-| CAD assembly and mass properties | [1 HR] |
+| CAD assembly and mass properties | [1 HRS] |
 | Portfolio documentation | [2 HRS] |
 | **Total Time** | **[15 HRS]** |
 
