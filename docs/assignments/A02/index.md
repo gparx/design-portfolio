@@ -7,6 +7,7 @@
 The overall purpose of this project was to simulate a scaled down version of a real life problem someone might work on. Specifically, the task was to design a light weight planar truss using A500 structural steel which included creating a free body diagram of our design, calculating member forces, resultant forces, minimum cross sectional areas of the steel and pins that could withstand the sheer forces of the truss. Additionally, our assignment guidelines constricted us to only using 1 sheer plane.
 
 General Steps for this project includes:
+
 - Choosing a truss design and load
 - Create free body diagram
 - Solve unknown forces and values
