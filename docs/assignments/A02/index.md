@@ -23,21 +23,21 @@ General Steps for this project includes:
 
 ### Design Constraints
 
-- Applied load: [ ]
-- Dimension \(a\): [ ]
-- Dimension \(b\): [ ]
-- Truss material: [ ]
-- Member cross-sectional geometry: [ ]
-- Member safety factor: [ ]
-- Pin material: [ ]
-- Pin safety factor: [ ]
-- Pin connection type: [ ]
+- Applied load: [**20kN]
+- Dimension \(a\): [**0.4m**]
+- Dimension \(b\): [**0.3m**]
+- Truss material: [**A500 Steel**]
+- Member cross-sectional geometry: [**Square**]
+- Member safety factor: [**3.5**]
+- Pin material: [**Hardened Tool Steel**]
+- Pin safety factor: [**4**]
+- Pin connection type: [**Sinlge Sheer**]
 
 [Embed original design-constraint figure here.]
 
 ![Design Constraints](IMAGE_PATH)
 
-<br><br>
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 1. Documentation
 
