@@ -23,7 +23,7 @@ General Steps for this project includes:
 
 ### Design Constraints
 
-- Applied load: [**20kN**]
+- Applied load \(P\): [**20kN**]
 - Dimension \(a\): [**0.4m**]
 - Dimension \(b\): [**0.3m**]
 - Truss material: [**A500 Steel**]
