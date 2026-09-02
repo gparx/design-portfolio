@@ -33,7 +33,8 @@ General Steps for this project includes:
 - Pin safety factor: [**4**]
 - Pin connection type: [**Single Sheer**]
 
-[docs/assignments/A02/Screenshot 2026-09-02 192436.png]
+<img width="1319" height="448" alt="Screenshot 2026-09-02 192436" src="https://github.com/user-attachments/assets/408c7706-d797-434b-ac8b-def5ecc6aecc" />
+
 
 ![Design Constraints](IMAGE_PATH)
 
