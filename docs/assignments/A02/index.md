@@ -36,19 +36,14 @@ General Steps for this project includes:
 <img width="1319" height="448" alt="Screenshot 2026-09-02 192436" src="https://github.com/user-attachments/assets/408c7706-d797-434b-ac8b-def5ecc6aecc" />
 
 
-![Design Constraints](IMAGE_PATH)
-
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 1. Documentation
 
 ## Design Process
 
-[Explain how the project was approached from beginning to end.]
+<img width="1290" height="865" alt="Screenshot 2026-09-02 193952" src="https://github.com/user-attachments/assets/7eef4f57-a767-49af-ad2c-ae81190829fe" />
 
-[Describe why the chosen process was used.]
-
-[Describe what major steps were completed.]
 
 <br>
 
