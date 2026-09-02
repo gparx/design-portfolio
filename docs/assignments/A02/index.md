@@ -64,7 +64,7 @@
 
 **Total project time:** [ ]
 
-<br><br>
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 2. Truss Design
 
@@ -439,7 +439,7 @@ $$
 \boxed{W = [ ]}
 $$
 
-<br><br>
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 3. Connecting Pin Design
 
@@ -584,7 +584,7 @@ $$
 \boxed{W_{pins} = [ ]}
 $$
 
-<br><br>
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 4. CAD Model and Verification
 
@@ -717,7 +717,7 @@ $$
 
 [Explain why the hand-calculated and CAD-predicted weights are not exactly identical.]
 
-<br><br>
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 5. Engineering Lessons Learned
 
