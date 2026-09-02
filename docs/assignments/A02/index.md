@@ -23,7 +23,7 @@ General Steps for this project includes:
 
 ### Design Constraints
 
-- Applied load: [**20kN]
+- Applied load: [**20kN**]
 - Dimension \(a\): [**0.4m**]
 - Dimension \(b\): [**0.3m**]
 - Truss material: [**A500 Steel**]
@@ -31,7 +31,7 @@ General Steps for this project includes:
 - Member safety factor: [**3.5**]
 - Pin material: [**Hardened Tool Steel**]
 - Pin safety factor: [**4**]
-- Pin connection type: [**Sinlge Sheer**]
+- Pin connection type: [**Single Sheer**]
 
 [Embed original design-constraint figure here.]
 
