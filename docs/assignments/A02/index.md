@@ -191,6 +191,6 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 | CAD modeling | [2 HRS] |
 | CAD assembly and mass properties | [1 HRS] |
 | Portfolio documentation | [2 HRS] |
-| **Total Time** | **[15 HRS]** |
+| **Total Time** | **[13+ HRS]** |
 
 <br><br>
