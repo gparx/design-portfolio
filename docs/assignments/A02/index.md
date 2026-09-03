@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-The overall purpose of this project was to simulate a scaled down version of a real life problem someone might work on. Specifically, the task was to design a light weight planar truss using A500 structural steel which included creating a free body diagram of our design, calculating member forces, resultant forces, minimum cross sectional areas of the steel and pins that could withstand the sheer forces of the truss. Additionally, our assignment guidelines constricted us to only using 1 sheer plane.
+The overall purpose of this project was to simulate a scaled down version of a real life problem someone might work on. Specifically, the task was to design a light weight planar truss using A500 structural steel which included creating a free body diagram of our design, calculating member forces, resultant forces, minimum cross sectional areas of the steel and pins that could withstand the shear forces of the truss. Additionally, our assignment guidelines constricted us to only using 1 shear plane.
 
 General Steps for this project includes:
 
@@ -33,7 +33,7 @@ General Steps for this project includes:
 - Member safety factor: [**3.5**]
 - Pin material: [**Hardened Tool Steel**]
 - Pin safety factor: [**4**]
-- Pin connection type: [**Single Sheer**]
+- Pin connection type: [**Single Shear**]
 
 <img width="1319" height="448" alt="Screenshot 2026-09-02 192436" src="https://github.com/user-attachments/assets/408c7706-d797-434b-ac8b-def5ecc6aecc" />
 
