@@ -221,8 +221,7 @@ CAD total weight: 24.75 lb
 
 # 5. Engineering Lessons Learned
 
-
-
+I first want to clarify that there are many things that I learned from this assignment, one of which is the importance of a team to speed the engineering process up and build off of each others' critical thinking. To be more specific though, in this assignment I learned how to create a truss and solve for the internal forces of that truss. Once you solve for internal forces based on external forces and reaction forces you can begin to calculate the cross-sectional areas and the support features (pins). Additionally, I learned how to simulate materials on parts/systems in CAD to get information like mass and weight.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
