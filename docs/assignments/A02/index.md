@@ -46,15 +46,8 @@ General Steps for this project includes:
 
 <img width="1290" height="865" alt="Screenshot 2026-09-02 193952" src="https://github.com/user-attachments/assets/7eef4f57-a767-49af-ad2c-ae81190829fe" />
 
-Initially looking at the problem, I didn't know where to start. My initial thought process was to make this as simple as possible while maintaining the standards and quality that I expected from the design. After doing some researching online I became aware of an equation that I had not seen before. While it is not entirely applicable here I made use of it. **M + R = 2J**, in other words, the number of members + the number of support reactions = 2x the number of joints. Noticing that this would make my truss even more simple than I imagined, I quicky drew out a fifth member that would help cancel out opposing forces.
+Initially looking at the problem, I didn't know where to start. My initial thought process was to make this as simple as possible while maintaining the standards and quality that I expected from the design. After doing some researching online I became aware of an equation that I had not seen before. **M + R = 2J**, in other words, the number of members + the number of support reactions = 2x the number of joints for a determinately stable truss system. Noticing that this would make my truss even more simple than I imagined, I quicky drew out a fifth member that would help cancel out opposing forces. The geometry of the truss keeps things simple and minimizes the number of members while also bracing the applied upward load (P) towards joint A, creating a triangular truss system. 
 
-[Explain how the geometry satisfies the required locations and loads.]
-
-[Explain what members were included in the final design.]
-
-<br>
-
-![Truss Geometry](IMAGE_PATH)
 
 <br>
 
