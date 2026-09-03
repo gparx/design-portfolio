@@ -127,7 +127,8 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 ## 3a.v. Approximate Combined Pin Weight
 
-### Pin Length Assumption
+<img width="1194" height="1003" alt="Screenshot 2026-09-02 210434" src="https://github.com/user-attachments/assets/54b705e6-4db0-4f53-b3fc-9c4026d4cc3d" />
+
 
 
 
