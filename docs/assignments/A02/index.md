@@ -113,136 +113,23 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 <br><br>
 
-## 3a.i. Knowns and Unknowns
+## 3a.i-ii. Knowns and Unknowns & Critical Pin Free-Body Diagram
 
-### Knowns
+<img width="1157" height="1158" alt="Screenshot 2026-09-02 205923" src="https://github.com/user-attachments/assets/8719a9ed-69d4-4b8f-8ea3-9b85141c5033" />
 
-- Pin material: [ ]
-- Shear yield strength: [ ]
-- Density: [ ]
-- Safety factor: [ ]
-- Connection type: [ ]
-- Critical pin force: [ ]
-- Number of pins: [ ]
 
-<br>
 
-### Unknowns
+## 3a.iii-iv. Symbolic Pin Area Calculation & Numerical Pin Area
 
-- Minimum pin cross-sectional area: [ ]
-- Pin diameter: [ ]
-- Pin length: [ ]
-- Combined pin weight: [ ]
+<img width="1189" height="391" alt="Screenshot 2026-09-02 210155" src="https://github.com/user-attachments/assets/0999c873-a4bc-4a77-8a14-920c445b42a1" />
 
-<br><br>
 
-## 3a.ii. Critical Pin Free-Body Diagram
-
-![Critical Pin FBD](IMAGE_PATH)
-
-<br>
-
-### Resultant Pin Force
-
-$$
-\sum F_x = [ ]
-$$
-
-$$
-\sum F_y = [ ]
-$$
-
-$$
-V = \sqrt{(\sum F_x)^2 + (\sum F_y)^2}
-$$
-
-$$
-\boxed{V_{max} = [ ]}
-$$
-
-<br><br>
-
-## 3a.iii. Symbolic Pin Area Calculation
-
-$$
-\tau = \frac{V}{A}
-$$
-
-$$
-\tau_{allow} = [ ]
-$$
-
-$$
-[Symbolic derivation]
-$$
-
-$$
-\boxed{A_{pin,min} = [ ]}
-$$
-
-<br><br>
-
-## 3a.iv. Numerical Pin Area
-
-$$
-[Substitution]
-$$
-
-$$
-\boxed{A_{pin,min} = [ ]}
-$$
-
-<br>
-
-### Pin Diameter
-
-$$
-A = \frac{\pi d^2}{4}
-$$
-
-$$
-d = [ ]
-$$
-
-$$
-\boxed{d_{pin} = [ ]}
-$$
-
-<br><br>
 
 ## 3a.v. Approximate Combined Pin Weight
 
 ### Pin Length Assumption
 
-[Explain how the approximate pin length was selected.]
 
-$$
-L_{pin} = [ ]
-$$
-
-<br>
-
-### Pin Volume
-
-$$
-V_{pin} = A_{pin}L_{pin}
-$$
-
-<br>
-
-### Combined Pin Weight
-
-$$
-W_{pins} = n\rho A_{pin}L_{pin}
-$$
-
-$$
-[Substitution]
-$$
-
-$$
-\boxed{W_{pins} = [ ]}
-$$
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
