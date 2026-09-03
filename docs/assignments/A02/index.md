@@ -78,12 +78,19 @@ Using our given information such as 'a, b, P', we can symbolically solve for mem
 
 # 2b. Truss Member Cross-Section Design
 
+The truss members needed enough cross-sectional area to withstand the maximum calculated internal force without yielding. My general thought process was to make its form rectangular/square to simplify things. Safety factor, yield strength all must be accounted for here.
+
 ## 2b.i. Knowns and Unknowns
+
+We know our member lengths, member forces, density of the metal, the safety factor, the maximum force and the yield strength. What we need to solve for is the minimum area and the weight associated with the truss.
 
 <img width="1134" height="751" alt="Screenshot 2026-09-02 202650" src="https://github.com/user-attachments/assets/72a10cfd-866d-4e11-ba68-f90460b79cc8" />
 
 
+
 ## 2b.ii. Symbolic Cross-Sectional Area Calculation
+
+Using our stress equation we can symbolically solve for he minimum area with some substitutions and relationships between the allowable stress and normal stress.
 
 <img width="825" height="491" alt="Screenshot 2026-09-02 202756" src="https://github.com/user-attachments/assets/03c331fd-1d90-4e73-a6a1-ac1976c459be" />
 
@@ -91,10 +98,14 @@ Using our given information such as 'a, b, P', we can symbolically solve for mem
 
 ## 2b.iii. Numerical Cross-Sectional Area
 
+After creating our equation for the minimum cross-sectional area we can plug in our numbers.
+
 <img width="1118" height="361" alt="Screenshot 2026-09-02 202843" src="https://github.com/user-attachments/assets/92a86e21-6beb-4a81-a557-820b2aa86856" />
 
 
 ## 2b.iv. Approximate Truss Weight
+
+Now that I know the cross-sectional area I can solve for the truss weight using volume, density and weight formulas. 
 
 <img width="1135" height="540" alt="Screenshot 2026-09-02 202936" src="https://github.com/user-attachments/assets/98f9b8f5-827b-4dac-b666-384ccdfbffb1" />
 
