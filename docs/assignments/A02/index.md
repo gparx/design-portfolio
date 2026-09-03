@@ -194,20 +194,25 @@ Now the easy part, running the property simulation after changing the material.
 **Hand Calculations vs. CAD Results**
 
 *Hand-calculated truss mass: 11.44 kg*
+
 *Estimated combined pin mass: 0.087 kg*
+
 *Hand-calculated total mass: 11.53 kg*
 
 CAD total mass: 11.23 kg
 
 Difference in mass: 0.30 kg
+
 Percent difference: 2.6%
 
 *Hand-calculated total weight: ≈ 113.1 N*
+
 CAD total weight: 110.1 N
 
 Difference in weight: ≈ 3.0 N
 
 *Hand-calculated total weight: ≈ 25.42 lb*
+
 CAD total weight: 24.75 lb
 
 
