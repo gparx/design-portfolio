@@ -243,7 +243,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Part 1 – Truss Members
 
-Due to limited knowledge and time the most generic approach to fixing yielding or buckling on my members would be to increase the cross-sectional area which would increase the overall weight and cost of the design. A500 Steel is very ductile which means it can stretch fairly well under stress without exceeding our allowable stress values.
+Due to limited knowledge and time the most generic approach to fixing yielding or buckling on my members would be to increase the cross-sectional area which would increase the overall weight and cost of the design. A500 Steel is very ductile which means it can deform fairly well under stress before fracture.
 
 ## Member AB
 - Expected failure mode: [YIELDING]
