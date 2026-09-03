@@ -243,6 +243,8 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Part 1 – Truss Members
 
+Due to limited knowledge and time the most generic approach to fixing yielding or buckling on my members would be to increase the cross-sectional area which would increase the overall weight and cost of the design. A500 Steel is very ductile which means it can stretch fairly well under stress without exceeding our allowable stress values.
+
 ## Member AB
 - Expected failure mode: [YIELDING]
 - Material behavior: [DUCTILE]
@@ -286,23 +288,16 @@ I first want to clarify that there are many things that I learned from this assi
 # Part 2 – Pin Connections
 
 ## Expected Failure Mode
-- Failure mode: [ ]
-
-## Supporting Data
-- Shear stress: [ ]
-- Shear yield strength: [ ]
-- Safety factor: [ ]
-
-## Reasoning
-[ ]
-
-## Design Modification
-[ ]
+- Failure mode: [SHEAR YIELDING]
+- Reasoning: [PINS WERE DESIGNED FOR SINGLE SHEAR (WEAKER THAN DOUBLE SHEAR DUE TO ONLY 1 SHEAR PLANE)]
+- Design Modification: [INCREASE PIN DIAMETER]
 
 ## Sources
-1. [https://www.altitube.com/en/products/astm-a500/]
-2. [https://en.wikipedia.org/wiki/Yield_(engineering)]
-3. [https://en.wikipedia.org/wiki/Euler%27s_critical_load]
+1. https://www.altitube.com/en/products/astm-a500/ 
+2. https://en.wikipedia.org/wiki/Yield_(engineering)
+3. https://en.wikipedia.org/wiki/Euler%27s_critical_load
+4. https://www.youtube.com/watch?v=T9LGm4EjF6w&t=17s
+5. https://mechref.engr.illinois.edu/sol/stress.html?utm_source=chatgpt.com
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
