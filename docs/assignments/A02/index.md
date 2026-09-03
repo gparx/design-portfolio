@@ -240,15 +240,79 @@ I first want to clarify that there are many things that I learned from this assi
 
 # Likelihood of Failure Modes in Truss Components
 
-## Truss Members
 
+## Part 1 – Truss Members
 
+## Member AB
+- Loading: [ ]
+- Expected failure mode: [ ]
+- Material behavior: [Ductile/Brittle]
+- Stress comparison: [ ]
+- Reasoning: [ ]
+- Design modification: [ ]
 
+<hr>
 
-## Pin Connections
+## Member BC
+- Loading: [ ]
+- Expected failure mode: [ ]
+- Material behavior: [Ductile/Brittle]
+- Stress comparison: [ ]
+- Reasoning: [ ]
+- Design modification: [ ]
 
+<hr>
 
+## Member CD
+- Loading: [ ]
+- Expected failure mode: [ ]
+- Material behavior: [Ductile/Brittle]
+- Stress comparison: [ ]
+- Reasoning: [ ]
+- Design modification: [ ]
 
+<hr>
+
+## Member DA
+- Loading: [ ]
+- Expected failure mode: [ ]
+- Material behavior: [Ductile/Brittle]
+- Stress comparison: [ ]
+- Reasoning: [ ]
+- Design modification: [ ]
+
+<hr>
+
+## Member CA
+- Loading: [ ]
+- Expected failure mode: [ ]
+- Material behavior: [Ductile/Brittle]
+- Stress comparison: [ ]
+- Reasoning: [ ]
+- Design modification: [ ]
+
+<hr>
+
+# Part 2 – Pin Connections
+
+## Expected Failure Mode
+- Failure mode: [ ]
+
+## Supporting Data
+- Shear stress: [ ]
+- Shear yield strength: [ ]
+- Safety factor: [ ]
+
+## Reasoning
+[ ]
+
+## Design Modification
+[ ]
+
+## Sources
+1. [ ]
+2. [ ]
+3. [ ]
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
