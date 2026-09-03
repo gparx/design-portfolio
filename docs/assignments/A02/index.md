@@ -177,7 +177,9 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 > The downloadable file should include the truss part, pin part, and completed assembly.
 
-<br><br>
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Project Time
 
