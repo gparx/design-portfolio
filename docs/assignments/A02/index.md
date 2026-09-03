@@ -55,13 +55,16 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 <img width="1185" height="894" alt="Screenshot 2026-09-02 201208" src="https://github.com/user-attachments/assets/952758c7-f78b-4d4d-bacc-61bd146a2ee3" />
 
+
 ## 2a.ii. Free-Body Diagrams
 
 <img width="1182" height="1290" alt="Screenshot 2026-09-02 201500" src="https://github.com/user-attachments/assets/d2439766-71de-4616-bdb4-cccb6a879854" />
 
-## 2a.iii. Symbolic Internal Force Analysis
+
+## 2a.iii-iv. Symbolic Internal Force Analysis and Numerical Internal Force Analysis
 
 <img width="1155" height="675" alt="Screenshot 2026-09-02 201558" src="https://github.com/user-attachments/assets/a90f13b2-50bd-43e9-a2da-32ab45d4987d" />
+
 
 [Explain why the method of joints was used.]
 
@@ -69,7 +72,6 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 [Explain what the symbolic analysis determines.]
 
-## 2a.iv. Numerical Internal Force Analysis
 
 # 2b. Truss Member Cross-Section Design
 
