@@ -287,6 +287,8 @@ Due to limited knowledge and time the most generic approach to fixing yielding o
 
 # Part 2 – Pin Connections
 
+Because our pin is designed for single shear, our pin would likely fail due to single shear. Double shear allows for the force to be distributed into 2 different planes (p/2) rather than a single plane. We can combat this by increasing the pin diameter.
+
 ## Expected Failure Mode
 - Failure mode: [SHEAR YIELDING]
 - Reasoning: [PINS WERE DESIGNED FOR SINGLE SHEAR (WEAKER THAN DOUBLE SHEAR DUE TO ONLY 1 SHEAR PLANE)]
