@@ -117,15 +117,12 @@ Now that I know the cross-sectional area I can solve for the truss weight using 
 
 ## 3a. Single-Shear Pin Connection
 
-[Explain why a single-shear model is used.]
-
-[Explain how the critical pin load was determined.]
-
-[Explain what dimensions were determined from the analysis.]
+With confusion settling in, I mistakenly assumed that the force causing shear on the pin was the greatest member force. Eventually I realized that I needed to take all the resultant forces into account when generating the shear forces on it. The initial incorrect calculation was the 37.97kN max. force, after recalculating I arrived at the answer of it equalling the opposing P force that I chose.
 
 <br><br>
 
 ## 3a.i-ii. Knowns and Unknowns & Critical Pin Free-Body Diagram
+
 
 <img width="1157" height="1158" alt="Screenshot 2026-09-02 205923" src="https://github.com/user-attachments/assets/8719a9ed-69d4-4b8f-8ea3-9b85141c5033" />
 
@@ -133,11 +130,15 @@ Now that I know the cross-sectional area I can solve for the truss weight using 
 
 ## 3a.iii-iv. Symbolic Pin Area Calculation & Numerical Pin Area
 
+Here I solved for the minimum pin area using the safety factor (4) and our yield strength (Ty)
+
 <img width="1189" height="391" alt="Screenshot 2026-09-02 210155" src="https://github.com/user-attachments/assets/0999c873-a4bc-4a77-8a14-920c445b42a1" />
 
 
 
 ## 3a.v. Approximate Combined Pin Weight
+
+The pin weight and length are large estimates due to unknown variables that we aren't accounting for here such as nuts, washers and the mounting technique that will fasten the members. Here I estimated the length of the pins to be 2x the member width so they can at least fit two members on it at minimum.
 
 <img width="1194" height="1003" alt="Screenshot 2026-09-02 210434" src="https://github.com/user-attachments/assets/54b705e6-4db0-4f53-b3fc-9c4026d4cc3d" />
 
@@ -148,9 +149,17 @@ Now that I know the cross-sectional area I can solve for the truss weight using 
 
 # 4. CAD Model and Verification
 
+After all my calculations and estimates were finishing it was time to create the model in my chosen software, CREO. There is no specific reason I chose this software other than it's the most recent one I have used and I am more familiar with it. My plan was to simply sketch out the truss and pin, extrude them, change their properties and then run the simulations on their properties.
+
 ## 4a. Truss CAD Model
 
+Initial Sketching
+
 <img width="3839" height="2159" alt="Screenshot 2026-09-01 224424" src="https://github.com/user-attachments/assets/af115dca-020a-40c3-8e64-820da9cb0d71" />
+
+
+
+Then Extruding
 
 <img width="3783" height="2159" alt="Screenshot 2026-09-01 230049" src="https://github.com/user-attachments/assets/5301cae5-04e3-4987-b956-38e1faee23be" />
 
@@ -158,16 +167,48 @@ Now that I know the cross-sectional area I can solve for the truss weight using 
 
 ## 4b. Pin Joint Geometry
 
+Creation of the pin
+
 <img width="3839" height="2159" alt="Screenshot 2026-09-01 232534" src="https://github.com/user-attachments/assets/01b3ce4a-06af-4136-9113-01dcde1a2125" />
 
+
+
+Combining with the truss
+
 <img width="2218" height="1701" alt="Screenshot 2026-09-01 233454" src="https://github.com/user-attachments/assets/2d78fc3d-d478-44e7-a5d1-12849b0e543a" />
+
+
+
+Finished.
 
 <img width="3839" height="2159" alt="Screenshot 2026-09-01 234820" src="https://github.com/user-attachments/assets/f2ff6a3e-0098-4a24-9ff2-61b95327d64d" />
 
 
 ## 4c-d. Design Verification / CAD Mass Properties
 
+Now the easy part, running the property simulation after changing the material. 
+
 <img width="3820" height="2155" alt="Screenshot 2026-09-01 235344" src="https://github.com/user-attachments/assets/f590bd07-3c2d-4d0e-ba50-f33237529abc" />
+
+
+Hand Calculations vs. CAD Results
+
+Hand-calculated truss mass: 11.44 kg
+Estimated combined pin mass: 0.087 kg
+Hand-calculated total mass: 11.53 kg
+
+CAD total mass: 11.23 kg
+
+Difference in mass: 0.30 kg
+Percent difference: 2.6%
+
+Hand-calculated total weight: ≈ 113.1 N
+CAD total weight: 110.1 N
+
+Difference in weight: ≈ 3.0 N
+
+Hand-calculated total weight: ≈ 25.42 lb
+CAD total weight: 24.75 lb
 
 
 
