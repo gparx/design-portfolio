@@ -77,115 +77,25 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 ## 2b.i. Knowns and Unknowns
 
-### Knowns
+<img width="1134" height="751" alt="Screenshot 2026-09-02 202650" src="https://github.com/user-attachments/assets/72a10cfd-866d-4e11-ba68-f90460b79cc8" />
 
-- Maximum internal force: [ ]
-- Material yield strength: [ ]
-- Safety factor: [ ]
-- Material density: [ ]
-- Member cross-sectional geometry: [ ]
-
-<br>
-
-### Unknowns
-
-- Minimum member cross-sectional area: [ ]
-- Member dimensions: [ ]
-- Approximate truss weight: [ ]
-
-<br><br>
 
 ## 2b.ii. Symbolic Cross-Sectional Area Calculation
 
-[Explain why yield strength and the factor of safety are used.]
+<img width="825" height="491" alt="Screenshot 2026-09-02 202756" src="https://github.com/user-attachments/assets/03c331fd-1d90-4e73-a6a1-ac1976c459be" />
 
-[Explain how allowable stress is determined.]
 
-[Explain what the resulting area represents.]
-
-$$
-\sigma = \frac{F}{A}
-$$
-
-$$
-\sigma_{allow} = [ ]
-$$
-
-$$
-[Symbolic derivation]
-$$
-
-$$
-\boxed{A_{min} = [ ]}
-$$
-
-<br><br>
 
 ## 2b.iii. Numerical Cross-Sectional Area
 
-$$
-[Substitution]
-$$
+<img width="1118" height="361" alt="Screenshot 2026-09-02 202843" src="https://github.com/user-attachments/assets/92a86e21-6beb-4a81-a557-820b2aa86856" />
 
-$$
-\boxed{A_{min} = [ ]}
-$$
-
-<br>
-
-### Selected Member Geometry
-
-Cross-sectional shape: [ ]
-
-$$
-[Geometry equation]
-$$
-
-$$
-\boxed{[Final member dimensions]}
-$$
-
-<br><br>
 
 ## 2b.iv. Approximate Truss Weight
 
-### Total Member Length
+<img width="1135" height="540" alt="Screenshot 2026-09-02 202936" src="https://github.com/user-attachments/assets/98f9b8f5-827b-4dac-b666-384ccdfbffb1" />
 
-$$
-L_{total} = [ ]
-$$
 
-<br>
-
-### Truss Volume
-
-$$
-V = AL
-$$
-
-$$
-V = [ ]
-$$
-
-<br>
-
-### Truss Mass / Weight
-
-$$
-m = \rho V
-$$
-
-$$
-m = [ ]
-$$
-
-$$
-W = mg
-$$
-
-$$
-\boxed{W = [ ]}
-$$
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
