@@ -238,6 +238,20 @@ I first want to clarify that there are many things that I learned from this assi
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
+# Likelihood of Failure Modes in Truss Components
+
+## Truss Members
+
+
+
+
+## Pin Connections
+
+
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 # Project Time
 
 | Task | Time |
