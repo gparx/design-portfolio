@@ -138,186 +138,21 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 ## 4a. Truss CAD Model
 
-[Explain how the truss was modeled as one CAD part.]
-
-[Explain why the CAD geometry represents the analytical design.]
-
-[Explain what dimensions were transferred from the hand calculations.]
-
-<br>
-
-![Truss CAD Part](IMAGE_PATH)
-
-<br><br>
 
 ## 4b. Pin Joint Geometry
 
-[Explain how the cross-sectional area was maintained near the pin joints.]
-
-[Explain how the pin holes and surrounding material were modeled.]
-
-[Explain what dimensions were used.]
-
-<br>
-
-![Pin Joint CAD](IMAGE_PATH)
-
-<br><br>
-
-## Pin CAD Model
-
-![Pin CAD Part](IMAGE_PATH)
-
-<br>
-
-### Pin CAD Dimensions
-
-| Feature | Dimension |
-|---|---:|
-| Diameter | [ ] |
-| Length | [ ] |
-| Cross-sectional area | [ ] |
-
-<br><br>
 
 ## 4c. Design Verification
 
-### Safety Factor
-
-[Explain how the member dimensions satisfy the required safety factor.]
-
-[Explain how the pin dimensions satisfy the required safety factor.]
-
-[Explain why the final CAD dimensions were retained.]
-
-<br>
-
-### Geometric Constraints
-
-[Explain how dimensions \(a\), \(b\), joint locations, and required geometry were maintained.]
-
-<br>
-
-### Structural Stability
-
-[Explain why the truss geometry is structurally stable.]
-
-<br>
-
-### Weight Optimization
-
-[Explain how material use was minimized while satisfying the design requirements.]
-
-<br><br>
-
-## Final CAD Assembly
-
-![Final CAD Assembly](IMAGE_PATH)
-
-<br><br>
 
 ## 4d. CAD Mass Properties
 
-[Explain why CAD mass properties were calculated.]
 
-[Explain what material properties were assigned.]
-
-[Explain what the CAD mass result represents.]
-
-<br>
-
-![CAD Mass Properties](IMAGE_PATH)
-
-<br>
-
-### CAD Results
-
-| Property | Value |
-|---|---:|
-| Volume | [ ] |
-| Mass | [ ] |
-| Weight | [ ] |
-
-<br><br>
-
-# Analytical vs. CAD Weight Comparison
-
-| Method | Truss | Pins | Total |
-|---|---:|---:|---:|
-| Hand Calculation | [ ] | [ ] | [ ] |
-| CAD Model | [ ] | [ ] | [ ] |
-
-<br>
-
-### Percent Difference
-
-$$
-\%\,Difference =
-\frac{|[Value]-[Value]|}{[Reference Value]}
-\times100
-$$
-
-$$
-\boxed{\%\,Difference = [ ]}
-$$
-
-<br>
-
-[Explain why the hand-calculated and CAD-predicted weights are not exactly identical.]
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # 5. Engineering Lessons Learned
 
-[Describe a specific engineering principle learned during the project.]
-
-[Explain how the project demonstrated that principle.]
-
-[Explain how this knowledge could be applied to a future engineering design.]
-
-<br>
-
-### Additional Lessons
-
-- [Specific lesson]
-- [Specific lesson]
-- [Specific lesson]
-
-<br><br>
-
-# Mistakes and Design Revisions
-
-## Revision 1
-
-**Problem:**  
-[ ]
-
-**Cause:**  
-[ ]
-
-**Correction:**  
-[ ]
-
-**Engineering lesson:**  
-[ ]
-
-<br>
-
-## Revision 2
-
-**Problem:**  
-[ ]
-
-**Cause:**  
-[ ]
-
-**Correction:**  
-[ ]
-
-**Engineering lesson:**  
-[ ]
-
-<br><br>
 
 # Project Files
 
