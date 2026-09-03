@@ -78,7 +78,7 @@ Using our given information such as 'a, b, P', we can symbolically solve for mem
 
 # 2b. Truss Member Cross-Section Design
 
-The truss members needed enough cross-sectional area to withstand the maximum calculated internal force without yielding. My general thought process was to make its form rectangular/square to simplify things. Safety factor, yield strength all must be accounted for here.
+The truss members needed enough cross-sectional area to withstand the maximum calculated internal force without yielding. My general thought process was to make its form rectangular/square to simplify things. Safety factor and yield strength must be accounted for here.
 
 ## 2b.i. Knowns and Unknowns
 
