@@ -244,52 +244,42 @@ I first want to clarify that there are many things that I learned from this assi
 ## Part 1 – Truss Members
 
 ## Member AB
-- Loading: [ ]
-- Expected failure mode: [ ]
-- Material behavior: [Ductile/Brittle]
-- Stress comparison: [ ]
-- Reasoning: [ ]
-- Design modification: [ ]
+- Expected failure mode: [YIELDING]
+- Material behavior: [Ductile]
+- Reasoning: [MEMBER IN TENSION]
+- Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
 <hr>
 
 ## Member BC
-- Loading: [ ]
-- Expected failure mode: [ ]
-- Material behavior: [Ductile/Brittle]
-- Stress comparison: [ ]
-- Reasoning: [ ]
-- Design modification: [ ]
+- Expected failure mode: [BUCKLING]
+- Material behavior: [Ductile]
+- Reasoning: [MEMBER IN COMPRESSION]
+- Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
 <hr>
 
 ## Member CD
-- Loading: [ ]
-- Expected failure mode: [ ]
-- Material behavior: [Ductile/Brittle]
-- Stress comparison: [ ]
-- Reasoning: [ ]
-- Design modification: [ ]
+- Expected failure mode: [YIELDING]
+- Material behavior: [Ductile]
+- Reasoning: [MEMBER IN TENSION]
+- Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
 <hr>
 
 ## Member DA
-- Loading: [ ]
-- Expected failure mode: [ ]
-- Material behavior: [Ductile/Brittle]
-- Stress comparison: [ ]
-- Reasoning: [ ]
-- Design modification: [ ]
+- Expected failure mode: [YIELDING]
+- Material behavior: [Ductile]
+- Reasoning: [MEMBER IN TENSION]
+- Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
 <hr>
 
 ## Member CA
-- Loading: [ ]
-- Expected failure mode: [ ]
-- Material behavior: [Ductile/Brittle]
-- Stress comparison: [ ]
-- Reasoning: [ ]
-- Design modification: [ ]
+- Expected failure mode: [BUCKLING]
+- Material behavior: [Ductile]
+- Reasoning: [MEMBER IN COMPRESSION & CLOSE TO BUCKLING LIMIT]
+- Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
 <hr>
 
@@ -310,9 +300,9 @@ I first want to clarify that there are many things that I learned from this assi
 [ ]
 
 ## Sources
-1. [ ]
-2. [ ]
-3. [ ]
+1. [https://www.altitube.com/en/products/astm-a500/]
+2. [https://en.wikipedia.org/wiki/Yield_(engineering)]
+3. [https://en.wikipedia.org/wiki/Euler%27s_critical_load]
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
@@ -325,7 +315,7 @@ I first want to clarify that there are many things that I learned from this assi
 | Pin calculations | [2 HRS] |
 | CAD modeling | [2 HRS] |
 | CAD assembly and mass properties | [1 HRS] |
-| Portfolio documentation | [2 HRS] |
-| **Total Time** | **[13+ HRS]** |
+| Portfolio documentation | [4 HRS] |
+| **Total Time** | **[15+ HRS]** |
 
 <br><br>
