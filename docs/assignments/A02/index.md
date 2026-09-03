@@ -245,7 +245,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Member AB
 - Expected failure mode: [YIELDING]
-- Material behavior: [Ductile]
+- Material behavior: [DUCTILE]
 - Reasoning: [MEMBER IN TENSION]
 - Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
@@ -253,7 +253,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Member BC
 - Expected failure mode: [BUCKLING]
-- Material behavior: [Ductile]
+- Material behavior: [DUCTILE]
 - Reasoning: [MEMBER IN COMPRESSION]
 - Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
@@ -261,7 +261,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Member CD
 - Expected failure mode: [YIELDING]
-- Material behavior: [Ductile]
+- Material behavior: [DUCTILE]
 - Reasoning: [MEMBER IN TENSION]
 - Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
@@ -269,7 +269,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Member DA
 - Expected failure mode: [YIELDING]
-- Material behavior: [Ductile]
+- Material behavior: [DUCTILE]
 - Reasoning: [MEMBER IN TENSION]
 - Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
@@ -277,7 +277,7 @@ I first want to clarify that there are many things that I learned from this assi
 
 ## Member CA
 - Expected failure mode: [BUCKLING]
-- Material behavior: [Ductile]
+- Material behavior: [DUCTILE]
 - Reasoning: [MEMBER IN COMPRESSION & CLOSE TO BUCKLING LIMIT]
 - Design modification: [INCREASE CROSS-SECTIONAL AREA]
 
