@@ -138,14 +138,24 @@ Initially looking at the problem, I didn't know where to start. My initial thoug
 
 ## 4a. Truss CAD Model
 
+<img width="3839" height="2159" alt="Screenshot 2026-09-01 224424" src="https://github.com/user-attachments/assets/af115dca-020a-40c3-8e64-820da9cb0d71" />
+
+<img width="3783" height="2159" alt="Screenshot 2026-09-01 230049" src="https://github.com/user-attachments/assets/5301cae5-04e3-4987-b956-38e1faee23be" />
+
+
 
 ## 4b. Pin Joint Geometry
 
+<img width="3839" height="2159" alt="Screenshot 2026-09-01 232534" src="https://github.com/user-attachments/assets/01b3ce4a-06af-4136-9113-01dcde1a2125" />
 
-## 4c. Design Verification
+<img width="2218" height="1701" alt="Screenshot 2026-09-01 233454" src="https://github.com/user-attachments/assets/2d78fc3d-d478-44e7-a5d1-12849b0e543a" />
+
+<img width="3839" height="2159" alt="Screenshot 2026-09-01 234820" src="https://github.com/user-attachments/assets/f2ff6a3e-0098-4a24-9ff2-61b95327d64d" />
 
 
-## 4d. CAD Mass Properties
+## 4c-d. Design Verification / CAD Mass Properties
+
+<img width="3820" height="2155" alt="Screenshot 2026-09-01 235344" src="https://github.com/user-attachments/assets/f590bd07-3c2d-4d0e-ba50-f33237529abc" />
 
 
 
