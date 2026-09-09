@@ -1,5 +1,4 @@
-# A3 – [Topic]
-# Parametric Bar Design
+# A3 – Parametric Bar Design
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
