@@ -1,6 +1,8 @@
 # A3 – [Topic]
 # Parametric Bar Design
 
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 ## Objectives
 
 - Design a bar using axial deflection
@@ -8,7 +10,7 @@
 - Perform finite element analysis
 - Compare analytical and FEA results
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 1. Parametric Design
 
@@ -28,7 +30,7 @@
 
 #### Width
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 2. Finite Element Analysis
 
@@ -38,7 +40,7 @@
 
 ### Factor of Safety
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 3. Design Reflection
 
@@ -46,15 +48,11 @@
 
 ### Stress Concentration From Pin Hole
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 4. Lessons Learned
 
 ### Mistakes Made
-
-### Time Spent
-
-## 4. Lessons Learned
 
 ### Time Spent
 
@@ -70,7 +68,9 @@
 
 - 
 - 
+
 - 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 ## Sources
