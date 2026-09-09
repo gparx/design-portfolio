@@ -8,6 +8,7 @@
 - Perform finite element analysis
 - Compare analytical and FEA results
 
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 1. Parametric Design
