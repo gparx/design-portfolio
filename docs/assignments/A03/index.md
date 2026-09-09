@@ -1,7 +1,6 @@
 # A3 – Parametric Bar Design
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
-
 ## Objectives
 
 - Design a bar using axial deflection
@@ -63,12 +62,7 @@
 | Website | |
 | **Total** | ** hrs** |
 
-### Mistakes / Lessons Learned
 
-- 
-- 
-
-- 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
