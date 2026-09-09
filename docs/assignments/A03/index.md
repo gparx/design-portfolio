@@ -1,13 +1,59 @@
 # A3 – [Topic]
+# Parametric Bar Design
 
-## Objective
+## Objectives
 
+- Design a bar using axial deflection
+- Use parametric design to determine bar length
+- Perform finite element analysis
+- Compare analytical and FEA results
 
-## Analyze
+---
 
+## 1. Parametric Design
 
-## Decide
+### Initial Design Parameters
 
+### Axial Deflection Calculation
 
-## Communicate
+### CAD Model
 
+### Modified Design Parameters
+
+#### Load
+
+#### Thickness
+
+#### Height
+
+#### Width
+
+---
+
+## 2. Finite Element Analysis
+
+### Deflection Map
+
+### von Mises Stress
+
+### Factor of Safety
+
+---
+
+## 3. Design Reflection
+
+### Hand Calculation vs. FEA
+
+### Stress Concentration From Pin Hole
+
+---
+
+## 4. Lessons Learned
+
+### Mistakes Made
+
+### Time Spent
+
+---
+
+## Sources
