@@ -54,6 +54,23 @@
 
 ### Time Spent
 
+## 4. Lessons Learned
+
+### Time Spent
+
+| Activity | Time Spent |
+| --- | ---: |
+| Parametric Design | |
+| FEA | |
+| Analysis & Reflection | |
+| Website | |
+| **Total** | ** hrs** |
+
+### Mistakes / Lessons Learned
+
+- 
+- 
+- 
 ---
 
 ## Sources
