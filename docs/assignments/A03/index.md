@@ -46,7 +46,7 @@
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-## 2. Finite Element Analysis 2/2
+## 2. Finite Element Analysis 
 
 ### Deflection Map
 
