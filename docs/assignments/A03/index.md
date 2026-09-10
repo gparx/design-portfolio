@@ -24,15 +24,11 @@
 
 ### CAD Model
 
-### Modified Design Parameters
+<img width="2770" height="1590" alt="Screenshot 2026-09-09 202912" src="https://github.com/user-attachments/assets/84bfc1d1-f65e-49f4-80d1-a35aad41024f" />
 
-#### Load
 
-#### Thickness
+- Figure above shows CAD model after sketching, extruding and assigning selected and given parameter values that were calculated in the initial design process.
 
-#### Height
-
-#### Width
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
