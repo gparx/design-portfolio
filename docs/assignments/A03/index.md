@@ -76,6 +76,9 @@
 
 ### Hand Calculation vs. FEA
 
+
+
+
 ### Stress Concentration From Pin Hole
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
