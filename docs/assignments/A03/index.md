@@ -18,6 +18,7 @@
 
 <img width="2195" height="1585" alt="Screenshot 2026-09-09 205601" src="https://github.com/user-attachments/assets/e92e7bb5-b603-42e8-a687-260bdc7551cf" />
 
+
 - I chose a load value of 300lbf, an elastic modulus of 10e+6 psi and a diameter of a quarter inch. With these calculations I solved for a cross-sectional area of 0.049 in^2. Using this area and the given deflection of 0.009" I solved for the required length of the bar to be 14.73" in length. 
 
 
