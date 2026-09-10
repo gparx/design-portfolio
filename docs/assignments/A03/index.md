@@ -104,7 +104,7 @@ Before you calculate, take a guess if the length will increase, decrease, or sta
 
 ## 4. Lessons Learned
 
-### Mistakes Made
+- Before this project, I had never used Solidworks or simulated a FEA analysis. I also learned how hand calculations can be verified with an FEA analysis and when a object has a more complex shape, using mesh is more helpful than hand calculations. 
 
 ### Time Spent
 
