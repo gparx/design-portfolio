@@ -76,7 +76,9 @@
 
 ### Hand Calculation vs. FEA
 
+<img width="2023" height="1239" alt="image" src="https://github.com/user-attachments/assets/0f8dfaf3-0729-4387-83f3-d2a2bc9ac018" />
 
+- No meaningful discrepancy, any difference is likely from rounding. The bar has a uniform cross-section and carries a simple load. I would trust hand calculations vs. a simulation for an axially loaded bar like this due to the accuracy of the equation and lack of possible discrepancies.  
 
 
 ### Stress Concentration From Pin Hole
