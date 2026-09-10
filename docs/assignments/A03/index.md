@@ -7,7 +7,7 @@
 - Use parametric design to determine bar length
 - Perform finite element analysis
 - Compare analytical and FEA results
-  **NOTE: Assignment says to make a circular c.s. bar, but later requests for thickness and side length, for consistency I will be making a circular c.s. bar.
+- **NOTE: Assignment says to make a circular c.s. bar, but later requests for thickness and side length, for consistency I will be making a circular c.s. bar.
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
