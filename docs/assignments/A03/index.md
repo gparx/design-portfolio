@@ -52,7 +52,7 @@
 
 <img width="3047" height="1891" alt="Screenshot 2026-09-09 214732" src="https://github.com/user-attachments/assets/a459d93d-d656-4714-9938-f79fff81278d" />
 
-- 
+- Max displacement from simulation =~ 0.00899" as expected
 
 ---
 
@@ -60,10 +60,13 @@
 
 <img width="2995" height="1536" alt="image" src="https://github.com/user-attachments/assets/4701a09b-a11c-42de-a1d2-3f57cd95ba48" />
 
-- 
+- Theoretical axial stress =~ 6.47 ksi 
+
 ---
 
 ### Factor of Safety
+
+**N = S/SIGMA = 40/6.47 = 6.18**
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
