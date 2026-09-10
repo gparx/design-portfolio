@@ -50,7 +50,18 @@
 
 ### Deflection Map
 
+<img width="3047" height="1891" alt="Screenshot 2026-09-09 214732" src="https://github.com/user-attachments/assets/a459d93d-d656-4714-9938-f79fff81278d" />
+
+- 
+
+---
+
 ### von Mises Stress
+
+
+
+- 
+---
 
 ### Factor of Safety
 
