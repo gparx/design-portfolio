@@ -16,6 +16,9 @@
 
 ### Initial Design Parameters
 
+<img width="2195" height="1585" alt="Screenshot 2026-09-09 205601" src="https://github.com/user-attachments/assets/e92e7bb5-b603-42e8-a687-260bdc7551cf" />
+
+
 ### Axial Deflection Calculation
 
 ### CAD Model
