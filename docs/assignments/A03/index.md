@@ -117,6 +117,9 @@ Before you calculate, take a guess if the length will increase, decrease, or sta
 | **Total** | **4** |
 
 
+FILE: [Bar.zip](https://github.com/user-attachments/files/32035783/Bar.zip)
+
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ---
