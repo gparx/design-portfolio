@@ -83,6 +83,11 @@
 
 ### Stress Concentration From Pin Hole
 
+<img width="1198" height="871" alt="Screenshot 2026-09-09 230123" src="https://github.com/user-attachments/assets/8c1add1e-7c38-4594-938a-604732efbe13" />
+
+- Assuming pin hole that has a diameter of half the bar, and from the Peterson-type chart for a flat bar with a transverse hole in tension, the net-section stress concentration factor at d/W=0.50 is approximately 2.16. Peak stress would calculate to 27.9 ksi and our safety factor N = 1.43, still amounting above a factor of 1.
+
+- 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 4. Lessons Learned
