@@ -29,6 +29,9 @@
 
 - Figure above shows CAD model after sketching, extruding and assigning parameter values that were calculated in the initial design process. The parametric model allows you to change values such as length and area to see changes in strain.
 
+<img width="3044" height="1883" alt="Screenshot 2026-09-09 204451" src="https://github.com/user-attachments/assets/462af909-a629-43a5-a340-b57381f8cc3e" />
+
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
