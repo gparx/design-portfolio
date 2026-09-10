@@ -58,7 +58,7 @@
 
 ### von Mises Stress
 
-
+<img width="2995" height="1536" alt="image" src="https://github.com/user-attachments/assets/4701a09b-a11c-42de-a1d2-3f57cd95ba48" />
 
 - 
 ---
