@@ -119,5 +119,4 @@ Before you calculate, take a guess if the length will increase, decrease, or sta
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-
-## Sources
+---
