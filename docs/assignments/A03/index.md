@@ -91,7 +91,7 @@
 
 ### Time Spent
 
-| Activity | Time Spent |
+| Activity | Time Spent(hrs) |
 | --- | ---: |
 | Parametric Design | 1 |
 | FEA | 0.5 |
