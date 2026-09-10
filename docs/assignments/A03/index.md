@@ -68,7 +68,7 @@
 
 **N = S/SIGMA = 40/6.47 = 6.18** 
 
-- Note safety factor of 6.18 which is greater than 1.
+- Note safety factor of 6.18 = N > 1
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
