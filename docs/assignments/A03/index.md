@@ -33,7 +33,7 @@
 
 <img width="3044" height="1883" alt="Screenshot 2026-09-09 204451" src="https://github.com/user-attachments/assets/462af909-a629-43a5-a340-b57381f8cc3e" />
 
-The next procedure consisted of conducting a finite element analysis of the model. I statically restrained one end of the bar and applied my chosen normal force (300lbf) to the other end of the bar. Next, we mesh the bar using polygons and run our simulation.
+- The next procedure consisted of conducting a finite element analysis of the model. I statically restrained one end of the bar and applied my chosen normal force (300lbf) to the other end of the bar. Next, we mesh the bar using polygons and run our simulation.
 
 
 
