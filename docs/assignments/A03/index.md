@@ -92,6 +92,16 @@
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
+## Extra: Modify Design Parameters
+
+"Cycle through #2, change each of the design parameters which include load, thickness, height and width. Keep the material and the fixture the same.
+
+Before you calculate, take a guess if the length will increase, decrease, or stay the same. (You will not be penalized for guessing incorrectly.)"
+
+- Given our formula for overall length **L = XAE / P**, increasing any of the values in the numerator will increase length, while increasing the force will decrease the length.
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 ## 4. Lessons Learned
 
 ### Mistakes Made
