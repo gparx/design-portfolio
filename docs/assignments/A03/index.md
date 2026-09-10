@@ -93,11 +93,11 @@
 
 | Activity | Time Spent |
 | --- | ---: |
-| Parametric Design | |
-| FEA | |
-| Analysis & Reflection | |
-| Website | |
-| **Total** | ** hrs** |
+| Parametric Design | 1 |
+| FEA | 0.5 |
+| Analysis & Reflection | 0.5 |
+| Website | 2 |
+| **Total** | **4** |
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
