@@ -30,6 +30,9 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 - Feature thickness = *?*
 - Feature cross-sectional geometry = *?*
 
+### b) FBD
+
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
