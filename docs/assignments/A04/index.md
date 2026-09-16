@@ -9,6 +9,9 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 <img width="1518" height="500" alt="Screenshot 2026-09-16 190411" src="https://github.com/user-attachments/assets/a21422cd-c0f7-40b3-a928-095ebc9dbaa1" />
 
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+<img width="1674" height="809" alt="image" src="https://github.com/user-attachments/assets/1956b87e-9e8e-40d0-86db-174419d83cea" />
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
