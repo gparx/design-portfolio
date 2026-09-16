@@ -41,7 +41,6 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 ## 6. Engineering Lessons Learned
 
-Briefly describe what you learned from the project, any mistakes made, and changes you made during the design process.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
