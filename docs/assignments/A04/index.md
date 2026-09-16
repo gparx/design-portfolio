@@ -1,92 +1,50 @@
 # A4 – Motor Mount Design
 
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 ## Project Overview
 
 Brief description of the motor mount design and the goal of the project.
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 ## 1. Feature 1 – Motor Attachment
 
-### 1a. Knowns and Unknowns
 
-### 1b. Free Body Diagram
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-![Feature 1 FBD](IMAGE-LINK-HERE)
-
-### 1c. Symbolic Analysis
-
-#### Stress Analysis
-
-#### Deflection Analysis
-
-### 1d. Final Dimensions
-
----
 
 ## 2. Feature 2 – Wall Attachment
 
-### 2a. Knowns and Unknowns
 
-### 2b. Free Body Diagram
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-![Feature 2 FBD](IMAGE-LINK-HERE)
-
-### 2c. Symbolic Analysis
-
-#### Stress Analysis
-
-#### Deflection Analysis
-
-### 2d. Final Dimensions
-
----
 
 ## 3. Motor Mount Sketch
 
-### Isometric Sketch
 
-![Motor Mount Sketch](IMAGE-LINK-HERE)
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
----
 
 ## 4. CAD Model
 
-### 4a. Initial CAD Model
 
-![Initial CAD Model](IMAGE-LINK-HERE)
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-### 4b. Parametric Design
-
-Briefly describe which dimensions were made parametric and why.
-
-### 4c. Deflection-Minimizing Features
-
-Briefly describe any features added to reduce deflection.
-
-### 4d. Final CAD Model
-
-![Final CAD Model](IMAGE-LINK-HERE)
-
----
 
 ## 5. Engineering Drawing
 
-### Multiview Drawing
 
-![Motor Mount Drawing](IMAGE-LINK-HERE)
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-### Drawing PDF
-
-[Download Motor Mount Drawing](FILE-LINK-HERE)
-
----
 
 ## 6. Engineering Lessons Learned
 
 Briefly describe what you learned from the project, any mistakes made, and changes you made during the design process.
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 ## Project Files
 
@@ -98,7 +56,8 @@ Briefly describe what you learned from the project, any mistakes made, and chang
 
 [Download Drawing PDF](FILE-LINK-HERE)
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 ## Project Time
 
@@ -114,11 +73,9 @@ Briefly describe what you learned from the project, any mistakes made, and chang
 | Website Documentation | |
 | **Total** | ** hrs** |
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-## Sources
 
-- Motor specifications
-- Material property source
-- Beam equations / Machinery's Handbook
-- Motor mount design references
+
+
+
