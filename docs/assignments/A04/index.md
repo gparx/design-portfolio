@@ -32,6 +32,7 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 ### b) FBD
 
+<img width="1197" height="869" alt="Screenshot 2026-09-16 195807" src="https://github.com/user-attachments/assets/fa5adc19-4e7a-4d10-a76a-17fce3bf4e13" />
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
