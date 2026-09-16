@@ -19,6 +19,13 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 ## 1. Feature 1 – Motor Attachment
 
+### a) Knowns and Unknowns
+
+- P = 300N
+- SF = 3
+- δmax​ = 0.30 mm
+- Applied Load: M = PL
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
