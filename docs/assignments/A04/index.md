@@ -6,6 +6,10 @@
 
 Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5:1 Planetary Gearbox) which attaches to the rigid wall A. For both features, first design for yield strength and then design for a maximum deflection of .30 mm at the free end. You may select ABS, PETG,  or PLA as a motor mount material.  When designing the motor mount take into account a safety factor of 3 and neglect the weight of the motor. For steps 1 and 2 draw a FBD of the forces and a concept of your design. Research the design of different motor mounts and place the links in an appendix on your page. Make justifiable approximations in your design to simplify your analysis. (ie. use the beam calculations)
 
+
+<img width="1518" height="500" alt="Screenshot 2026-09-16 190411" src="https://github.com/user-attachments/assets/a21422cd-c0f7-40b3-a928-095ebc9dbaa1" />
+
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
