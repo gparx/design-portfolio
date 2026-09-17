@@ -29,8 +29,11 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 - E ≈ 2.0 GPa = 2000 MPa
 - σy​ ≈ 40 MPa
 - σallow​ = 40/3 = 13.3 MPa​
-- Feature width = *?*
-- Feature thickness = *?*
+- Motor Diameter = 28mm
+- Chosen Length (L) = 45mm
+  
+- Feature width (b) = *?*
+- Feature thickness (h) = *?*
 - Feature cross-sectional geometry = *?*
 
 ### b) FBD
