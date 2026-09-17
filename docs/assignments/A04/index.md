@@ -171,6 +171,7 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ## 6. Engineering Lessons Learned
 
+- In this project I learned how to use stress and deflection analysis to figure out what required dimensions I need for a part or fixture.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
@@ -194,13 +195,13 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 | Task | Time |
 |---|---:|
-| Feature 1 Calculations | |
-| Feature 2 Calculations | |
-| Sketch / Concept Design | |
-| CAD / Parametric Design | |
-| Engineering Drawing | |
-| Website Documentation | |
-| **Total** | ** hrs** |
+| Feature 1 Calculations | 1hr |
+| Feature 2 Calculations | 1hr |
+| Sketch / Concept Design | 1hr |
+| CAD / Parametric Design | 1hr |
+| Engineering Drawing | 1hr |
+| Website Documentation | 2hr |
+| **Total** | ** 7 hrs** |
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
