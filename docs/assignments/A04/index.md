@@ -21,6 +21,8 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 ### a) Knowns and Unknowns
 
+**Knowns**
+
 - P = 300N
 - SF = 3
 - δmax​ = 0.30 mm (Deflection)
@@ -33,6 +35,7 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 - Chosen Length (L) = 45mm
 
 ---
+**Unknowns**
 
 - Feature width (b) = *?*
 - Feature thickness (h) = *?*
@@ -58,12 +61,37 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 
 As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we use the largest value from the two, hdeflection ​= 18.25 mm and we'll just round up to 20mm so our numbers come out nicely. Now we have something that looks like 45mm x 45mm x 20mm (LxWxH). The cross-section is just 45mmx20mm, so 900mm^2.
 
+- b = 45mm
+- h = 20mm
+- csa = 900mm^2
+
 ---
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
 ## 2. Feature 2 – Wall Attachment
+
+### a) Knowns and Unknowns
+
+**Knowns**
+
+- Applied force: P = 300 N
+- Applied moment: M = PL = 13,500 N·mm
+- Factor of Safety: FS = 3
+- Maximum allowable deflection: 0.30 mm
+- Material: ABS
+- Young's Modulus: E = 2000 MPa
+- Yield Strength: σy = 40 MPa
+- Selected width: b = 45 mm
+- Free bending length: L₂ = 45 mm
+
+---
+
+**Unknowns**
+
+- Required thickness, t₂
+- Required cross-sectional geometry
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
