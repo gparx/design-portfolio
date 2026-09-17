@@ -72,6 +72,8 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ## 2. Feature 2 – Wall Attachment
 
+---
+
 ### a) Knowns and Unknowns
 
 **Knowns**
@@ -92,6 +94,10 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 - Required thickness, t₂
 - Required cross-sectional geometry
+
+---
+
+### b) FBD
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
