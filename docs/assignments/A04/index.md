@@ -31,7 +31,9 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 - σallow​ = 40/3 = 13.3 MPa​
 - Motor Diameter = 28mm
 - Chosen Length (L) = 45mm
-  
+
+---
+
 - Feature width (b) = *?*
 - Feature thickness (h) = *?*
 - Feature cross-sectional geometry = *?*
