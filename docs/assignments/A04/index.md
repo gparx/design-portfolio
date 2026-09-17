@@ -160,6 +160,11 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ## 5. Engineering Drawing
 
+---
+
+<img width="2221" height="1436" alt="Screenshot 2026-09-17 003106" src="https://github.com/user-attachments/assets/1817b022-eb6c-4406-b649-5dce76e9acc9" />
+
+---
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
