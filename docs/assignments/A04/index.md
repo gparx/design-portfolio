@@ -56,7 +56,7 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 ---
 ### d) C.S. Geometry
 
-As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we use the largest value from the two, hdeflection ​= 18.25 mm and we'll just round up to 20mm so our numbers come out nicely and for simplicity. Now we have something that looks like 45mm x 45mm x 20mm (LxWxH). The cross-section is just 45mmx20mm, so 900mm^2.
+As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we use the largest value from the two, hdeflection ​= 18.25 mm and we'll just round up to 20mm so our numbers come out nicely. Now we have something that looks like 45mm x 45mm x 20mm (LxWxH). The cross-section is just 45mmx20mm, so 900mm^2.
 
 ---
 
