@@ -26,6 +26,9 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
 - δmax​ = 0.30 mm (Deflection)
 - Applied Load: M = PL
 - Material = (ABS)
+- E ≈ 2.0 GPa = 2000 MPa
+- σy​ ≈ 40 MPa
+- σallow​ = 40/3 = 13.3 MPa​
 - Feature width = *?*
 - Feature thickness = *?*
 - Feature cross-sectional geometry = *?*
