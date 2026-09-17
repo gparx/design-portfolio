@@ -121,6 +121,7 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 ### d) C.S. Geometry
 
 - The deflection thickness is greater and take over with a value of 18.25mm, we can round up to 20mm for consistency. This makes our cross-sectional area = 45mm x 20mm = 900mm^2
+- **NOTE: THIS IS ONLY THE PORTION FREE TO BEND**
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
