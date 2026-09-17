@@ -99,15 +99,23 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ### b) FBD
 
+---
+
 <img width="1153" height="582" alt="Screenshot 2026-09-16 220347" src="https://github.com/user-attachments/assets/58e61e1d-848f-412c-b568-54b7d86c9536" />
 
+---
+
 ### c) Modeling Equations 
+
+---
 
 <img width="1178" height="649" alt="Screenshot 2026-09-16 220354" src="https://github.com/user-attachments/assets/f5d314b7-56e3-433e-8144-12f43416bddb" />
 
 ---
 
 <img width="1142" height="611" alt="Screenshot 2026-09-16 220400" src="https://github.com/user-attachments/assets/443257c0-0415-43e7-bc2c-7948795c556a" />
+
+---
 
 
 ### d) C.S. Geometry
