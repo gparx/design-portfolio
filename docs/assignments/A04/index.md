@@ -140,6 +140,20 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ## 4. CAD Model
 
+---
+
+<img width="2786" height="1545" alt="Screenshot 2026-09-16 231143" src="https://github.com/user-attachments/assets/0ab625d6-a98a-4bfc-ac64-6310813c3a75" />
+
+---
+
+<img width="1938" height="1369" alt="Screenshot 2026-09-16 233702" src="https://github.com/user-attachments/assets/15fe6816-e39e-45f5-8b86-a0f3f08ac117" />
+
+---
+
+<img width="2770" height="1581" alt="Screenshot 2026-09-16 234348" src="https://github.com/user-attachments/assets/a07d8346-a7b0-403f-9c9b-2f87cc36386b" />
+
+---
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
