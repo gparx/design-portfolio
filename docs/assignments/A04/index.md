@@ -178,7 +178,7 @@ As you can see hstress​ = 11.62mm and hdeflection ​= 18.25mm. From this we u
 
 ### Drawing Files
 
-[Download Drawing PDF](FILE-LINK-HERE)
+[Download Drawing PDF](docs/assignments/A04/Motor Mount.pdf)
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
