@@ -291,8 +291,3 @@
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
-# References
-
-1. 
-2. 
-3. 
