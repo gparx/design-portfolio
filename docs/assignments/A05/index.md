@@ -1,5 +1,8 @@
 # Bracket Design – Stress, Stiffness, and Fits Analysis
 
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+
 ## Project Overview
 
 ### Objectives
@@ -13,7 +16,8 @@
 ### Initial Assumptions
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part I – Stress Analysis
 
@@ -110,7 +114,8 @@
 ### Required Dimension from Stress
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part II – Stiffness Analysis
 
@@ -220,7 +225,8 @@
 ### Required Dimension from Stiffness
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part III – Final Bracket Dimensions
 
@@ -237,7 +243,8 @@
 ### Final Selected Dimensions
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part IV – Multiview Sketches
 
@@ -255,7 +262,8 @@
 <!-- Insert stiffness-based multiview sketch here -->
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part V – Linkage and Fits
 
@@ -337,7 +345,8 @@
 <!-- Insert final linkage CAD image here -->
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Part VI – Engineering Lessons Learned
 
@@ -365,7 +374,8 @@
 ## Design Summary
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 
 # Time Spent
 
@@ -380,25 +390,5 @@
 | **Total** | |
 
 
----
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-# References
-
-1. 
-2. 
-3. 
-
-
----
-
-# Appendices
-
-## Appendix A – Calculations
-
-## Appendix B – Free Body Diagrams
-
-## Appendix C – Stress-Based Multiview Sketch
-
-## Appendix D – Stiffness-Based Multiview Sketch
-
-## Appendix E – Fit Tables and Manufacturing Data
