@@ -7,97 +7,56 @@
 
 ### Objectives
 
-- Conduct stress analysis to determine appropriate dimensions for the structural features of the bracket.
-- Generate free body diagrams (FBDs) to visualize forces and constraints acting on each feature.
-- Identify known variables, unknown variables, assumptions, and algebraic models used for each analysis.
-- Perform stiffness analysis to determine minimum required dimensions based on the allowable deflection.
-- Compare dimensions obtained from stress and stiffness analyses to determine which requirement governs the final design.
-- Generate detailed multiview sketches showing the dimensions obtained from both stress and stiffness analyses.
-- Design a linkage connecting Feature A to a 1-inch diameter shaft.
-- Select appropriate engineering fits and manufacturing methods for the required connections.
+- Conduct stress analysis to determine appropriate dimensions for the structural features.
+- Generate free body diagrams (FBDs) for each feature.
+- Identify known values, unknown values, assumptions, and algebraic models.
+- Perform stiffness analysis to determine minimum dimensions based on deflection.
+- Compare stress and stiffness requirements to determine final dimensions.
+- Generate multiview sketches for both stress-based and stiffness-based designs.
+- Design the linkage connecting Feature A to the 1-inch shaft.
+- Determine the proper engineering fits and manufacturing methods.
 - Document engineering lessons learned throughout the design process.
 
 
 ### Design Requirements
 
-- The bracket must support the horizontal load applied symmetrically by the polyester strap.
-- Applied load must satisfy:
-
-\[
-500\text{ lbf} < F < 800\text{ lbf}
-\]
-
-- Safety Factor:
-
-\[
-SF = 4
-\]
-
-- Maximum allowable deflection for each feature:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Direct shear failure is assumed not to govern the design.
+- Applied Load: 500 lbf < F < 800 lbf
+- Safety Factor: SF = 4
+- Maximum Allowable Deflection: 0.005 in
+- Assume no failure due to direct shear stress.
+- Shear deflection is assumed negligible.
 - The bracket should be designed symmetrically where practical.
-- Five separate structural feature analyses are required: Features A, B, C, D, and E.
-- Dimensions obtained from earlier features are used to determine loads and dimensions for downstream features.
-- Final dimensions must satisfy both stress and stiffness requirements.
+- Five structural features must be analyzed: A, B, C, D, and E.
+- Each feature must be evaluated using both stress and stiffness analysis.
 
 
 ### Given Parameters
 
-**Applied Force**
+**Applied Load:**  
+F = TBD lbf
 
-\[
-500\text{ lbf} < F < 800\text{ lbf}
-\]
-
-Selected design load:
-
-\[
-F = \text{TBD lbf}
-\]
-
-Because the polyester strap applies the force symmetrically, the loading on Feature A is represented by the resultant of the two strap forces as shown in the provided example.
-
-**Safety Factor**
-
-\[
+**Safety Factor:**  
 SF = 4
-\]
 
-**Maximum Allowable Deflection**
+**Maximum Allowable Deflection:**  
+δmax = 0.005 in
 
-\[
-\delta_{max} = 0.005\text{ in}
-\]
+**Rigid T-Beam Dimensions:**
 
-**Rigid T-Beam Dimensions**
+- a = 0.498 in (+0.000 / -0.001)
+- b = 0.9992 in (+0.0000 / -0.0005)
+- c = 1.499 in (+0.000 / -0.001)
 
-\[
-a = 0.498\text{ in}^{+0.000}_{-0.001}
-\]
+**T-Beam Fit Requirements:**
 
-\[
-b = 0.9992\text{ in}^{+0.0000}_{-0.0005}
-\]
-
-\[
-c = 1.499\text{ in}^{+0.000}_{-0.001}
-\]
-
-**Fit Requirements for T-Beam**
-
-- Dimension **a:** Accuracy is not essential.
-- Dimension **b:** Close fit that can be expected to run freely.
-- Dimension **c:** Accurate location with minimum play is desired.
+- Dimension a: Accuracy is not essential.
+- Dimension b: Close fit that can be expected to run freely.
+- Dimension c: Accurate location with minimum play is desired.
 
 
 ### Material Selection
 
-The bracket must be manufactured from one of the following materials:
+Available materials:
 
 - Aluminum 6061-T6
 - ASTM A36 Steel
@@ -105,37 +64,25 @@ The bracket must be manufactured from one of the following materials:
 
 **Selected Material:** TBD
 
-Required material properties:
+**Yield Strength, Sy:** TBD
 
-- Yield Strength:
-
-\[
-S_y = \text{TBD}
-\]
-
-- Elastic Modulus:
-
-\[
-E = \text{TBD}
-\]
-
-The same material properties will be used in the stress and stiffness calculations as appropriate.
+**Elastic Modulus, E:** TBD
 
 
 ### Initial Assumptions
 
-- The material behaves as a homogeneous, isotropic, linear-elastic material within the design loading range.
-- The bracket remains within the elastic region during loading.
-- Small-deflection beam theory is applicable.
-- Stress concentrations are neglected unless specifically required.
-- Direct shear stress is assumed not to cause failure, as specified by the project requirements.
-- Shear deflection is assumed negligible.
-- Loading from the polyester strap is symmetric.
-- Features are treated using idealized beam/bar models as specified in Appendix D.
-- Feature A is modeled as a cantilever beam.
-- Feature B is modeled as an axially loaded bar.
-- Feature C is modeled as a simply supported beam with a concentrated load at its center.
-- Dimensions obtained from each feature analysis may affect the loading or geometry of subsequent features.
+- Material is homogeneous and isotropic.
+- Material behavior is linear-elastic.
+- The bracket remains within the elastic region.
+- Small-deflection theory is applicable.
+- Direct shear failure is neglected as specified.
+- Shear deflection is negligible.
+- Strap loading is symmetric.
+- Stress concentrations are neglected for initial sizing unless otherwise required.
+- Feature A is treated as a cantilever beam.
+- Feature B is treated as an axially loaded bar.
+- Feature C is treated as a simply supported beam with a concentrated center load.
+- Loads and dimensions from earlier features may affect later features.
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
@@ -143,101 +90,60 @@ The same material properties will be used in the stress and stiffness calculatio
 
 # Part I – Stress Analysis
 
-The allowable normal stress for the selected material is determined using:
-
-\[
-\sigma_{allow} = \frac{S_y}{SF}
-\]
-
-where:
-
-\[
-SF = 4
-\]
+**Allowable Stress Equation:**  
+σallow = Sy / SF
 
 
 ## Feature A – Cantilever Beam
 
 ### Known Values
 
-- Applied strap force:
-
-\[
-F = \text{TBD lbf}
-\]
-
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Material:
-
-\[
-\text{TBD}
-\]
-
-- Material yield strength:
-
-\[
-S_y = \text{TBD}
-\]
-
-- Feature A is modeled as a cantilever beam.
-- The polyester strap applies the load symmetrically to Feature A.
+- Applied Load: F = TBD lbf
+- Safety Factor: SF = 4
+- Selected Material: TBD
+- Yield Strength: Sy = TBD
+- Feature A is treated as a cantilever beam.
+- Strap loading is symmetric.
 - Direct shear failure is neglected.
 
 
 ### Unknown Values
 
-- Minimum required Feature A cross-sectional dimension.
-- Minimum required radius/diameter of Feature A.
-- Maximum bending stress.
-- Reaction force at the fixed end.
-- Reaction moment at the fixed end.
+- Required Feature A dimension
+- Maximum bending stress
+- Maximum bending moment
+- Support reaction force
+- Support reaction moment
 
 
 ### Assumptions
 
 - Feature A behaves as a cantilever beam.
-- Loading from the strap is symmetric.
-- Feature A has a constant cross-section.
-- Material remains within the elastic range.
+- Cross-section is constant.
+- Material remains linear-elastic.
+- Loading is symmetric.
 - Direct shear failure is neglected.
-- Stress concentrations are neglected for the preliminary sizing analysis.
+- Stress concentrations are neglected for initial sizing.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature A stress-analysis FBD here -->
+<!-- Insert Feature A FBD here -->
 
 
 ### Algebraic Model
 
-Allowable stress:
+Allowable Stress:
 
-\[
-\sigma_{allow} = \frac{S_y}{SF}
-\]
+σallow = Sy / SF
 
-Maximum bending stress:
+Maximum Bending Stress:
 
-\[
-\sigma_{max} = \frac{M_{max}c}{I}
-\]
+σmax = Mmax / Z
 
-or equivalently:
+Design Requirement:
 
-\[
-\sigma_{max} = \frac{M_{max}}{Z}
-\]
-
-Design requirement:
-
-\[
-\sigma_{max} \leq \sigma_{allow}
-\]
+σmax ≤ σallow
 
 
 ### Numerical Solution
@@ -247,9 +153,7 @@ TBD
 
 ### Required Dimension from Stress
 
-\[
-\boxed{\text{Feature A stress-based dimension = TBD}}
-\]
+**Feature A Stress-Based Dimension:** TBD
 
 
 ---
@@ -258,70 +162,49 @@ TBD
 
 ### Known Values
 
-- Feature B is modeled as an axially loaded bar.
-- Applied load is determined from the reaction/load transferred from Feature A.
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Material:
-
-\[
-\text{TBD}
-\]
-
-- Yield strength:
-
-\[
-S_y = \text{TBD}
-\]
-
+- Feature B is treated as an axially loaded bar.
+- Load is transferred from Feature A.
+- Safety Factor: SF = 4
+- Selected Material: TBD
+- Yield Strength: Sy = TBD
 - Direct shear failure is neglected.
 
 
 ### Unknown Values
 
-- Axial force carried by Feature B.
-- Required cross-sectional area.
-- Required Feature B dimensions.
-- Normal stress in Feature B.
+- Axial load, P
+- Required cross-sectional area
+- Required Feature B dimension
+- Normal stress
 
 
 ### Assumptions
 
 - Feature B carries primarily axial loading.
-- Load acts through the centroid of the member.
-- Bending in Feature B is neglected for the idealized analysis.
-- Material remains within the elastic range.
-- Cross-section is constant over the analyzed portion.
+- Load acts through the centroid.
+- Bending is neglected.
+- Cross-section is constant.
+- Material remains linear-elastic.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature B stress-analysis FBD here -->
+<!-- Insert Feature B FBD here -->
 
 
 ### Algebraic Model
 
-Normal stress:
+Normal Stress:
 
-\[
-\sigma = \frac{P}{A}
-\]
+σ = P / A
 
-Allowable stress:
+Allowable Stress:
 
-\[
-\sigma_{allow} = \frac{S_y}{SF}
-\]
+σallow = Sy / SF
 
-Design requirement:
+Design Requirement:
 
-\[
-\frac{P}{A} \leq \frac{S_y}{SF}
-\]
+P / A ≤ Sy / SF
 
 
 ### Numerical Solution
@@ -331,9 +214,7 @@ TBD
 
 ### Required Dimension from Stress
 
-\[
-\boxed{\text{Feature B stress-based dimension = TBD}}
-\]
+**Feature B Stress-Based Dimension:** TBD
 
 
 ---
@@ -342,77 +223,54 @@ TBD
 
 ### Known Values
 
-- Feature C is modeled as a simply supported beam.
-- A concentrated load acts at the center of the beam.
-- The load is transferred from the preceding structural features.
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Material:
-
-\[
-\text{TBD}
-\]
-
-- Yield strength:
-
-\[
-S_y = \text{TBD}
-\]
-
+- Feature C is treated as a simply supported beam.
+- A concentrated load acts at the center.
+- Load is transferred from the previous feature.
+- Safety Factor: SF = 4
+- Selected Material: TBD
+- Yield Strength: Sy = TBD
 - Direct shear failure is neglected.
 
 
 ### Unknown Values
 
-- Support reactions.
-- Maximum bending moment.
-- Required cross-sectional dimension of Feature C.
-- Maximum bending stress.
+- Support reactions
+- Maximum bending moment
+- Maximum bending stress
+- Required Feature C dimension
 
 
 ### Assumptions
 
 - Feature C behaves as a simply supported beam.
-- The concentrated load acts at the center.
-- The cross-section is constant.
-- Material remains within the elastic range.
+- Load acts at the center of the span.
+- Cross-section is constant.
+- Material remains linear-elastic.
 - Direct shear failure is neglected.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature C stress-analysis FBD here -->
+<!-- Insert Feature C FBD here -->
 
 
 ### Algebraic Model
 
-For a simply supported beam with a concentrated center load:
+Support Reactions:
 
-\[
-R_A = R_B = \frac{P}{2}
-\]
+RA = RB = P / 2
 
-Maximum bending moment:
+Maximum Bending Moment:
 
-\[
-M_{max} = \frac{PL}{4}
-\]
+Mmax = PL / 4
 
-Maximum bending stress:
+Maximum Bending Stress:
 
-\[
-\sigma_{max} = \frac{M_{max}c}{I}
-\]
+σmax = Mmax / Z
 
-Design requirement:
+Design Requirement:
 
-\[
-\sigma_{max} \leq \frac{S_y}{SF}
-\]
+σmax ≤ Sy / SF
 
 
 ### Numerical Solution
@@ -422,9 +280,7 @@ TBD
 
 ### Required Dimension from Stress
 
-\[
-\boxed{\text{Feature C stress-based dimension = TBD}}
-\]
+**Feature C Stress-Based Dimension:** TBD
 
 
 ---
@@ -433,51 +289,36 @@ TBD
 
 ### Known Values
 
-- Feature D receives loading transferred through Feature C.
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Material:
-
-\[
-\text{TBD}
-\]
-
-- Yield strength:
-
-\[
-S_y = \text{TBD}
-\]
-
+- Load is transferred from Feature C.
+- Safety Factor: SF = 4
+- Selected Material: TBD
+- Yield Strength: Sy = TBD
 - Direct shear failure is neglected.
 
 
 ### Unknown Values
 
-- Loading acting on Feature D.
-- Appropriate structural model.
-- Required Feature D dimension.
-- Maximum stress.
+- Applied load
+- Appropriate structural model
+- Maximum stress
+- Required Feature D dimension
 
 
 ### Assumptions
 
-- Material remains within the elastic range.
+- Material remains linear-elastic.
 - Direct shear failure is neglected.
-- Final loading/model will be determined from the load path and geometry.
+- Loading model will be determined from the bracket geometry and load path.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature D stress-analysis FBD here -->
+<!-- Insert Feature D FBD here -->
 
 
 ### Algebraic Model
 
-TBD after determining the appropriate loading model for Feature D.
+TBD
 
 
 ### Numerical Solution
@@ -487,9 +328,7 @@ TBD
 
 ### Required Dimension from Stress
 
-\[
-\boxed{\text{Feature D stress-based dimension = TBD}}
-\]
+**Feature D Stress-Based Dimension:** TBD
 
 
 ---
@@ -498,51 +337,36 @@ TBD
 
 ### Known Values
 
-- Feature E receives loading transferred through the preceding bracket features.
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Material:
-
-\[
-\text{TBD}
-\]
-
-- Yield strength:
-
-\[
-S_y = \text{TBD}
-\]
-
+- Load is transferred through the previous bracket features.
+- Safety Factor: SF = 4
+- Selected Material: TBD
+- Yield Strength: Sy = TBD
 - Direct shear failure is neglected.
 
 
 ### Unknown Values
 
-- Loading acting on Feature E.
-- Appropriate structural model.
-- Required Feature E dimension.
-- Maximum stress.
+- Applied load
+- Appropriate structural model
+- Maximum stress
+- Required Feature E dimension
 
 
 ### Assumptions
 
-- Material remains within the elastic range.
+- Material remains linear-elastic.
 - Direct shear failure is neglected.
-- Final loading/model will be determined from the load path and geometry.
+- Loading model will be determined from the bracket geometry and load path.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature E stress-analysis FBD here -->
+<!-- Insert Feature E FBD here -->
 
 
 ### Algebraic Model
 
-TBD after determining the appropriate loading model for Feature E.
+TBD
 
 
 ### Numerical Solution
@@ -552,9 +376,7 @@ TBD
 
 ### Required Dimension from Stress
 
-\[
-\boxed{\text{Feature E stress-based dimension = TBD}}
-\]
+**Feature E Stress-Based Dimension:** TBD
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
@@ -562,77 +384,51 @@ TBD
 
 # Part II – Stiffness Analysis
 
-**Maximum Allowable Deflection:**
+**Maximum Allowable Deflection:** 0.005 in
 
-\[
-\boxed{\delta_{max} = 0.005\text{ in}}
-\]
-
-Shear deflections are assumed negligible.
+**Assume shear deflections are negligible.**
 
 
 ## Feature A – Cantilever Beam
 
 ### Known Values
 
-- Applied load:
-
-\[
-F = \text{TBD lbf}
-\]
-
-- Maximum allowable deflection:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Material elastic modulus:
-
-\[
-E = \text{TBD}
-\]
-
-- Feature A is modeled as a cantilever beam.
+- Applied Load: F = TBD lbf
+- Maximum Allowable Deflection: 0.005 in
+- Elastic Modulus: E = TBD
+- Feature A is treated as a cantilever beam.
 
 
 ### Unknown Values
 
-- Required Feature A cross-sectional dimension based on stiffness.
-- Area moment of inertia:
-
-\[
-I
-\]
-
-- Maximum Feature A deflection.
+- Required Feature A dimension
+- Area moment of inertia, I
+- Maximum deflection
 
 
 ### Assumptions
 
 - Small-deflection beam theory applies.
 - Material remains linear-elastic.
-- Feature A has a constant cross-section.
+- Cross-section is constant.
 - Shear deflection is negligible.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature A stiffness-analysis FBD here -->
+<!-- Insert Feature A stiffness FBD here -->
 
 
 ### Deflection Model
 
-Cantilever-beam deflection equation selected based on the final loading arrangement.
+Cantilever beam deflection equation will be selected based on the final loading arrangement.
 
 
 ### Algebraic Solution
 
-Design requirement:
+Design Requirement:
 
-\[
-\delta \leq 0.005\text{ in}
-\]
+δ ≤ 0.005 in
 
 
 ### Numerical Solution
@@ -642,9 +438,7 @@ TBD
 
 ### Required Dimension from Stiffness
 
-\[
-\boxed{\text{Feature A stiffness-based dimension = TBD}}
-\]
+**Feature A Stiffness-Based Dimension:** TBD
 
 
 ---
@@ -653,62 +447,44 @@ TBD
 
 ### Known Values
 
-- Feature B is modeled as an axially loaded bar.
-- Maximum allowable deflection:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Material elastic modulus:
-
-\[
-E = \text{TBD}
-\]
-
-- Axial load:
-
-\[
-P = \text{TBD}
-\]
+- Maximum Allowable Deflection: 0.005 in
+- Elastic Modulus: E = TBD
+- Axial Load: P = TBD
+- Feature B is treated as an axially loaded bar.
 
 
 ### Unknown Values
 
-- Required cross-sectional area.
-- Required Feature B dimensions.
-- Axial deformation.
+- Required cross-sectional area
+- Required Feature B dimension
+- Axial deformation
 
 
 ### Assumptions
 
 - Feature B carries axial loading.
 - Material remains linear-elastic.
-- Cross-sectional area is constant.
+- Cross-section is constant.
 - Load acts through the centroid.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature B stiffness-analysis FBD here -->
+<!-- Insert Feature B stiffness FBD here -->
 
 
 ### Deflection Model
 
-Axial deformation:
+Axial Deflection:
 
-\[
-\delta = \frac{PL}{AE}
-\]
+δ = PL / AE
 
 
 ### Algebraic Solution
 
-Design requirement:
+Design Requirement:
 
-\[
-\frac{PL}{AE} \leq 0.005\text{ in}
-\]
+PL / AE ≤ 0.005 in
 
 
 ### Numerical Solution
@@ -718,9 +494,7 @@ TBD
 
 ### Required Dimension from Stiffness
 
-\[
-\boxed{\text{Feature B stiffness-based dimension = TBD}}
-\]
+**Feature B Stiffness-Based Dimension:** TBD
 
 
 ---
@@ -729,58 +503,45 @@ TBD
 
 ### Known Values
 
-- Feature C is modeled as a simply supported beam.
+- Feature C is treated as a simply supported beam.
 - Concentrated load acts at the center.
-- Maximum allowable deflection:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Elastic modulus:
-
-\[
-E = \text{TBD}
-\]
+- Maximum Allowable Deflection: 0.005 in
+- Elastic Modulus: E = TBD
 
 
 ### Unknown Values
 
-- Required cross-sectional dimensions.
-- Area moment of inertia.
-- Maximum beam deflection.
+- Required Feature C dimension
+- Area moment of inertia, I
+- Maximum deflection
 
 
 ### Assumptions
 
 - Feature C behaves as a simply supported beam.
-- Load is concentrated at the center of the span.
+- Load acts at the center.
 - Material remains linear-elastic.
-- Shear deflection is negligible.
 - Cross-section is constant.
+- Shear deflection is negligible.
 
 
 ### Free Body Diagram
 
-<!-- Insert Feature C stiffness-analysis FBD here -->
+<!-- Insert Feature C stiffness FBD here -->
 
 
 ### Deflection Model
 
-For a simply supported beam with a concentrated center load:
+Maximum Deflection:
 
-\[
-\delta_{max} = \frac{PL^3}{48EI}
-\]
+δmax = PL³ / 48EI
 
 
 ### Algebraic Solution
 
-Design requirement:
+Design Requirement:
 
-\[
-\frac{PL^3}{48EI} \leq 0.005\text{ in}
-\]
+PL³ / 48EI ≤ 0.005 in
 
 
 ### Numerical Solution
@@ -790,9 +551,7 @@ TBD
 
 ### Required Dimension from Stiffness
 
-\[
-\boxed{\text{Feature C stiffness-based dimension = TBD}}
-\]
+**Feature C Stiffness-Based Dimension:** TBD
 
 
 ---
@@ -801,26 +560,16 @@ TBD
 
 ### Known Values
 
-- Maximum allowable deflection:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Material elastic modulus:
-
-\[
-E = \text{TBD}
-\]
-
-- Loading is transferred from Feature C.
+- Maximum Allowable Deflection: 0.005 in
+- Elastic Modulus: E = TBD
+- Load is transferred from Feature C.
 
 
 ### Unknown Values
 
-- Appropriate deflection model.
-- Required Feature D dimension.
-- Maximum Feature D deflection.
+- Appropriate deflection model
+- Required Feature D dimension
+- Maximum deflection
 
 
 ### Assumptions
@@ -832,7 +581,7 @@ E = \text{TBD}
 
 ### Free Body Diagram
 
-<!-- Insert Feature D stiffness-analysis FBD here -->
+<!-- Insert Feature D stiffness FBD here -->
 
 
 ### Deflection Model
@@ -842,11 +591,9 @@ TBD
 
 ### Algebraic Solution
 
-Design requirement:
+Design Requirement:
 
-\[
-\delta_D \leq 0.005\text{ in}
-\]
+δD ≤ 0.005 in
 
 
 ### Numerical Solution
@@ -856,9 +603,7 @@ TBD
 
 ### Required Dimension from Stiffness
 
-\[
-\boxed{\text{Feature D stiffness-based dimension = TBD}}
-\]
+**Feature D Stiffness-Based Dimension:** TBD
 
 
 ---
@@ -867,26 +612,16 @@ TBD
 
 ### Known Values
 
-- Maximum allowable deflection:
-
-\[
-\delta_{max} = 0.005\text{ in}
-\]
-
-- Material elastic modulus:
-
-\[
-E = \text{TBD}
-\]
-
-- Loading is transferred from the preceding features.
+- Maximum Allowable Deflection: 0.005 in
+- Elastic Modulus: E = TBD
+- Load is transferred from the preceding features.
 
 
 ### Unknown Values
 
-- Appropriate deflection model.
-- Required Feature E dimension.
-- Maximum Feature E deflection.
+- Appropriate deflection model
+- Required Feature E dimension
+- Maximum deflection
 
 
 ### Assumptions
@@ -898,7 +633,7 @@ E = \text{TBD}
 
 ### Free Body Diagram
 
-<!-- Insert Feature E stiffness-analysis FBD here -->
+<!-- Insert Feature E stiffness FBD here -->
 
 
 ### Deflection Model
@@ -908,11 +643,9 @@ TBD
 
 ### Algebraic Solution
 
-Design requirement:
+Design Requirement:
 
-\[
-\delta_E \leq 0.005\text{ in}
-\]
+δE ≤ 0.005 in
 
 
 ### Numerical Solution
@@ -922,9 +655,7 @@ TBD
 
 ### Required Dimension from Stiffness
 
-\[
-\boxed{\text{Feature E stiffness-based dimension = TBD}}
-\]
+**Feature E Stiffness-Based Dimension:** TBD
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
@@ -932,9 +663,10 @@ TBD
 
 # Part III – Final Bracket Dimensions
 
-The final dimension of each feature will be selected by comparing its minimum dimension obtained from the stress analysis with its minimum dimension obtained from the stiffness analysis.
+The final dimension of each feature will be determined by comparing the minimum dimension required by stress with the minimum dimension required by stiffness.
 
 The larger required dimension will govern the final design.
+
 
 ## Stress vs. Stiffness Comparison
 
@@ -945,6 +677,7 @@ The larger required dimension will govern the final design.
 | C | TBD | TBD | TBD | TBD |
 | D | TBD | TBD | TBD | TBD |
 | E | TBD | TBD | TBD | TBD |
+
 
 ### Final Selected Dimensions
 
@@ -960,10 +693,10 @@ The larger required dimension will govern the final design.
 
 # Part IV – Multiview Sketches
 
-Two separate detailed multiview sketches are required:
+Two separate detailed multiview sketches will be generated:
 
-1. A bracket sized according to the stress analysis.
-2. A bracket sized according to the stiffness analysis.
+1. Stress-based bracket design
+2. Stiffness-based bracket design
 
 
 ## Stress-Based Design
@@ -987,25 +720,24 @@ Two separate detailed multiview sketches are required:
 
 ## Linkage Design
 
-The linkage connects Feature A of the bracket to a second cylindrical feature.
+The linkage connects Feature A to a second cylindrical feature and must safely support the same applied force.
 
-The connection must safely carry the same applied force acting on Feature A.
 
 ### Link Design Requirements
 
-- Link must connect Feature A to a cylindrical 1-inch diameter shaft.
-- The connection at Feature A must use a **running/sliding fit**.
-- The connection at the 1-inch diameter shaft must use a fit requiring **light assembly pressure**.
-- Link dimensions must be verified using both stress and axial deflection.
-- The smallest cross-sectional area occurs at the holes and must be considered in the analysis.
-- Fit selection must be supported using appropriate engineering fit tables.
-- Manufacturing methods used to produce the required fits must be identified.
-- Sources used for fit selection must include page numbers.
+- The link connects Feature A to a 1-inch diameter shaft.
+- The Feature A connection requires a running/sliding fit.
+- The 1-inch shaft connection requires light assembly pressure.
+- Link dimensions must be verified using stress and axial deflection.
+- The smallest cross-sectional areas at the holes must be analyzed.
+- Engineering fit tables must be used to select the fits.
+- Manufacturing methods must be selected for each fit.
+- Sources and page numbers must be documented.
 
 
 ### Material Selection
 
-The linkage must be manufactured from one of the three specified metals:
+Available materials:
 
 - Aluminum 6061-T6
 - ASTM A36 Steel
@@ -1016,71 +748,44 @@ The linkage must be manufactured from one of the three specified metals:
 
 ### Known Values
 
-- Applied force:
-
-\[
-F = \text{TBD lbf}
-\]
-
-- Safety factor:
-
-\[
-SF = 4
-\]
-
-- Second shaft nominal diameter:
-
-\[
-D = 1.000\text{ in}
-\]
-
+- Applied Load: F = TBD lbf
+- Safety Factor: SF = 4
+- Shaft Nominal Diameter: 1.000 in
 - Feature A connection requires a running/sliding fit.
 - 1-inch shaft connection requires light assembly pressure.
-- Link contains two holes.
-- Critical cross-sectional regions occur adjacent to the holes.
 
 
 ### Assumptions
 
-- Link is primarily loaded axially.
+- The link is primarily axially loaded.
 - Load acts along the longitudinal axis of the link.
-- The minimum net area at the holes governs the axial stress calculation.
-- Material remains within the elastic range.
-- Stress concentrations around the holes are neglected in the preliminary nominal-stress calculation unless otherwise required.
+- The smallest net area at the holes governs the stress analysis.
+- Material remains linear-elastic.
+- Stress concentrations are initially neglected.
 
 
 ## Link Stress Analysis
 
 ### Critical Cross-Section at the Holes
 
-For a link of width \(w\), thickness \(t\), and hole diameter \(d\), the net cross-sectional area may be represented as:
+For link width w, thickness t, and hole diameter d:
 
-\[
-A_{net} = (w-d)t
-\]
-
-The smallest net section will be used for the strength analysis.
+Anet = (w - d)t
 
 
 ### Required Cross-Sectional Area
 
-Normal stress:
+Normal Stress:
 
-\[
-\sigma = \frac{P}{A_{net}}
-\]
+σ = P / Anet
 
-Allowable stress:
+Allowable Stress:
 
-\[
-\sigma_{allow} = \frac{S_y}{SF}
-\]
+σallow = Sy / SF
 
-Design requirement:
+Design Requirement:
 
-\[
-\frac{P}{A_{net}} \leq \frac{S_y}{SF}
-\]
+P / Anet ≤ Sy / SF
 
 
 ### Algebraic Solution
@@ -1097,25 +802,17 @@ TBD
 
 ### Axial Deflection Model
 
-Axial deflection:
-
-\[
-\delta = \frac{PL}{AE}
-\]
+δ = PL / AE
 
 
 ### Required Cross-Sectional Area
 
-The minimum cross-sectional area at the holes will be used when evaluating the stiffness of the link.
+The minimum net cross-sectional area near the holes will be considered when evaluating linkage stiffness.
 
 
 ### Required Link Length
 
-Link length:
-
-\[
-L = \text{TBD}
-\]
+L = TBD
 
 
 ### Numerical Solution
@@ -1129,18 +826,14 @@ TBD
 
 ### Fit Requirements
 
-The hole connecting the linkage to Feature A must allow relative motion and therefore requires a **running/sliding fit**.
+The hole connecting the linkage to Feature A must allow relative motion and requires a running/sliding fit.
 
-Feature A nominal diameter:
-
-\[
-D_A = \text{TBD}
-\]
+**Feature A Nominal Diameter:** TBD
 
 
 ### Fit Selection Process
 
-A standard limits-and-fits table will be used to select an appropriate running/sliding fit for the final diameter of Feature A.
+A standard limits-and-fits table will be used to determine the appropriate running/sliding fit.
 
 
 ### Selected Fit
@@ -1150,25 +843,23 @@ TBD
 
 ### Hole and Shaft Limits
 
-**Nominal Size:** TBD
-
-**Hole limits:** TBD
-
-**Shaft limits:** TBD
-
-**Maximum clearance:** TBD
-
-**Minimum clearance:** TBD
+- Nominal Size: TBD
+- Hole Minimum: TBD
+- Hole Maximum: TBD
+- Shaft Minimum: TBD
+- Shaft Maximum: TBD
+- Minimum Clearance: TBD
+- Maximum Clearance: TBD
 
 
 ### Manufacturing Method
 
-TBD after fit tolerances are determined.
+TBD
 
 
 ### Fit Tables Used
 
-TBD — include source and page number.
+TBD – Include source and page number.
 
 
 ---
@@ -1177,18 +868,14 @@ TBD — include source and page number.
 
 ### Fit Requirements
 
-Nominal shaft diameter:
+**Nominal Shaft Diameter:** 1.000 in
 
-\[
-D = 1.000\text{ in}
-\]
-
-The connection must require **light assembly pressure**.
+The fit must require light assembly pressure.
 
 
 ### Fit Selection Process
 
-A standard limits-and-fits table will be used to select the appropriate fit classification and corresponding shaft/hole tolerances.
+A standard limits-and-fits table will be used to determine the appropriate fit.
 
 
 ### Selected Fit
@@ -1198,29 +885,23 @@ TBD
 
 ### Hole and Shaft Limits
 
-**Nominal Size:**
-
-\[
-1.000\text{ in}
-\]
-
-**Hole limits:** TBD
-
-**Shaft limits:** TBD
-
-**Maximum interference/clearance:** TBD
-
-**Minimum interference/clearance:** TBD
+- Nominal Size: 1.000 in
+- Hole Minimum: TBD
+- Hole Maximum: TBD
+- Shaft Minimum: TBD
+- Shaft Maximum: TBD
+- Minimum Interference/Clearance: TBD
+- Maximum Interference/Clearance: TBD
 
 
 ### Manufacturing Method
 
-TBD after fit tolerances are determined.
+TBD
 
 
 ### Fit Tables Used
 
-TBD — include source and page number.
+TBD – Include source and page number.
 
 
 ---
@@ -1229,11 +910,11 @@ TBD — include source and page number.
 
 ### Final Link Dimensions
 
-- Link thickness: TBD
-- Link width: TBD
-- Hole spacing: TBD
-- Feature A hole diameter: TBD
-- 1-inch shaft hole diameter/tolerance: TBD
+- Link Thickness: TBD
+- Link Width: TBD
+- Hole Spacing: TBD
+- Feature A Hole Diameter: TBD
+- 1-Inch Shaft Hole Diameter: TBD
 
 
 ### Final CAD Model
@@ -1250,26 +931,24 @@ TBD — include source and page number.
 
 ### Stress vs. Stiffness
 
-For at least one feature, compare the minimum dimension obtained from the stress analysis with the minimum dimension obtained from the stiffness analysis.
+Compare the stress-based and stiffness-based dimensions for at least one feature.
 
-Example format:
-
-- Stress required: TBD
-- Stiffness required: TBD
-- Final selected dimension: TBD
-- Governing requirement: TBD
+- Stress Required: TBD
+- Stiffness Required: TBD
+- Final Selected Dimension: TBD
+- Governing Requirement: TBD
 
 
 ## Error Propagation
 
-Identify one instance where a dimension, force, or other value obtained from an earlier feature was carried into a later analysis.
+Identify one instance where a force, dimension, or result from an earlier feature was carried into a later feature.
 
-Discuss whether an error in the earlier value would affect downstream calculations and identify the check used to prevent or identify the error.
+Discuss how an error in the earlier value could affect later calculations and what check was used to identify or prevent the error.
 
 
 ## Assumption Sensitivity
 
-Evaluate at least one assumption used during the design.
+Evaluate at least one assumption made during the design.
 
 Possible assumptions include:
 
@@ -1277,15 +956,15 @@ Possible assumptions include:
 - Neglecting direct shear failure
 - Neglecting shear deflection
 - Symmetric load distribution
-- Linear-elastic material behavior
+- Linear-elastic behavior
 - Idealized beam or bar models
 
-Discuss how changing the assumption would affect the required dimensions.
+Discuss how changing the assumption would affect the final dimensions.
 
 
 ## Additional Engineering Lessons Learned
 
-TBD after completion of the design.
+TBD
 
 
 ---
@@ -1310,7 +989,7 @@ TBD after completion of the design.
 
 ## Design Summary
 
-TBD after completing the stress, stiffness, and fit analyses.
+TBD
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
@@ -1331,10 +1010,8 @@ TBD after completing the stress, stiffness, and fit analyses.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-
 # References
 
 1. TBD
 2. TBD
 3. TBD
-
