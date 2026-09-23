@@ -134,14 +134,23 @@
 
 ## Feature A
 
+- Safety Factor: SF = 4
+- Maximum Deflection: 0.005 in
+- F (chosen) = 600 lbf
+- l (chosen) = 3"
+- SF = 4
+- Elastic Modulus: E = 29,000,000 psi
+- Yield Strength: Sy = 36,000 psi
+- Sy = 36,000 psi
+- σallow = 9,000 psi
+- Assume no failure due to direct shear stress.
+- Assume shear deflection is negligible.
+
+
 ### FBD and Calculations
 
 
-
-### Result
-
-**Required Dimension:** TBD
-
+<img width="1182" height="865" alt="image" src="https://github.com/user-attachments/assets/73a577bf-3d3e-4aef-81b0-7277f6f8426e" />
 
 ---
 
