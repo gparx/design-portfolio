@@ -13,10 +13,8 @@
 
 ### Design Requirements
 
-- Applied Load: F = TBD lbf
 - Safety Factor: SF = 4
 - Maximum Deflection: 0.005 in
-- Material: TBD
 - Assume no failure due to direct shear stress.
 - Assume shear deflection is negligible.
 
