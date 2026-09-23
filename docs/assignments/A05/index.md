@@ -46,7 +46,8 @@
 
 - Safety Factor: SF = 4
 - Maximum Deflection: 0.005 in
-- F(chosen) = 600 lbf
+- F (chosen) = 600 lbf
+- l (chosen) = 3"
 - SF = 4
 - Elastic Modulus: E = 29,000,000 psi
 - Yield Strength: Sy = 36,000 psi
