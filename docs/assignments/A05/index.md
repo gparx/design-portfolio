@@ -70,7 +70,13 @@
 
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1190" height="864" alt="Screenshot 2026-09-23 191444" src="https://github.com/user-attachments/assets/7c0564ec-129d-48b7-9f83-d628a26c659b" />
+
+---
+
+<img width="1188" height="854" alt="Screenshot 2026-09-23 191448" src="https://github.com/user-attachments/assets/0758bf4d-0f8c-4240-8bbb-7420c97b434f" />
+
+---
 
 ### Result
 
