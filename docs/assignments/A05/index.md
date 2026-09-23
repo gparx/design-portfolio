@@ -79,7 +79,7 @@
 
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1178" height="846" alt="Screenshot 2026-09-23 195723" src="https://github.com/user-attachments/assets/ee5c7ae7-0edf-4cd0-82b8-e267ca110a19" />
 
 ### Result
 
@@ -158,7 +158,7 @@
 
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1187" height="797" alt="Screenshot 2026-09-23 195729" src="https://github.com/user-attachments/assets/b8cbb046-80f9-4675-a89d-d8b159ec6371" />
 
 ### Result
 
