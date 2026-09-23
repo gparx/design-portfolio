@@ -9,6 +9,14 @@
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
+<img width="1031" height="568" alt="image" src="https://github.com/user-attachments/assets/4b9c05a1-cc14-4a1f-a63f-4a07e111b268" />
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+
+
+
 ## Project Overview
 
 ### Design Requirements
