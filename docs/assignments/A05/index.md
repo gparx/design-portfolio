@@ -3,6 +3,12 @@
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
+<img width="1039" height="804" alt="image" src="https://github.com/user-attachments/assets/d34ea6c7-fce7-4203-ba0b-1bd007366ccf" />
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+
 ## Project Overview
 
 ### Design Requirements
