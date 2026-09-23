@@ -80,9 +80,8 @@
 
 ### Result
 
-**Required Dimension:** TBD
-
-
+- Stress will govern our dimentions with a minimum diameter of 1.268". I'm rounding up to 1.300" for simplicity.
+  
 ---
 
 ## Feature B
