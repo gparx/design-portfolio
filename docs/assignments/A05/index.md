@@ -42,6 +42,31 @@
 
 ## Feature A
 
+### Knowns:
+
+- Safety Factor: SF = 4
+- Maximum Deflection: 0.005 in
+- F(chosen) = 600 lbf
+- SF = 4
+- Elastic Modulus: E = 29,000,000 psi
+- Yield Strength: Sy = 36,000 psi
+- Sy = 36,000 psi
+- σallow = 9,000 psi
+- Assume no failure due to direct shear stress.
+- Assume shear deflection is negligible.
+
+### Unknowns
+
+- Required Dimensions of Feature A
+
+### Assumptions
+
+- Feature A is a cantilever beam
+- A36 steel
+- Direct shear failure neglected
+- Linear elastic behavior
+- Symmetric strap loading
+
 ### FBD and Calculations
 
 <!-- Insert handwritten calculations here -->
