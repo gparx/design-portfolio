@@ -151,7 +151,6 @@
 
 **Required Dimension:** TBD
 
-
 ---
 
 ## Feature D
@@ -177,7 +176,7 @@ Minimum required thickness of D, d
 
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1187" height="859" alt="Screenshot 2026-09-23 212324" src="https://github.com/user-attachments/assets/d6806844-a4fe-437f-899d-902c793c4557" />
 
 ### Result
 
@@ -263,7 +262,6 @@ Minimum required thickness of D, d
 
 **Required Dimension:** TBD
 
-
 ---
 
 ## Feature C
@@ -295,7 +293,6 @@ Minimum required thickness of D, d
 
 **Required Dimension:** TBD
 
-
 ---
 
 ## Feature D
@@ -320,7 +317,7 @@ Minimum required thickness, d
 
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1188" height="851" alt="Screenshot 2026-09-23 212328" src="https://github.com/user-attachments/assets/0a6c3919-5d96-4925-a939-716815c422d4" />
 
 ### Result
 
