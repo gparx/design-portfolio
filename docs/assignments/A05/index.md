@@ -158,14 +158,14 @@
 
 ### Knowns:
 
-P = 1200 lbf
-LB = 1.5 in
-E = 29,000,000 psi
-δallow = 0.005 in
+- P = 1200 lbf
+- LB = 1.5 in
+- E = 29,000,000 psi
+- δallow = 0.005 in
 
 ### Unknown:
 
-Minimum cross-sectional area, A
+- Minimum cross-sectional area, A
 
 ### FBD and Calculations
 
