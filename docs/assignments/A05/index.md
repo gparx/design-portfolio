@@ -19,6 +19,7 @@
 
 ## Project Overview
 
+
 ### Design Requirements
 
 - Safety Factor: SF = 4
@@ -33,6 +34,7 @@
 
 
 ## Feature A
+
 
 ### Knowns:
 
@@ -67,6 +69,7 @@
 ---
 
 ## Feature B
+
 
 ### Knowns:
 
