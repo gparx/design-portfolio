@@ -427,26 +427,39 @@ Minimum required thickness, e
 - Minimum = 1.2680 - 1.2676 = 0.0004 in
 - Maximum = 1.2686 - 1.2672 = 0.0014 in
 
----
-
-**Manufacturing Method:** TBD
-
-<!-- Insert fit table / calculations here -->
+**Manufacturing Method:** Precision Reaming
 
 
 ## 1-Inch Shaft Fit
 
-**Selected Fit:** TBD
+**Selected Fit:** 
 
-**Manufacturing Method:** TBD
+- Basic size = 1.000 in
+- p. 656 – description/selection of FN1 Light Drive Fit
+- pp. 663–664 – FN1 force/shrink fit tolerance table
+- FN1 Light Drive Fit
+- Hole:
+- Minimum = 1.0000 in
+- Maximum = 1.0005 in
 
-<!-- Insert fit table / calculations here -->
+- 1-Inch Shaft
+
+- Minimum = 1.0008 in
+- Maximum = 1.0012 in
+
+- Interference
+
+- Minimum = 1.0008 - 1.0005 = 0.0003 in
+- Maximum = 1.0012 - 1.0000 = 0.0012 in
+
+**Manufacturing Method:** Precision Reaming + Light Press Fit
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
 # Engineering Lessons Learned
+
 
 ## Governing Requirement
 
