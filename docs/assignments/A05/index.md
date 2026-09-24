@@ -97,6 +97,10 @@
 - σallow = 9,000 psi
 - LC = TBD
 - Material = A36 Steel
+- T-Beam Geometry:
+- a = 0.498 in
+- b = 0.9992 in
+- F = 600 lbf
 
 ### Unknown:
 - Required thickness of Feature C
