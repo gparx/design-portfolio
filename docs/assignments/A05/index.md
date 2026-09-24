@@ -407,7 +407,27 @@ Minimum required thickness, e
 
 ## Feature A Fit
 
-**Selected Fit:** TBD
+**Selected Fit:** 
+
+- Basic size = 1.268 in
+- p. 655 — description/selection of RC2 sliding fit
+- p. 658 — actual RC2 tolerance table and the 1.19–1.97 in size range
+- RC2, H6/g5 sliding fit
+- Hole:
+- Minimum = 1.2680 in
+- Maximum = 1.2686 in
+
+- Feature A shaft
+
+- Maximum = 1.268 - 0.0004 = 1.2676 in
+- Minimum = 1.268 - 0.0008 = 1.2672 in
+
+- Clearance
+
+- Minimum = 1.2680 - 1.2676 = 0.0004 in
+- Maximum = 1.2686 - 1.2672 = 0.0014 in
+
+---
 
 **Manufacturing Method:** TBD
 
