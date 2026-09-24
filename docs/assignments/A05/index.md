@@ -200,8 +200,6 @@
 ### Unknowns
 - Minimum required radius, r
 - Minimum required diameter, d
-- Maximum deflection, δmax
-- Area moment of inertia, I
 
 ### Assumptions
 - Feature A is modeled as a cantilever beam.
