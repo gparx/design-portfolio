@@ -432,11 +432,6 @@ Minimum required thickness, e
 <!-- Insert fit table / calculations here -->
 
 
-## Final Linkage Model
-
-<!-- Insert CAD model here -->
-
-
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
@@ -457,31 +452,16 @@ Minimum required thickness, e
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
-# Final Design
-
-## Final Bracket Model
-
-<!-- Insert final CAD model here -->
-
-
-## Design Summary
-
-<!-- Brief final design summary -->
-
-
-<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
-
-
 # Time Spent
 
 | Task | Time |
 |------|------|
-| Stress Analysis | |
-| Stiffness Analysis | |
-| Fits / Linkage | |
-| CAD / Sketches | |
-| Documentation | |
-| **Total** | |
+| Stress Analysis |2hr |
+| Stiffness Analysis |2hr |
+| Fits / Linkage |2hr |
+| Sketches |1hr |
+| Documentation |1hr |
+| **Total** |8hr |
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
