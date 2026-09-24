@@ -187,9 +187,29 @@ Minimum required thickness of D, d
 
 ## Feature E
 
+### Knowns
+- P = 600 lbf
+- L = 0.9992 in
+- SF = 4
+- Sy = 36,000 psi
+- σ-allow = 9,000 psi
+- t = 3.0 in
+
+### Unknown
+Minimum required thickness, e
+
+### Assumptions
+- Feature E is modeled as a cantilever beam.
+- Each E carries 600 lbf due to symmetry.
+- Load is distributed over the contact surface.
+- Rectangular constant cross-section.
+- Linear-elastic material.
+- Direct shear failure is neglected.
+
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1183" height="840" alt="Screenshot 2026-09-23 214734" src="https://github.com/user-attachments/assets/45111177-d0a8-4ccf-8179-1d7750ff4681" />
+
 
 ### Result
 
@@ -328,9 +348,29 @@ Minimum required thickness, d
 
 ## Feature E
 
+### Knowns
+P = 600 lbf
+L = 0.9992 in
+E = 29,000,000 psi
+δallow = 0.005 in
+t = 3.0 in
+
+### Unknown
+Minimum required thickness, e
+
+### Assumptions
+- Feature E is modeled as a cantilever beam.
+- Each E carries 600 lbf due to symmetry.
+- Load is distributed across the lip.
+- Constant rectangular cross-section.
+- Linear-elastic material.
+- Small deflection.
+- Neglect shear deflection.
+
 ### FBD and Calculations
 
-<!-- Insert handwritten calculations here -->
+<img width="1177" height="844" alt="Screenshot 2026-09-23 214737" src="https://github.com/user-attachments/assets/1c72ea71-77e1-4e58-bf23-afb9baa80f7a" />
+
 
 ### Result
 
