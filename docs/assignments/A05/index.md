@@ -363,13 +363,15 @@ Minimum required thickness, e
 
 ## Stress-Based Design
 
-<!-- Insert stress-based multiview sketch here -->
+<img width="1174" height="852" alt="Screenshot 2026-09-23 230818" src="https://github.com/user-attachments/assets/e0d77daf-53f8-4c42-b2fd-5646dd01a233" />
 
+---
 
 ## Stiffness-Based Design
 
-<!-- Insert stiffness-based multiview sketch here -->
+<img width="1178" height="856" alt="Screenshot 2026-09-23 230822" src="https://github.com/user-attachments/assets/349d8e7b-9456-4650-8570-85e777029b4d" />
 
+---
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
