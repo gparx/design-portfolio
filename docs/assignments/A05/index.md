@@ -383,7 +383,25 @@ Minimum required thickness, e
 - Feature A Connection: Running / Sliding Fit
 - Second Shaft Diameter: 1.000 in
 - Second Shaft Connection: Light Assembly Pressure
-- Link Material: TBD
+- Link Material: ASTM A36 Steel
+
+- ### Knowns
+
+- P = 1200 lbf
+- SF = 4
+- Sy = 36,000 psi
+- E = 29,000,000 psi
+- δallow = 0.005 in
+- Feature A Diameter = 1.375 in
+- Shaft Diameter = 1.000 in
+
+### Unknowns
+
+- Link Width, w
+- Link Thickness, t
+- Link Length, L
+- Minimum Net Area
+- Required Fit Dimensions
 
 
 ### Stress and Deflection Calculations
