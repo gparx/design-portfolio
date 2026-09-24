@@ -80,14 +80,14 @@
 
 ### Knowns:
 
-P = 2F
-P = 1200 lbf
-SF = 4
-ASTM A36 Steel
-Sy = 36,000 psi
-σallow = Sy / SF
-σallow = 9,000 psi
-b = 1.375 in
+- P = 2F
+- P = 1200 lbf
+- SF = 4
+- ASTM A36 Steel
+- Sy = 36,000 psi
+- σallow = Sy / SF
+- σallow = 9,000 psi
+- b = 1.375 in
 
 ### Unknowns:
 
