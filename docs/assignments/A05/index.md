@@ -156,14 +156,14 @@
 
 ## Feature B
 
-###Knowns:
+### Knowns:
 
 P = 1200 lbf
 LB = 1.5 in
 E = 29,000,000 psi
 δallow = 0.005 in
 
-###Unknown:
+### Unknown:
 
 Minimum cross-sectional area, A
 
