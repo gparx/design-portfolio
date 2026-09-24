@@ -26,15 +26,6 @@
 - Assume no failure due to direct shear stress.
 - Assume shear deflection is negligible.
 
-### Feature Models
-
-- Feature A: Cantilever Beam
-- Feature B: Axially Loaded Bar
-- Feature C: Simply Supported Beam with Center Load
-- Feature D: TBD
-- Feature E: TBD
-
-
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
