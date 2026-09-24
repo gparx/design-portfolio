@@ -134,6 +134,14 @@
 ### Unknown:
 - Required thickness of Feature C
 
+### Assumptions:
+- Simply supported beam
+- Center point load
+- Symmetric loading
+- Rectangular constant cross-section
+- Ignore direct shear and stress concentrations
+- Linear-elastic material
+
 ### FBD and Calculations
 
 <img width="1181" height="856" alt="Screenshot 2026-09-23 204407" src="https://github.com/user-attachments/assets/bc3e1a16-8d19-4ce2-9555-380ece255ee4" />
