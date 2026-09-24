@@ -156,6 +156,25 @@
 
 ## Feature D
 
+### Knowns
+RD = 600 lbf
+SF = 4
+Sy = 36,000 psi
+σallow = 9,000 psi
+t = 3.0 in
+
+### Unknown
+Minimum required thickness of D, d
+
+### Assumption
+- Feature D is axially loaded.
+- Symmetric loading: each D carries 600 lbf.
+- Constant rectangular cross-section.
+- Load acts through the centroid.
+- Linear-elastic material.
+- Stress concentrations are neglected.
+
+
 ### FBD and Calculations
 
 <!-- Insert handwritten calculations here -->
@@ -280,6 +299,24 @@
 ---
 
 ## Feature D
+
+### Knowns
+P = 600 lbf
+L = 1.499 in
+E = 29,000,000 psi
+δallow = 0.005 in
+t = 3.0 in
+
+### Unknown
+Minimum required thickness, d
+
+### Assumptions
+- Feature D is axially loaded.
+- Each D carries 600 lbf due to symmetry.
+- Constant rectangular cross-section.
+- Linear-elastic material.
+- Small deformation.
+- Neglect bending.
 
 ### FBD and Calculations
 
