@@ -91,9 +91,9 @@
 
 ### Unknowns:
 
-Minimum required cross-sectional area, A
+- Minimum required cross-sectional area, A
 
-Minimum required thickness, t
+- Minimum required thickness, t
 
 ---
 
