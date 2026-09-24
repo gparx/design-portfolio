@@ -346,13 +346,14 @@ Minimum required thickness, e
 
 # Final Bracket Dimensions
 
-| Feature | Stress | Stiffness | Final |
-|---------|--------|-----------|-------|
-| A | TBD | TBD | TBD |
-| B | TBD | TBD | TBD |
-| C | TBD | TBD | TBD |
-| D | TBD | TBD | TBD |
-| E | TBD | TBD | TBD |
+
+| Feature | Stress Requirement | Stiffness Requirement | Governing Requirement |
+|---------|-------------------:|----------------------:|----------------------|
+| A | 1.268 in diameter | 0.869 in diameter | Stress |
+| B | 0.097 in thickness | 0.009 in thickness | Stress |
+| C | 0.408 in height | 0.221 in height | Stress |
+| D | 0.022 in thickness | 0.0021 in thickness | Stress |
+| E | 0.258 in thickness | 0.127 in thickness | Stress |
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
