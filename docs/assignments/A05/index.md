@@ -73,7 +73,6 @@
 
 <img width="1190" height="864" alt="Screenshot 2026-09-23 191444" src="https://github.com/user-attachments/assets/7c0564ec-129d-48b7-9f83-d628a26c659b" />
 
-
 ---
 
 ## Feature B
@@ -110,11 +109,6 @@
 
 <img width="1178" height="846" alt="Screenshot 2026-09-23 195723" src="https://github.com/user-attachments/assets/ee5c7ae7-0edf-4cd0-82b8-e267ca110a19" />
 
-### Result
-
-**Required Dimension:** TBD
-
-
 ---
 
 ## Feature C
@@ -146,11 +140,6 @@
 
 <img width="1181" height="856" alt="Screenshot 2026-09-23 204407" src="https://github.com/user-attachments/assets/bc3e1a16-8d19-4ce2-9555-380ece255ee4" />
 
-
-### Result
-
-**Required Dimension:** TBD
-
 ---
 
 ## Feature D
@@ -178,11 +167,6 @@ Minimum required thickness of D, d
 
 <img width="1187" height="859" alt="Screenshot 2026-09-23 212324" src="https://github.com/user-attachments/assets/d6806844-a4fe-437f-899d-902c793c4557" />
 
-### Result
-
-**Required Dimension:** TBD
-
-
 ---
 
 ## Feature E
@@ -209,11 +193,6 @@ Minimum required thickness, e
 ### FBD and Calculations
 
 <img width="1183" height="840" alt="Screenshot 2026-09-23 214734" src="https://github.com/user-attachments/assets/45111177-d0a8-4ccf-8179-1d7750ff4681" />
-
-
-### Result
-
-**Required Dimension:** TBD
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
@@ -278,9 +257,6 @@ Minimum required thickness, e
 
 <img width="1187" height="797" alt="Screenshot 2026-09-23 195729" src="https://github.com/user-attachments/assets/b8cbb046-80f9-4675-a89d-d8b159ec6371" />
 
-### Result
-
-**Required Dimension:** TBD
 
 ---
 
@@ -309,10 +285,6 @@ Minimum required thickness, e
 
 <img width="1173" height="838" alt="Screenshot 2026-09-23 204410" src="https://github.com/user-attachments/assets/05b94c74-84b1-451c-9582-b99765ca5242" />
 
-### Result
-
-**Required Dimension:** TBD
-
 ---
 
 ## Feature D
@@ -338,10 +310,6 @@ Minimum required thickness, d
 ### FBD and Calculations
 
 <img width="1188" height="851" alt="Screenshot 2026-09-23 212328" src="https://github.com/user-attachments/assets/0a6c3919-5d96-4925-a939-716815c422d4" />
-
-### Result
-
-**Required Dimension:** TBD
 
 
 ---
@@ -371,11 +339,7 @@ Minimum required thickness, e
 
 <img width="1177" height="844" alt="Screenshot 2026-09-23 214737" src="https://github.com/user-attachments/assets/1c72ea71-77e1-4e58-bf23-afb9baa80f7a" />
 
-
-### Result
-
-**Required Dimension:** TBD
-
+---
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
