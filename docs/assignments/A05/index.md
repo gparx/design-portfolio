@@ -392,7 +392,7 @@ Minimum required thickness, e
 - Sy = 36,000 psi
 - E = 29,000,000 psi
 - δallow = 0.005 in
-- Feature A Diameter = 1.375 in
+- Feature A Diameter = 0.1268 in
 - Shaft Diameter = 1.000 in
 
 ### Unknowns
@@ -406,15 +406,13 @@ Minimum required thickness, e
 
 ### Stress and Deflection Calculations
 
-<!-- Insert handwritten linkage calculations here -->
+<img width="1186" height="857" alt="Screenshot 2026-09-24 001420" src="https://github.com/user-attachments/assets/03866224-4bb6-436f-8d50-cbc68c3a0947" />
 
+---
 
-### Final Link Dimensions
+<img width="1184" height="858" alt="Screenshot 2026-09-24 001423" src="https://github.com/user-attachments/assets/308079cb-9ae0-4bc2-a412-bd697ef83115" />
 
-- Width: TBD
-- Thickness: TBD
-- Hole Spacing: TBD
-
+---
 
 ## Feature A Fit
 
