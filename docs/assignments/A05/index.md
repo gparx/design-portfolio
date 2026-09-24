@@ -90,6 +90,17 @@
 
 ## Feature C
 
+### Knowns:
+- P = 1200 lbf
+- SF = 4
+- Sy = 36,000 psi
+- σallow = 9,000 psi
+- LC = TBD
+- Material = A36 Steel
+
+### Unknown:
+- Required thickness of Feature C
+
 ### FBD and Calculations
 
 <!-- Insert handwritten calculations here -->
