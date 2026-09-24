@@ -428,18 +428,15 @@ Minimum required thickness, e
 
 ## Governing Requirement
 
-<!-- Discuss whether stress or stiffness governed -->
-
+- Stress governed all equations.
 
 ## Error Propagation
 
-<!-- Discuss one value carried into a later calculation -->
-
+- If calculating the diameter of feature 'A' had error it would mess the design of feature 'B' and so on.
 
 ## Assumption Sensitivity
 
-<!-- Discuss one important assumption -->
-
+- It was important to assume the loading was symmetrical, otherwise our design could change dramatically.
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
