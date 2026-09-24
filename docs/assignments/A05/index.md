@@ -196,8 +196,20 @@
 - Yield Strength: Sy = 36,000 psi
 - Sy = 36,000 psi
 - σallow = 9,000 psi
-- Assume no failure due to direct shear stress.
-- Assume shear deflection is negligible.
+
+### Unknowns
+- Minimum required radius, r
+- Minimum required diameter, d
+- Maximum deflection, δmax
+- Area moment of inertia, I
+
+### Assumptions
+- Feature A is modeled as a cantilever beam.
+- The strap load is distributed symmetrically along Feature A.
+- Feature A has a constant solid circular cross-section.
+- Material remains linear-elastic.
+- Small-deflection beam theory applies.
+- Shear deflection is neglected.
 
 
 ### FBD and Calculations
