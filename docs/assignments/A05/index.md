@@ -95,6 +95,15 @@
 
 - Minimum required thickness, t
 
+### Assumptions:
+
+- Feature B is modeled as an axially loaded bar.
+- Load acts through the centroid of the cross-section.
+- Bending is neglected.
+- Feature B has a rectangular cross-section.
+- Direct shear failure is neglected.
+- Material remains linear-elastic.
+
 ---
 
 ### FBD and Calculations
