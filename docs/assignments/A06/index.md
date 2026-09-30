@@ -44,28 +44,24 @@
 
 ## Reflections
 
-### Parametric Design
+### Intor
 
-<!-- Reflection 3a -->
+In total I spent roughly around 6-8 hours on this portion of the project. Most of the time spend was learning Solidworks because I am unfamiliar with it and want to improve. Looking up how to add tolerances, coincidental constraints and troubleshooting amounted to the majority of my time. Going into this project was a massive headache because I am also taking solid mechanics alongside this class, so some of the things required were beyond my skillset, regardless, I figured out what the assignment was asking for and how I was going to navigate around it. 
 
-### Dimensioning and Tolerancing
+### a
 
-<!-- Reflection 3b -->
+Stress drove all of my dimensions, but a basic demonstration can be provided if we examine part 'a' of the bracket (the cylinder). When looking at the bending stress that will be applied to this part, we can come to a basic conclusion (after deriving our equation to d = (32FL / (πσ_allow))^(1/3)) that this force will control our diameter. All that needs to be done to translate this into solidworks (or whatever modeling software you choose) is to make a global variable with this equation and add your values such as F, L, etc. into the parametric table.
 
-### Lessons Learned
-
-<!-- Overall lessons learned -->
-
-
-<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
-
-## Time Spent
-
-<!-- Add total time / breakdown here -->
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## CAD Files
+
+
+
+
+
+
 
 [Download CAD Files](LINK-HERE)
