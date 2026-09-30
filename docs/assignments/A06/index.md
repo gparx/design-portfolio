@@ -6,17 +6,16 @@
 
 ## Parametric Design
 
-### Design Dimensions
+### Design 
 
-<!-- Insert calculations / previous bracket dimensions here -->
+
+<img width="3830" height="2088" alt="Bracket" src="https://github.com/user-attachments/assets/bdf65825-b7f5-429c-840f-5627f9487556" />
+
 
 ### CAD Parameters
 
-<!-- Insert screenshots of CAD dimensions and parameter table here -->
 
-### Parametric Model
-
-<!-- Insert images of completed model here -->
+<img width="1802" height="893" alt="Parametric_Table" src="https://github.com/user-attachments/assets/be280f60-69c0-4faa-b333-d3742cf46d5e" />
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
