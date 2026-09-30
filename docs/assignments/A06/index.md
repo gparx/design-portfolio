@@ -72,4 +72,4 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 
 
-[DWG](docs/assignments/A06/Bracket.SLDDRW)
+[DOWNLOAD DWG AND CAD FILES HERE](docs/assignments/A06/BRACKET.zip)
