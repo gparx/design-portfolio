@@ -28,11 +28,8 @@
 
 ### Multiview Drawing
 
-<!-- Insert completed third-angle projection drawing here -->
 
-### Tolerances and Fits
-
-<!-- Explain sliding-fit / gap tolerances here -->
+<img width="1876" height="1445" alt="Screenshot 2026-09-30 003459" src="https://github.com/user-attachments/assets/233cbef3-d85d-4f0e-aea7-5fc6c18b2a62" />
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
