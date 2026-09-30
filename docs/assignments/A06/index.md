@@ -29,7 +29,7 @@
 ### Multiview Drawing
 
 
-<img width="1876" height="1445" alt="Screenshot 2026-09-30 003459" src="https://github.com/user-attachments/assets/233cbef3-d85d-4f0e-aea7-5fc6c18b2a62" />
+<img width="1879" height="1452" alt="Screenshot 2026-09-30 003900" src="https://github.com/user-attachments/assets/0b68be61-08c3-4738-8d35-d967d79a9cc8" />
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
