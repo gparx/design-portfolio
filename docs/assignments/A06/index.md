@@ -18,6 +18,10 @@
 <img width="1802" height="893" alt="Parametric_Table" src="https://github.com/user-attachments/assets/be280f60-69c0-4faa-b333-d3742cf46d5e" />
 
 
+### Design Decisions
+
+- All of my dimensions were driven by stress and my parametric design was modeled around these stress values.
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## Engineering Drawing
