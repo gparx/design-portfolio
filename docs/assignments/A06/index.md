@@ -74,3 +74,21 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
+
+## Topic: Drawings (2157 Students Only)
+
+---
+
+### Parametric Designs 
+
+### Drawings
+
+### Reflections
+
+---
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+---
+
+
