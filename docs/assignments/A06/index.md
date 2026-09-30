@@ -54,6 +54,12 @@ Stress drove all of my dimensions, but a basic demonstration can be provided if 
 
 ### Part B
 
+A Tighter tolerance was applied to the diameter of Feature A because it is a functional mating surface that connects to the link through a sliding fit. The tighter tolerance is necessary to maintain the required clearance and allow the parts to assemble and move properly without interferences.
+
+A Looser tolerance was applied to the 3.0 in overall width of the bracket. This dimension is not critical because small variations in the overall width do not affect the fit or function of the bracket. Using the looser X.X ± 0.02 in tolerance is sufficient.
+
+Applying unnecessarily tight tolerances to non-critical features would increase manufacturing and inspection difficulty and cost without providing a functional benefit.
+
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
