@@ -38,8 +38,7 @@
 
 ### Mistakes and Changes
 
-<!-- Document mistakes, changes, and corrections here -->
-
+- Several mistakes were made while creating not only the model but the drawing. Solidworks was rounding all of my dimensions, messing up my drawing and my actual model. I had to fix that by going into my model options and extend the amount of decimals available. I also modeled my bracket incorrectly as well, luckily the parametrics made it an easy fix. 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
