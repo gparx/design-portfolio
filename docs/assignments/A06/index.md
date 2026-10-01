@@ -95,9 +95,19 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 ### Drawings
 
+---
 
+<img width="2240" height="1447" alt="image" src="https://github.com/user-attachments/assets/7f369605-d1e2-4f90-bbad-45d876541d1c" />
+
+---
 
 ### Reflections
+
+
+
+
+
+
 
 ---
 
