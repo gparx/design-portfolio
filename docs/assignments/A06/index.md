@@ -72,8 +72,6 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
-## CAD Files
-
 ---
 
 [DOWNLOAD CAD AND DWG FILES HERE](https://github.com/user-attachments/files/32840685/BRACKET.zip)
