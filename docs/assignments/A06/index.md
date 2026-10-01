@@ -103,10 +103,17 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 ### Reflections
 
+- Using fit tolerances showed me that part-to-part compatibility depends on controlling both mating dimensions. The Ø1.268 hole required a sliding fit with Feature A, while the Ø1.000 hole required a light press fit with the second shaft. Proper tolerancing ensures that each connection assembles and functions as intended.
 
+- Dimensioning and tolerancing communicate which features are critical to the design. The tighter tolerances on the two interface holes identify them as functional mating features, while less critical dimensions can use the general tolerance block. This communicates the intended fit of the link.
+
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+---
 
 [DOWNLOAD LINK CAD AND DRAWING FILE HERE](https://github.com/user-attachments/files/32881585/Link.zip)
-
 
 
 
