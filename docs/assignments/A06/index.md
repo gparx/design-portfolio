@@ -4,6 +4,14 @@
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
+## Objective
+
+This week you will continue designing the bracket by taking the modeling from last week to create a parametric model and a detailed engineering drawing.
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+
 ## Parametric Design
 
 ### Design 
