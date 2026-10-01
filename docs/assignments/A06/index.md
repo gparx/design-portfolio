@@ -97,6 +97,8 @@ Applying unnecessarily tight tolerances to non-critical features would increase 
 
 <img width="3839" height="2084" alt="Link" src="https://github.com/user-attachments/assets/4a123999-cb12-481d-9cc6-a23d56f22c90" />
 
+- The link dimensions were parametrically tied to the bracket interface where appropriate. The width and height were reduced to minimize excess material and weight while maintaining the required strength and sufficient material around the mating holes. The Ø1.268 connection uses a sliding fit, while the Ø1.000 connection uses a light press fit
+
 ---
 
 ### Drawings
