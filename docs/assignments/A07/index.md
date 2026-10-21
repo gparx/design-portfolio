@@ -1,5 +1,5 @@
 
-# A6: Bracket Finite Element Analysis (FEA)
+# Bracket Finite Element Analysis (FEA)
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
