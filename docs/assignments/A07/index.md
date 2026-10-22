@@ -281,6 +281,35 @@
 <img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/41bd5f34-27f6-4199-b754-aa331c74f6d0" />
 
 
+## Design I - Original Link
+
+### FEA Results
+
+| Parameter | Result |
+|---|---|
+| Maximum Stress | 11,770 psi |
+| Stress Location | Inner edge of lower pin hole |
+| Maximum Deflection | 0.000443 in |
+| Deflection Location | Lower portion of link |
+| Mass | ~0.24 lb (estimated) |
+| Safety Factor | 3.081 |
+| Number of Elements | 3,200 |
+
+### Mesh Convergence
+
+| Parameter | Mesh 1 | Mesh 2 |
+|---|---|---|
+| Elements | 2,494 | 3,200 |
+| Max Stress (MPa) | 81.78 | 81.15 |
+| Max Deflection (mm) | 0.01124 | 0.01124 |
+
+- Stress Convergence: 0.78%
+- Deflection Convergence: 0.00% (rounded)
+- Requirement: ≤ 7% (Satisfied)
+
+---
+
+
 # Design II 
 
 
@@ -311,6 +340,35 @@
 <img width="2111" height="1425" alt="Screenshot 2026-10-21 221622" src="https://github.com/user-attachments/assets/80459171-1757-4451-b47e-9700dea5cb41" />
 
 <img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/21c5683d-8bca-4760-bc93-88be4ce355ce" />
+
+
+## Design II - Reinforced Link
+
+### FEA Results
+
+| Parameter | Result |
+|---|---|
+| Maximum Stress | 5,894 psi |
+| Stress Location | Inner edge of lower pin hole |
+| Maximum Deflection | 0.000222 in |
+| Deflection Location | Lower portion of link |
+| Mass | 0.48 lb |
+| Safety Factor | 6.151 |
+| Number of Elements | 8,532 |
+
+### Mesh Convergence
+
+| Parameter | Mesh 1 | Mesh 2 |
+|---|---|---|
+| Elements | 2,844 | 8,532 |
+| Max Stress (MPa) | 40.39 | 40.64 |
+| Max Deflection (mm) | 0.005635 | 0.005633 |
+
+- Stress Convergence: 0.62%
+- Deflection Convergence: 0.036%
+- Requirement: ≤ 7% (Satisfied)
+
+---
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
