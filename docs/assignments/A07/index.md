@@ -12,8 +12,7 @@
 
 ### Material and Loading
 - Material: ASTM A36 Steel
-- Applied Load:
-- Constraints:
+- Applied Load: 12000lbf
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
