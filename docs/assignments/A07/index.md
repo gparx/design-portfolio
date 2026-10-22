@@ -421,6 +421,7 @@
 - Deflection Convergence: 0.00% (rounded)
 - Requirement: ≤ 7% (Satisfied)
 
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # Final Link Design Comparison
 
@@ -435,19 +436,29 @@
 | Deflection Convergence | 0.00% | 0.036% | 0.00% |
 
 
-
-
 ---
-
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # Engineering Reflection
 
-### Lessons Learned
+In this project I learned how to run stress concentration simulations by meshing out a component and applying simulated loads to it. While running these simulations, increasing the mesh elements can change the simulated calculations. Some designs converged within the required 7% after two simulations, while others failed to converge after three attempts. This demonstrates the importance of mesh refinement for reliable data. After redesigning the components the stress concentrations change but also come at the cost of mass and more complex geometry which becomes more difficult to manufacture. In conclusion, I found this project very exciting. I know several engineers working in the industry currently who's job is to run FEA on components that have to withstand strenuous forces. 
+
 
 ### Time Spent
-- Total Time:
+- Total Time: 6 Hours
+
+[DOWNLOAD FILES HERE]
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
+
+
+
+
+
+
+
+
+
