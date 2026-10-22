@@ -449,7 +449,11 @@ In this project I learned how to run stress concentration simulations by meshing
 ### Time Spent
 - Total Time: 6 Hours
 
-[DOWNLOAD FILES HERE]
+[BRACKET DOWNLOAD](https://github.com/user-attachments/files/33798506/BRACKET.zip)
+
+[LINK DOWNLOAD](https://github.com/user-attachments/files/33798508/Link.zip)
+
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
