@@ -227,7 +227,7 @@
 
 | Parameter | Mesh 1 | Mesh 2 | Mesh 3 |
 |---|---|---|---|
-| Elements |  |  | 28,101 |
+| Elements | 5,000 | 11,000 | 28,101 |
 | Max Stress (MPa) | 1,307 | 1,422 | 1,733 |
 | Max Deflection (mm) | 5.288 | 5.368 | 5.510 |
 
