@@ -281,8 +281,6 @@
 <img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/41bd5f34-27f6-4199-b754-aa331c74f6d0" />
 
 
-## Design I - Original Link
-
 ### FEA Results
 
 | Parameter | Result |
@@ -342,8 +340,6 @@
 <img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/21c5683d-8bca-4760-bc93-88be4ce355ce" />
 
 
-# Design II - Reinforced Link
-
 ### FEA Results
 
 | Parameter | Result |
@@ -401,9 +397,6 @@
 <img width="717" height="1193" alt="Screenshot 2026-10-21 225128" src="https://github.com/user-attachments/assets/664c272a-d828-44d8-83fb-a90750695cf9" />
 
 
-
-## Design III - Reinforced Link
-
 ### FEA Results
 
 | Parameter | Result |
@@ -428,7 +421,25 @@
 - Deflection Convergence: 0.00% (rounded)
 - Requirement: ≤ 7% (Satisfied)
 
+
+# Final Link Design Comparison
+
+| Parameter | Design I | Design II | Design III |
+|---|---|---|---|
+| Max Stress (psi) | 11,770 | 5,894 | 4,949 |
+| Max Deflection (in) | 0.000443 | 0.000222 | 0.000185 |
+| Mass (lb) | ~0.24 | 0.48 | 0.57 |
+| Safety Factor | 3.081 | 6.151 | 7.327 |
+| Number of Elements | 3,200 | 8,532 | 9,642 |
+| Stress Convergence | 0.78% | 0.62% | 4.28% |
+| Deflection Convergence | 0.00% | 0.036% | 0.00% |
+
+*Design I mass estimated using ASTM A36 steel density and original CAD volume.*
+
+
+
 ---
+
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
