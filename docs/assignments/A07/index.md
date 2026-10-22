@@ -227,7 +227,7 @@
 
 | Parameter | Mesh 1 | Mesh 2 | Mesh 3 |
 |---|---|---|---|
-| Elements | TBD | TBD | 28,101 |
+| Elements |  |  | 28,101 |
 | Max Stress (MPa) | 1,307 | 1,422 | 1,733 |
 | Max Deflection (mm) | 5.288 | 5.368 | 5.510 |
 
@@ -238,15 +238,17 @@
 - 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
+
 # Final Design Comparison
 
 | Parameter | Design I | Design II | Design III |
 |---|---|---|---|
-| Max Stress (psi) | | | |
-| Max Deflection (in) | | | |
-| Mass (lb) | | | |
-| Safety Factor | | | |
-| Number of Elements | | | |
+| Max Stress (psi) | 1,101,850 | 279,340 | 251,350 |
+| Max Deflection (in) | 2.064 | 0.2893 | 0.2169 |
+| Mass (lb) | 2.47 | 2.51 | 2.54 |
+| Safety Factor | 0.03291 | 0.1298 | 0.1442 |
+| Number of Elements | 31,849 | 27,417 | 28,101 |
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
