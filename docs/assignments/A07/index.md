@@ -66,6 +66,35 @@
 <img width="707" height="1186" alt="Screenshot 2026-10-21 195554" src="https://github.com/user-attachments/assets/5e8fb201-cc42-4856-969b-95f8cf315ed9" />
 
 
+## Design I - Original Bracket
+
+### FEA Results
+
+| Parameter | Result |
+|---|---|
+| Maximum Stress | 1,101,850 psi |
+| Stress Location | Vertical support near cylinder |
+| Maximum Deflection | 2.064 in |
+| Deflection Location | Free end of cylinder |
+| Mass | 2.47 lb |
+| Safety Factor | 0.03291 |
+| Number of Elements | 31,849 |
+
+### Mesh Convergence
+
+| Parameter | Mesh 1 | Mesh 2 | Mesh 3 |
+|---|---|---|---|
+| Elements | 4,694 | 14,955 | 31,849 |
+| Max Stress (MPa) | 6,193 | 7,202 | 7,597 |
+| Max Deflection (mm) | 49.83 | 51.92 | 52.43 |
+
+- Stress Convergence: 5.20%
+- Deflection Convergence: 0.97%
+- Requirement: ≤ 7% (Satisfied)
+
+
+
+
 ---
 
 # Design II - First Modification
