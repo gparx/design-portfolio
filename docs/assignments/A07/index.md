@@ -14,6 +14,8 @@
 - Material: ASTM A36 Steel
 - Applied Load: 1200lbf
 
+File downloads included at end of page
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # Design I - Original Bracket
