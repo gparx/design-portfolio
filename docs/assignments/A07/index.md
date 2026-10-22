@@ -251,6 +251,28 @@
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
+# Design I - Original Link
+
+
+
+### Mesh 1 
+
+
+
+### Mesh 2
+
+
+
+### Mesh 3
+
+
+
+### Stress and Displacement
+
+
+
+<hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
+
 # Engineering Reflection
 
 ### Lessons Learned
