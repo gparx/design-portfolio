@@ -285,16 +285,30 @@
 
 ### Mesh 1 
 
+<img width="2003" height="1248" alt="Screenshot 2026-10-21 221054" src="https://github.com/user-attachments/assets/4ae5ee26-d7d7-462e-987e-d436d1699e71" />
 
+<img width="1964" height="1407" alt="Screenshot 2026-10-21 221057" src="https://github.com/user-attachments/assets/e906ced6-8064-4ac3-9912-fc2b45174e6d" />
+
+<img width="1993" height="1316" alt="Screenshot 2026-10-21 221101" src="https://github.com/user-attachments/assets/e848a87d-1bd9-4ec7-9f92-7b02843b53e7" />
+
+<img width="569" height="519" alt="Screenshot 2026-10-21 221121" src="https://github.com/user-attachments/assets/6dfa5174-f0d6-479e-a440-8ae6e026d0f3" />
 
 ### Mesh 2
 
+<img width="2353" height="1522" alt="Screenshot 2026-10-21 221603" src="https://github.com/user-attachments/assets/36218903-f9d3-4f94-aa89-da99a86aec6e" />
+
+<img width="2039" height="1499" alt="Screenshot 2026-10-21 221607" src="https://github.com/user-attachments/assets/a2bb607b-ea5c-4d14-9e20-c5c1c1ad7c2f" />
+
+<img width="2108" height="1576" alt="Screenshot 2026-10-21 221610" src="https://github.com/user-attachments/assets/e3c0ccc7-32ed-4c74-b93e-348bbb94da3d" />
+
+<img width="427" height="376" alt="Screenshot 2026-10-21 221628" src="https://github.com/user-attachments/assets/d742edf1-3823-4f0b-8ca0-f07808c73c0a" />
 
 
-### Mesh 3
+### Stress and Displacement
 
+<img width="2111" height="1425" alt="Screenshot 2026-10-21 221622" src="https://github.com/user-attachments/assets/80459171-1757-4451-b47e-9700dea5cb41" />
 
-
+<img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/21c5683d-8bca-4760-bc93-88be4ce355ce" />
 
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
