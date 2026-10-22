@@ -234,7 +234,7 @@
 - Deflection Convergence: 2.58%
 - Requirement: ≤ 7% (Stress Not Converged)
 
-- 
+
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 
