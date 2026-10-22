@@ -434,7 +434,6 @@
 | Stress Convergence | 0.78% | 0.62% | 4.28% |
 | Deflection Convergence | 0.00% | 0.036% | 0.00% |
 
-*Design I mass estimated using ASTM A36 steel density and original CAD volume.*
 
 
 
