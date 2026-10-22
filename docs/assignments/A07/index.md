@@ -170,13 +170,72 @@
 
 # Design III - Second Modification
 
-### Geometry Changes
+<img width="1665" height="1203" alt="Screenshot 2026-10-21 205709" src="https://github.com/user-attachments/assets/b500cfbf-5d09-4bf2-b075-86b7d07fcc69" />
+
+<img width="1246" height="1196" alt="Screenshot 2026-10-21 205717" src="https://github.com/user-attachments/assets/76d9c2a5-e8fc-4227-9c1c-d5b58c04a0cc" />
+
 
 ### Mesh Convergence
+
+### Mesh 1
+
+<img width="2149" height="1449" alt="Screenshot 2026-10-21 205813" src="https://github.com/user-attachments/assets/9a42d9b8-6ae7-40ab-bc16-3c0956438a93" />
+
+<img width="1932" height="1440" alt="Screenshot 2026-10-21 205819" src="https://github.com/user-attachments/assets/e8099af4-5047-4b55-963c-23b91056931e" />
+
+<img width="1948" height="1465" alt="Screenshot 2026-10-21 205822" src="https://github.com/user-attachments/assets/08429b67-c364-41b3-87d6-35f2e9aa9f56" />
+
+
+### Mesh 2 
+
+<img width="2011" height="1437" alt="Screenshot 2026-10-21 210145" src="https://github.com/user-attachments/assets/46f7f74a-114b-406c-8671-9277b1a40d03" />
+
+<img width="1907" height="1419" alt="Screenshot 2026-10-21 210150" src="https://github.com/user-attachments/assets/48c0fccf-a3ab-40ad-b3df-507e29e5a284" />
+
+<img width="2002" height="1397" alt="Screenshot 2026-10-21 210154" src="https://github.com/user-attachments/assets/ef7a91c2-3312-471c-8dd4-9924977f2a96" />
+
+
+### Mesh 3
+
+<img width="2076" height="1445" alt="Screenshot 2026-10-21 210326" src="https://github.com/user-attachments/assets/20ab8e01-8e77-4e79-b7e4-5ddaf3c63d69" />
+
+<img width="2017" height="1425" alt="Screenshot 2026-10-21 210329" src="https://github.com/user-attachments/assets/421b9704-d93a-47ea-ad80-54cde55982ec" />
+
+<img width="2044" height="1415" alt="Screenshot 2026-10-21 210333" src="https://github.com/user-attachments/assets/f47284fe-b800-4548-bd9b-e3525827680d" />
+
+<img width="878" height="614" alt="Screenshot 2026-10-21 210453" src="https://github.com/user-attachments/assets/77a82df4-7d85-4836-95b5-e9d91eb6ea40" />
+
 
 ### Stress and Displacement
 <!-- Insert simulation images -->
 
+<img width="701" height="1186" alt="Screenshot 2026-10-21 210507" src="https://github.com/user-attachments/assets/157fae03-f31a-4832-ae04-473fefbfcd8b" />
+
+<img width="1828" height="1438" alt="Screenshot 2026-10-21 210525" src="https://github.com/user-attachments/assets/931326e4-cbc6-4a30-b5a6-947ba4e59c36" />
+
+| Parameter | Result |
+|---|---|
+| Maximum Stress | 251,350 psi |
+| Stress Location | Support near cylinder connection |
+| Maximum Deflection | 0.2169 in |
+| Deflection Location | Free end of cylinder |
+| Mass | 2.54 lb |
+| Safety Factor | 0.1442 |
+| Number of Elements | 28,101 |
+
+### Mesh Convergence
+
+| Parameter | Mesh 1 | Mesh 2 | Mesh 3 |
+|---|---|---|---|
+| Elements | TBD | TBD | 28,101 |
+| Max Stress (MPa) | 1,307 | 1,422 | 1,733 |
+| Max Deflection (mm) | 5.288 | 5.368 | 5.510 |
+
+- Stress Convergence: 17.95%
+- Deflection Convergence: 2.58%
+- Requirement: ≤ 7% (Stress Not Converged)
+
+- 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 # Final Design Comparison
