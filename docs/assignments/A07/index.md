@@ -257,6 +257,34 @@
 
 ### Mesh 1 
 
+<img width="2353" height="1522" alt="Screenshot 2026-10-21 221603" src="https://github.com/user-attachments/assets/23b2d32e-efbd-471b-83dc-104a7a411291" />
+
+
+### Mesh 2
+
+<img width="2039" height="1499" alt="Screenshot 2026-10-21 221607" src="https://github.com/user-attachments/assets/647bd335-362f-4e1d-b988-481ece4a3f79" />
+
+
+### Mesh 3
+
+<img width="2108" height="1576" alt="Screenshot 2026-10-21 221610" src="https://github.com/user-attachments/assets/95b4f677-a92b-4c86-93ce-1ff038a73c3c" />
+
+
+### Stress and Displacement
+
+<img width="427" height="376" alt="Screenshot 2026-10-21 221628" src="https://github.com/user-attachments/assets/78aea4d8-8625-4d95-a13f-e5f1a8a57e6f" />
+
+<img width="2111" height="1425" alt="Screenshot 2026-10-21 221622" src="https://github.com/user-attachments/assets/6d8218f3-b7a3-449b-9453-c98d712a0144" />
+
+<img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/41bd5f34-27f6-4199-b754-aa331c74f6d0" />
+
+
+# Design II 
+
+
+
+### Mesh 1 
+
 
 
 ### Mesh 2
@@ -266,8 +294,6 @@
 ### Mesh 3
 
 
-
-### Stress and Displacement
 
 
 
