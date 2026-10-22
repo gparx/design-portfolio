@@ -253,7 +253,7 @@
 
 # Design I - Original Link
 
-
+<img width="1467" height="1410" alt="Screenshot 2026-10-21 215455" src="https://github.com/user-attachments/assets/dda5be4b-7895-491e-a663-96c395c804eb" />
 
 ### Mesh 1 
 
