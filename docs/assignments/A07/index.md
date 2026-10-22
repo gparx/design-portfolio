@@ -342,7 +342,7 @@
 <img width="702" height="1191" alt="Screenshot 2026-10-21 221632" src="https://github.com/user-attachments/assets/21c5683d-8bca-4760-bc93-88be4ce355ce" />
 
 
-## Design II - Reinforced Link
+# Design II - Reinforced Link
 
 ### FEA Results
 
@@ -366,6 +366,66 @@
 
 - Stress Convergence: 0.62%
 - Deflection Convergence: 0.036%
+- Requirement: ≤ 7% (Satisfied)
+
+---
+
+# Design III
+
+### Mesh 1
+
+<img width="2230" height="1554" alt="Screenshot 2026-10-21 224735" src="https://github.com/user-attachments/assets/82e8fbb8-fc3f-40ff-acf4-cdf8f28fda39" />
+
+<img width="1989" height="1479" alt="Screenshot 2026-10-21 224741" src="https://github.com/user-attachments/assets/b6c241b2-a88b-496a-a56a-66ccc92c495f" />
+
+<img width="2139" height="1511" alt="Screenshot 2026-10-21 224745" src="https://github.com/user-attachments/assets/0c3cfcdd-1472-4eea-a90b-513bc3326b2a" />
+
+<img width="442" height="377" alt="Screenshot 2026-10-21 224819" src="https://github.com/user-attachments/assets/df98bdde-a454-46dd-a5c0-56731b7e08fa" />
+
+
+### Mesh 2
+
+<img width="2115" height="1501" alt="Screenshot 2026-10-21 225106" src="https://github.com/user-attachments/assets/be524ec7-3a05-4316-866c-5ac6f3778067" />
+
+<img width="2019" height="1556" alt="Screenshot 2026-10-21 225110" src="https://github.com/user-attachments/assets/64b6c6d0-9850-490a-b8a7-8993c3418263" />
+
+<img width="1978" height="1537" alt="Screenshot 2026-10-21 225112" src="https://github.com/user-attachments/assets/4e66b881-6ae4-4361-8c44-a2041c2c7e78" />
+
+<img width="447" height="381" alt="Screenshot 2026-10-21 225123" src="https://github.com/user-attachments/assets/3e69056a-d148-4bae-b254-bfb9aea49b45" />
+
+
+### Stress and Displacement
+
+<img width="2001" height="1451" alt="Screenshot 2026-10-21 225117" src="https://github.com/user-attachments/assets/d08ac0e2-687d-436a-8e2e-db3c10178dde" />
+
+<img width="717" height="1193" alt="Screenshot 2026-10-21 225128" src="https://github.com/user-attachments/assets/664c272a-d828-44d8-83fb-a90750695cf9" />
+
+
+
+## Design III - Reinforced Link
+
+### FEA Results
+
+| Parameter | Result |
+|---|---|
+| Maximum Stress | 4,949 psi |
+| Stress Location | Inner edge of lower pin hole |
+| Maximum Deflection | 0.000185 in |
+| Deflection Location | Lower portion of link |
+| Mass | 0.57 lb |
+| Safety Factor | 7.327 |
+| Number of Elements | 9,642 |
+
+### Mesh Convergence
+
+| Parameter | Mesh 1 | Mesh 2 |
+|---|---|---|
+| Elements | 2,568 | 9,642 |
+| Max Stress (MPa) | 32.66 | 34.12 |
+| Max Deflection (mm) | 0.004700 | 0.004700 |
+
+- Stress Convergence: 4.28%
+- Deflection Convergence: 0.00% (rounded)
 - Requirement: ≤ 7% (Satisfied)
 
 ---
