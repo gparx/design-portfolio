@@ -61,9 +61,9 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Parameter | Result |
 |---|---|
 | Maximum Shear Stress | ? |
-| Allowable Shear Stress | TBD |
+| Allowable Shear Stress | ? |
 | Shaft Diameter | 0.125 in |
-| Sufficient Diameter? | TBD |
+| Sufficient Diameter? | ? |
 
 ### Output Shaft
 
@@ -75,7 +75,7 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Length | 1.00 in |
 | Output Torque | 1.25 in-lbf |
 | Output Speed | 1100 rpm |
-| Material | TBD |
+| Material | ? |
 
 **Free-Body Diagram:**
 
