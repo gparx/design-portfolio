@@ -140,8 +140,6 @@ Journal bearings are used to support the rotating shafts while allowing relative
 
 **Free-Body Diagram:**
 
-
-
 **Design Equations:**
 
 - Bearing Pressure: P = W/(L × d)
