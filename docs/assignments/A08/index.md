@@ -77,11 +77,11 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Shaft Diameter | 0.125 in |
 | Input Torque | 0.46875 in-lbf |
 | Input Speed | 2933 rpm |
-| Material | ? |
 | Maximum Shear Stress in | 1222 psi |
 | Maximum Shear Stress out | 407 psi |
 | Allowable Shear Stress | 8447 psi |
 | Sufficient Diameter? | Y |
+| Material | - |
 
 ### Output Shaft
 
