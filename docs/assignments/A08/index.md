@@ -160,12 +160,6 @@ Journal bearings are used to support the rotating shafts while allowing relative
 - PV Rating = P × V
 
 
-Where:
-- W = Bearing load (lbf)
-- L = Bearing length (in)
-- d = Shaft diameter (in)
-- n = Shaft speed (rpm)
-
 **Calculated Results:**
 
 | Parameter | Input Bearing | Output Bearing |
