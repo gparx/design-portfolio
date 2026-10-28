@@ -50,8 +50,8 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 **Equations:**
 
-- T_in = T_out(9/24) = 0.46875 in-lbf
-- n_in = n_out(24/9) = 2933.33 rpm
+- T_in = T_out(9/24) 
+- n_in = n_out(24/9) 
 - J = πd⁴/32
 - τ_max = Tc/J = 16T/(πd³)
 - τ_max = 1222.3 psi
