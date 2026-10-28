@@ -43,9 +43,12 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Input Torque | ? |
 | Input Speed | ? |
 | Material | ? |
+| Maximum Shear Stress | ? |
+| Allowable Shear Stress | ? |
+| Shaft Diameter | 0.125 in |
+| Sufficient Diameter? | ? |
 
 **Free-Body Diagram:**
-
 
 
 **Equations:**
@@ -60,10 +63,13 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 | Parameter | Result |
 |---|---|
-| Maximum Shear Stress | ? |
-| Allowable Shear Stress | ? |
+| Maximum Shear Stress |  |
+| Allowable Shear Stress |  |
 | Shaft Diameter | 0.125 in |
-| Sufficient Diameter? | ? |
+| Sufficient Diameter? |  |
+| Input Torque |  |
+| Input Speed |  |
+| Material |  |
 
 ### Output Shaft
 
