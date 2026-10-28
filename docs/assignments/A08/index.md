@@ -65,6 +65,9 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 <img width="1199" height="579" alt="image" src="https://github.com/user-attachments/assets/82590317-8cf9-4da7-ae81-1ad8c971eb69" />
 
 
+<img width="1146" height="1097" alt="image" src="https://github.com/user-attachments/assets/1f628bf2-99e2-44d6-937c-3e6b57d91fe6" />
+
+
 **Results:**
 
 | Parameter | Result |
@@ -77,8 +80,8 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Material | ? |
 | Maximum Shear Stress in | 1222 psi |
 | Maximum Shear Stress out | 407 psi |
-| Allowable Shear Stress |  |
-| Sufficient Diameter? |  |
+| Allowable Shear Stress | 8447 psi |
+| Sufficient Diameter? | Y |
 
 ### Output Shaft
 
