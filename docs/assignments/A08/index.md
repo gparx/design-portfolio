@@ -190,6 +190,7 @@ SAE 841 oil-impregnated bearing bronze
 | Maximum Pressure | 2,000 psi |
 | Maximum Velocity | 1,200 ft/min |
 | Maximum PV Rating | 50,000 psi·ft/min |
+| Tensile Y. Str. | 11,000 psi |
 
 **Stress Diagram:**
 
