@@ -133,7 +133,7 @@ Journal bearings are used to support the rotating shafts while allowing relative
 | Parameter | Input Bearing | Output Bearing |
 |---|---|---|
 | Shaft Diameter | 0.125 in | 0.250 in |
-| Shaft Speed | 2933.33 rpm | 1100 rpm |
+| Shaft Speed | 2933 rpm | 1100 rpm |
 | Bearing Load | ? | ? |
 | Bearing Length | ? | ? |
 | Bearing Material | ? | ? |
