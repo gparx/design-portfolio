@@ -124,7 +124,7 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 | Sufficient Diameter? | Y |
 | Material | - |
 
-**Conclusion:** Final shaft diameter verification will be based on the selected shaft material and allowable shear stress.
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
