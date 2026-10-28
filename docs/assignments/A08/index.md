@@ -198,18 +198,18 @@ SAE 841 oil-impregnated bearing bronze
 **Calculations:**
 
 
+### Final Journal Bearing Wall Thickness Results
+
 | Parameter | Input Bearing | Output Bearing |
 |---|---|---|
-| Calculated Thickness | TBD | TBD |
-| Selected Thickness | TBD | TBD |
-| Material | TBD | TBD |
+| Bearing Load | 2.66 lbf | 2.66 lbf |
+| Bearing Pressure | 85.13 psi | 42.57 psi |
+| Assumed Allowable Stress | 5,500 psi | 5,500 psi |
+| Calculated Minimum Thickness | 0.000967 in | 0.000968 in |
+| Selected Nominal Thickness | 0.03125 in | 0.03125 in |
+| Material | SAE 841 Bronze | SAE 841 Bronze |
+| Preliminary Thickness Check | Pass | Pass |
 
-### Selected Journal Bearings
-
-| Component | Selected Part | Supplier |
-|---|---|---|
-| Input Shaft Bearing | TBD | McMaster-Carr |
-| Output Shaft Bearing | TBD | McMaster-Carr |
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
