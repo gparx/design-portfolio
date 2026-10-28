@@ -98,6 +98,7 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 **Free-Body Diagram:**
 
+<img width="1114" height="370" alt="image" src="https://github.com/user-attachments/assets/677a0f2e-fe82-4eab-ae31-04e32f814f6d" />
 
 
 **Equations:**
@@ -106,19 +107,21 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 - τ_max = Tc/J = 16T/(πd³)
 - τ_max = ?
 
+<img width="1103" height="934" alt="image" src="https://github.com/user-attachments/assets/2c03d016-514f-453d-be81-af49f1dabfd6" />
+
+
 **Results:**
 
 | Parameter | Result |
 |---|---|
-| Diameter |  |
-| Length |  |
-| Shaft Diameter |  |
+| Length | 1.00 in |
+| Shaft Diameter | 0.250 in |
 | Input Torque | 0.46875 in-lbf |
 | Input Speed | 2933 rpm |
 | Maximum Shear Stress in | 1222 psi |
 | Maximum Shear Stress out | 407 psi |
 | Allowable Shear Stress | 8447 psi |
-| Sufficient Diameter? |  |
+| Sufficient Diameter? | Y |
 | Material | - |
 
 **Conclusion:** Final shaft diameter verification will be based on the selected shaft material and allowable shear stress.
