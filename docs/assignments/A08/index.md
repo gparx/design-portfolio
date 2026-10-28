@@ -149,6 +149,9 @@ Journal bearings are used to support the rotating shafts while allowing relative
 
 **Free-Body Diagram:**
 
+<img width="1087" height="462" alt="image" src="https://github.com/user-attachments/assets/5c6dcf3c-91aa-4691-81b4-c7a4a53cc7d9" />
+
+
 **Design Equations:**
 
 - Tangential Gear Force: Fₜ = 2T/Dₚ
@@ -159,16 +162,21 @@ Journal bearings are used to support the rotating shafts while allowing relative
 - Surface Velocity: V = πdn/12 (ft/min)
 - PV Rating = P × V
 
+<img width="1198" height="1209" alt="image" src="https://github.com/user-attachments/assets/ecd10054-a585-4148-8d50-a93142463fae" />
+
 
 **Calculated Results:**
 
 | Parameter | Input Bearing | Output Bearing |
 |---|---|---|
-| Pressure (psi) | TBD | TBD |
-| Velocity (ft/min) | TBD | TBD |
-| PV Rating | TBD | TBD |
-| Selected Length | TBD | TBD |
-| Material | TBD | TBD |
+| Shaft Diameter | 0.125 in | 0.250 in |
+| Bearing Load | 2.66 lbf | 2.66 lbf |
+| Proposed Length | 0.250 in | 0.250 in |
+| Pressure | 85.13 psi | 42.57 psi |
+| Surface Velocity | 95.99 ft/min | 72.00 ft/min |
+| PV Rating | 8,172 psi·ft/min | 3,065 psi·ft/min |
+| Preliminary P/V/PV Check | Pass | Pass |
+
 
 ### Bearing Wall Thickness
 
