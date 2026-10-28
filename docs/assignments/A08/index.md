@@ -182,6 +182,15 @@ Journal bearings are used to support the rotating shafts while allowing relative
 
 Bearing wall thickness is determined by analyzing the stresses acting on the sleeve.
 
+**Selected Material:** 
+SAE 841 oil-impregnated bearing bronze
+
+| Specification | Published Limit |
+|---|---|
+| Maximum Pressure | 2,000 psi |
+| Maximum Velocity | 1,200 ft/min |
+| Maximum PV Rating | 50,000 psi·ft/min |
+
 **Stress Diagram:**
 
 <!-- INSERT BEARING THICKNESS FBD -->
