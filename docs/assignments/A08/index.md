@@ -50,6 +50,8 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 **Free-Body Diagram:**
 
+<img width="1167" height="453" alt="image" src="https://github.com/user-attachments/assets/6f874aee-8c9d-4866-a123-8822e59e77c0" />
+
 
 **Equations:**
 
@@ -58,6 +60,10 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 - J = πd⁴/32
 - τ_max = Tc/J = 16T/(πd³)
 - τ_max = 1222.3 psi
+
+
+<img width="1199" height="579" alt="image" src="https://github.com/user-attachments/assets/82590317-8cf9-4da7-ae81-1ad8c971eb69" />
+
 
 **Results:**
 
