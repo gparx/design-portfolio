@@ -138,6 +138,15 @@ Journal bearings are used to support the rotating shafts while allowing relative
 | Bearing Length | ? | ? |
 | Bearing Material | ? | ? |
 
+
+| Parameter | Input Pinion | Output Gear |
+|---|---|---|
+| McMaster Part | 7880K19 | 7880K24 |
+| Number of Teeth | 18 | 48 |
+| Pitch Diameter | 0.375 in | 1.000 in |
+| Pressure Angle | 20° | 20° |
+
+
 **Free-Body Diagram:**
 
 **Design Equations:**
