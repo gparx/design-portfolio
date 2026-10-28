@@ -151,9 +151,14 @@ Journal bearings are used to support the rotating shafts while allowing relative
 
 **Design Equations:**
 
+- Tangential Gear Force: Fₜ = 2T/Dₚ
+- Radial Gear Force: Fᵣ = Fₜ × tan(φ)
+- Resultant Gear Force: F = √(Fₜ² + Fᵣ²)
+- Bearing Load: W = F (assuming one bearing supports the full load)
 - Bearing Pressure: P = W/(L × d)
 - Surface Velocity: V = πdn/12 (ft/min)
 - PV Rating = P × V
+
 
 Where:
 - W = Bearing load (lbf)
