@@ -31,7 +31,6 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 ## 1. Shaft Design — Torsional Stress
 
-Both shafts are analyzed using the torsion equations for solid circular shafts.
 
 ### Input Shaft
 
@@ -47,7 +46,7 @@ Both shafts are analyzed using the torsion equations for solid circular shafts.
 
 **Free-Body Diagram:**
 
-<!-- INSERT INPUT SHAFT FBD -->
+
 
 **Equations:**
 
@@ -80,7 +79,7 @@ Both shafts are analyzed using the torsion equations for solid circular shafts.
 
 **Free-Body Diagram:**
 
-<!-- INSERT OUTPUT SHAFT FBD -->
+
 
 **Equations:**
 
@@ -119,7 +118,7 @@ Journal bearings are used to support the rotating shafts while allowing relative
 
 **Free-Body Diagram:**
 
-<!-- INSERT JOURNAL BEARING FBD -->
+
 
 **Design Equations:**
 
@@ -153,7 +152,6 @@ Bearing wall thickness is determined by analyzing the stresses acting on the sle
 
 **Calculations:**
 
-<!-- INSERT EQUATIONS, ALGEBRAIC SOLUTION, AND NUMERICAL RESULTS -->
 
 | Parameter | Input Bearing | Output Bearing |
 |---|---|---|
@@ -178,7 +176,7 @@ The housing must provide sufficient gear clearance, shaft alignment, and appropr
 
 ### Preliminary Housing Sketch
 
-<!-- INSERT HOUSING SKETCH -->
+
 
 ### Housing Design Features
 
