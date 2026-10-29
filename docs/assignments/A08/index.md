@@ -295,7 +295,8 @@ Six multiview part drawings and one assembly drawing are required.
 
 ### CAD Files
 
-**[Download Complete Gearbox CAD Files](REPLACE-WITH-CAD-DOWNLOAD-LINK)**
+[MASTER FILE DOWNLOAD HERE](https://github.com/user-attachments/files/34111946/Gear_Box.zip)
+
 
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
