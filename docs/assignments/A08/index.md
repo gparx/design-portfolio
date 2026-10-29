@@ -241,21 +241,33 @@ The gearbox components are modeled and assembled in SolidWorks using parametric 
 
 **Input and Output Shafts**
 
-<!-- INSERT SHAFT CAD IMAGES -->
+<img width="1615" height="1093" alt="Screenshot 2026-10-28 233457" src="https://github.com/user-attachments/assets/707ef524-cdb6-4c80-8977-629ecb7f5411" />
+
+<img width="1622" height="1092" alt="Screenshot 2026-10-28 233515" src="https://github.com/user-attachments/assets/8952d534-ddf2-48c4-9456-7bd9e872ce26" />
+
 
 **Journal Bearings and Gears**
 
-<!-- INSERT GEAR AND BEARING CAD IMAGES -->
+<img width="1031" height="712" alt="Screenshot 2026-10-28 233446" src="https://github.com/user-attachments/assets/2e60dd28-f50f-4cf8-a3da-4489dbe9c66d" />
+
+<img width="1302" height="956" alt="Screenshot 2026-10-28 233525" src="https://github.com/user-attachments/assets/5d2f6f1a-c066-447d-a3ed-cc29d7d0eac4" />
+
+<img width="3839" height="2159" alt="Screenshot 2026-10-28 203420" src="https://github.com/user-attachments/assets/3c3c806f-8f24-40df-8217-ac9a329046c8" />
+
 
 **Gearbox Housing — Upper and Lower Halves**
 
-<!-- INSERT HOUSING CAD IMAGES -->
+<img width="1276" height="734" alt="image" src="https://github.com/user-attachments/assets/d96c38b5-22ea-43e9-a24e-ad8a67b6a56f" />
+
+<img width="1809" height="1206" alt="Screenshot 2026-10-28 233503" src="https://github.com/user-attachments/assets/defea4a4-0ef0-46cf-9507-639b59beb37f" />
+
 
 ### Final Assembly
 
 The shafts, gears, bearings, and housing are assembled using appropriate mates to establish alignment and component positioning.
 
-<!-- INSERT FINAL ASSEMBLY IMAGE -->
+<img width="1732" height="1374" alt="Screenshot 2026-10-28 232719" src="https://github.com/user-attachments/assets/a3e2af9a-9a60-4d8d-bd60-c79e937247a9" />
+
 
 ### Engineering Drawings
 
