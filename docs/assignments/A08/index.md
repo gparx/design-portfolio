@@ -237,7 +237,32 @@ The housing must provide sufficient gear clearance, shaft alignment, and appropr
 
 The gearbox components are modeled and assembled in SolidWorks using parametric dimensions based on the shaft, gear, and bearing specifications.
 
-### Component Modeling
+### Parametrics
+
+"Pinion_Pitch_Dia" = 0.375in
+"Output_Pitch_Dia" = 1.000in
+
+"Gear_Center_Distance" = ("Pinion_Pitch_Dia" + "Output_Pitch_Dia") / 2
+
+"Input_Shaft_Dia" = 0.125in
+"Output_Shaft_Dia" = 0.250in
+"Shaft_Length" = 1.000in
+
+"Input_Bearing_OD" = 0.1875in
+"Output_Bearing_OD" = 0.3125in
+"Bearing_Length" = 0.250in
+
+"Housing_Length" = 2.500in
+"Housing_Width" = 2.000in
+"Housing_Height" = 0.375in
+
+"Cavity_Length" = 2.000in
+"Cavity_Width" = 1.500in
+"Cavity_Depth" = 0.250in
+
+"Wall_Thickness" = ("Housing_Length" - "Cavity_Length") / 2
+"Floor_Thickness" = "Housing_Height" - "Cavity_Depth"
+
 
 **Input and Output Shafts**
 
