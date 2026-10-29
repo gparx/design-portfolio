@@ -192,11 +192,10 @@ SAE 841 oil-impregnated bearing bronze
 | Maximum PV Rating | 50,000 psi·ft/min |
 | Tensile Y. Str. | 11,000 psi |
 
-**Stress Diagram:**
-
-<!-- INSERT BEARING THICKNESS FBD -->
 
 **Calculations:**
+
+<img width="1175" height="695" alt="image" src="https://github.com/user-attachments/assets/b1cb4329-a612-482d-88df-0f243996264f" />
 
 
 ### Final Journal Bearing Wall Thickness Results
