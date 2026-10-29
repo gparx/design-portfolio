@@ -273,6 +273,17 @@ The shafts, gears, bearings, and housing are assembled using appropriate mates t
 
 Six multiview part drawings and one assembly drawing are required.
 
+<img width="2460" height="1912" alt="Screenshot 2026-10-29 000708" src="https://github.com/user-attachments/assets/b9f187bc-6b8f-445f-98ce-8fe1051fa281" />
+
+<img width="2573" height="1931" alt="Screenshot 2026-10-29 000713" src="https://github.com/user-attachments/assets/370d7eb9-afd3-42f8-90d6-7a0cd55f90e5" />
+
+<img width="1928" height="1490" alt="Screenshot 2026-10-29 000719" src="https://github.com/user-attachments/assets/1789909a-78bd-4619-886d-353b1b9ade6c" />
+
+<img width="1736" height="1126" alt="Screenshot 2026-10-29 000736" src="https://github.com/user-attachments/assets/5a94f816-822e-4198-a301-2183fee05d49" />
+
+<img width="2267" height="1467" alt="Screenshot 2026-10-29 000759" src="https://github.com/user-attachments/assets/e7f3dbe7-7d70-4b99-b314-a5940ac59cef" />
+
+<img width="1842" height="1401" alt="Screenshot 2026-10-29 000702" src="https://github.com/user-attachments/assets/5e776018-9770-4a3b-9c67-4640077f3797" />
 
 **General Tolerances (in):**
 
@@ -289,8 +300,6 @@ Six multiview part drawings and one assembly drawing are required.
 <hr style="border: none; border-top: 2px solid #888; margin: 30px 0;">
 
 ## 5. Lessons Learned
-
-<!-- ADD REFLECTION AFTER COMPLETING THE PROJECT -->
 
 - Applying torsional stress equations to shaft design.
 - Evaluating journal bearing pressure, velocity, and PV limits.
