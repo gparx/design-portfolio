@@ -273,17 +273,6 @@ The shafts, gears, bearings, and housing are assembled using appropriate mates t
 
 Six multiview part drawings and one assembly drawing are required.
 
-| Drawing | Status |
-|---|---|
-| Input Shaft | TBD |
-| Output Shaft | TBD |
-| Upper Housing | TBD |
-| Lower Housing | TBD |
-| Input Bearing | TBD |
-| Output Bearing | TBD |
-| Final Assembly | TBD |
-
-All drawings will follow ASME Y14.5 dimensioning and tolerancing standards and use third-angle projection.
 
 **General Tolerances (in):**
 
@@ -292,10 +281,6 @@ All drawings will follow ASME Y14.5 dimensioning and tolerancing standards and u
 | X.X | ±0.02 |
 | X.XX | ±0.01 |
 | X.XXX | ±0.005 |
-
-At least two critical-feature tolerancing callouts will be included where appropriate.
-
-<!-- INSERT ENGINEERING DRAWINGS -->
 
 ### CAD Files
 
