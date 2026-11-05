@@ -19,7 +19,7 @@ Design a belt-driven pulley system to transmit power between two parallel shafts
 
 ---
 
-## 1. Belt Design (25%)
+## 1. Belt Design
 
 Determine the tight-side and loose-side forces, required belt cross-sectional area, and circumference.
 
@@ -86,7 +86,7 @@ $$
 
 ---
 
-## 3. Journal Bearing Design (30%)
+## 3. Journal Bearing Design 
 
 Size the journal bearings and select a material based on pressure, velocity, and PV limits from *Machinery's Handbook*.
 
@@ -118,7 +118,7 @@ $$
 
 ---
 
-## 4. Frame Design (15%)
+## 4. Frame Design 
 
 Design a frame to support the two pulley shafts while maintaining proper alignment and a center distance of 4–6 inches.
 
@@ -135,7 +135,7 @@ Design a frame to support the two pulley shafts while maintaining proper alignme
 
 ---
 
-## 5. Engineering Lessons Learned (5%)
+## 5. Engineering Lessons Learned 
 
 *Summarize specific engineering principles and observations from the completed design.*
 
