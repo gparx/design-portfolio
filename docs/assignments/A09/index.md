@@ -28,6 +28,7 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 
 **Free Body Diagram:**
 
+<img width="736" height="389" alt="Screenshot 2026-11-04 202903" src="https://github.com/user-attachments/assets/d7a9b911-3f40-489d-ad34-15b049f2692f" />
 
 **Calculations:**
 
@@ -36,6 +37,12 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 - Minimum Belt Area: A_min = (F₁ × N) / S_y
 - Minimum Belt Diameter: d_min = √(4A_min / π)
 - Belt Circumference: L = 2C + πD
+
+<img width="846" height="462" alt="Screenshot 2026-11-04 202907" src="https://github.com/user-attachments/assets/3c04a278-f613-4905-8e6e-0a50b8bb553c" />
+
+
+<img width="1029" height="830" alt="Screenshot 2026-11-04 202912" src="https://github.com/user-attachments/assets/e8626ba2-908b-4245-be99-13976c6f902c" />
+
 
 | Result | Value |
 |---|---|
