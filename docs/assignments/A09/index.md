@@ -24,7 +24,6 @@ Design a belt-driven pulley system to transmit power between two parallel shafts
 
 Determine the tight-side and loose-side forces, required belt cross-sectional area, and circumference.
 
-**Selected Parameters:** TBD
 
 **Free Body Diagram:**
 
