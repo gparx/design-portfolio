@@ -106,15 +106,12 @@ Size the journal bearings and select a material based on pressure, velocity, and
 
 Design a frame to support the two pulley shafts while maintaining proper alignment and a center distance of 4–6 inches.
 
-**Selected Material:** TBD
+**Selected Material:** 6061-T6 aluminum (lightweight, machinable, and has sufficient strength for our expected loads)
 
-**Frame Dimensions:** TBD
+**Frame Dimensions:** 7.0 x 1.0 x 0.375 in (LxWxH)
 
-**Structural Analysis:** TBD
 
-**Safety Factor:** TBD
-
-### CAD Assembly
+<img width="1041" height="594" alt="image" src="https://github.com/user-attachments/assets/7a14bdaa-a639-4ee4-9218-a14c6b8c9ffa" />
 
 
 ---
