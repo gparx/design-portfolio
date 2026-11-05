@@ -26,7 +26,7 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 **Selected Parameters:** TBD
 
 **Free Body Diagram:**  
-*Insert belt/pulley FBD.*
+
 
 **Calculations:**
 
@@ -65,7 +65,7 @@ $$
 Determine the minimum shaft diameter for the applied torque using AISI 1060 hardened steel.
 
 **Free Body Diagram:**  
-*Insert shaft FBD.*
+
 
 **Calculations:**
 
@@ -91,7 +91,7 @@ $$
 Size the journal bearings and select a material based on pressure, velocity, and PV limits from *Machinery's Handbook*.
 
 **Free Body Diagram:**  
-*Insert bearing FBD.*
+
 
 **Calculations:**
 
