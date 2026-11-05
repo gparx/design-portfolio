@@ -118,6 +118,7 @@ Design a frame to support the two pulley shafts while maintaining proper alignme
 
 ## 5. Engineering Lessons Learned
 
+In this project I learned how to design a pulley system around the tension created from a belt. Belt tensions determine transmitted torque which determines the overall design of the frame shaft and jounral.
 
 ---
 
