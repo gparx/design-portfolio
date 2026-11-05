@@ -81,14 +81,15 @@ Determine the minimum shaft diameter for the applied torque using AISI 1060 hard
 
 Size the journal bearings and select a material based on pressure, velocity, and PV limits from *Machinery's Handbook*.
 
-**Free Body Diagram:**
-
-
-**Calculations:**
+** FBD & Calculations **
 
 - Bearing Pressure: P = W / (Ld)
 - Surface Velocity: V = πdn / 12
 - PV Rating: PV = P × V
+
+
+<img width="1174" height="850" alt="Screenshot 2026-11-04 213108" src="https://github.com/user-attachments/assets/875e8ca0-8e51-4708-b8bb-0d5ce991540b" />
+
 
 | Result | Value |
 |---|---|
