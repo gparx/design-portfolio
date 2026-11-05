@@ -13,7 +13,7 @@ Design a belt-driven pulley system to transmit power between two parallel shafts
 | Operating Speed | 1000–2000 rpm |
 | Static Belt Tension | 4–6 lbf |
 | Belt Material | Polyurethane Rubber |
-| Pulley Material | Aluminum (Selected) |
+| Pulley Material | Aluminum |
 | Belt Yield Strength | 471 psi |
 | Shaft Material | AISI 1060 Hardened Steel |
 | Minimum Safety Factor | 3 |
