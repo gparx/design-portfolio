@@ -60,7 +60,7 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 Determine the minimum shaft diameter for the applied torque using AISI 1060 hardened steel.
 
 
-** FBD & Calculations:**
+** FBD & Calculations: **
 
 - Maximum Shear Stress: τ_max = 16T / (πd³)
 - Minimum Shaft Diameter: d_min = ∛(16T / (πτ_allow))
