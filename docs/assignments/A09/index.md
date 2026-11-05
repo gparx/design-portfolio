@@ -39,12 +39,12 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 
 | Result | Value |
 |---|---|
-| Tight-Side Force | TBD |
-| Loose-Side Force | TBD |
-| Transmitted Torque | TBD |
-| Minimum Belt Diameter | TBD |
-| Required Circumference | TBD |
-| Selected McMaster Belt | TBD |
+| Tight-Side Force | 7.20 lbf |
+| Loose-Side Force | 2.80 lbf |
+| Transmitted Torque | 6.6 lbf*in |
+| Minimum Belt Diameter | 0.233 in |
+| Required Circumference | 20.2 in |
+| Selected McMaster Belt | 1/4" Diameter, 12.25 - 24" |
 
 ---
 
