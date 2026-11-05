@@ -28,7 +28,6 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 
 **Free Body Diagram:**
 
-*Insert FBD here.*
 
 **Calculations:**
 
@@ -55,7 +54,6 @@ Determine the minimum shaft diameter for the applied torque using AISI 1060 hard
 
 **Free Body Diagram:**
 
-*Insert FBD here.*
 
 **Calculations:**
 
@@ -77,7 +75,6 @@ Size the journal bearings and select a material based on pressure, velocity, and
 
 **Free Body Diagram:**
 
-*Insert FBD here.*
 
 **Calculations:**
 
@@ -110,13 +107,11 @@ Design a frame to support the two pulley shafts while maintaining proper alignme
 
 ### CAD Assembly
 
-*Insert SolidWorks frame and assembly images.*
 
 ---
 
 ## 5. Engineering Lessons Learned
 
-*Summarize specific engineering principles and observations from the completed design.*
 
 ---
 
