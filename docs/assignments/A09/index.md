@@ -17,6 +17,10 @@ Design a belt-driven pulley system to transmit power between two parallel shafts
 | Belt Yield Strength | 471 psi |
 | Shaft Material | AISI 1060 Hardened Steel |
 | Minimum Safety Factor | 3 |
+| Selected Center Distance | 5 in |
+| Selected Operating Speed | 1,500 rpm |
+| Selected Static Belt Tension | 5 lbf |
+| Assumed Coefficient of Friction | 0.30 |
 
 ---
 
@@ -52,6 +56,10 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 | Required Circumference | 20.2 in |
 | Selected McMaster Belt | 1/4" Diameter, 12.25 - 24" |
 
+
+<img width="1272" height="385" alt="image" src="https://github.com/user-attachments/assets/c6b88570-5c17-4397-af0d-6f3177ae6214" />
+
+
 ---
 
 ## 2. Shaft Diameter Design
@@ -72,7 +80,7 @@ Determine the minimum shaft diameter for the applied torque using AISI 1060 hard
 | Applied Torque | 6.6 lbf*in |
 | Allowable Shear Stress | 12667 psi |
 | Minimum Diameter | 0.1384 in |
-| Selected Diameter | 1/16" (0.1875 in) |
+| Selected Diameter | 3/16" (0.1875 in) |
 
 ---
 
