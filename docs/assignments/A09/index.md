@@ -12,7 +12,8 @@ Design a belt-driven pulley system to transmit power between two parallel shafts
 | Center Distance | 4–6 in |
 | Operating Speed | 1000–2000 rpm |
 | Static Belt Tension | 4–6 lbf |
-| Belt Material | Polyurethane |
+| Belt Material | Polyurethane Rubber |
+| Pulley Material | Aluminum (Selected) |
 | Belt Yield Strength | 471 psi |
 | Shaft Material | AISI 1060 Hardened Steel |
 | Minimum Safety Factor | 3 |
@@ -25,57 +26,41 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 
 **Selected Parameters:** TBD
 
-**Free Body Diagram:**  
+**Free Body Diagram:**
 
+*Insert FBD here.*
 
 **Calculations:**
 
-$$
-\frac{F_1}{F_2}\leq e^{\mu\theta}
-$$
-
-$$
-T=(F_1-F_2)r
-$$
-
-$$
-A_{min}=\frac{F_1N}{S_y}
-$$
-
-$$
-d_{min}=\sqrt{\frac{4A_{min}}{\pi}}
-$$
-
-$$
-L=2C+\pi D
-$$
+- Belt Tension Ratio: F₁ / F₂ ≤ e^(μθ)
+- Transmitted Torque: T = (F₁ − F₂) × r
+- Minimum Belt Area: A_min = (F₁ × N) / S_y
+- Minimum Belt Diameter: d_min = √(4A_min / π)
+- Belt Circumference: L = 2C + πD
 
 | Result | Value |
 |---|---|
 | Tight-Side Force | TBD |
 | Loose-Side Force | TBD |
+| Transmitted Torque | TBD |
 | Minimum Belt Diameter | TBD |
 | Required Circumference | TBD |
 | Selected McMaster Belt | TBD |
 
 ---
 
-## 2. Shaft Diameter Design (25%)
+## 2. Shaft Diameter Design
 
 Determine the minimum shaft diameter for the applied torque using AISI 1060 hardened steel.
 
-**Free Body Diagram:**  
+**Free Body Diagram:**
 
+*Insert FBD here.*
 
 **Calculations:**
 
-$$
-\tau_{max}=\frac{16T}{\pi d^3}
-$$
-
-$$
-d_{min}=\sqrt[3]{\frac{16T}{\pi\tau_{allow}}}
-$$
+- Maximum Shear Stress: τ_max = 16T / (πd³)
+- Minimum Shaft Diameter: d_min = ∛(16T / (πτ_allow))
 
 | Result | Value |
 |---|---|
@@ -86,26 +71,19 @@ $$
 
 ---
 
-## 3. Journal Bearing Design 
+## 3. Journal Bearing Design
 
 Size the journal bearings and select a material based on pressure, velocity, and PV limits from *Machinery's Handbook*.
 
-**Free Body Diagram:**  
+**Free Body Diagram:**
 
+*Insert FBD here.*
 
 **Calculations:**
 
-$$
-P=\frac{W}{Ld}
-$$
-
-$$
-V=\frac{\pi dn}{12}
-$$
-
-$$
-PV=P\times V
-$$
+- Bearing Pressure: P = W / (Ld)
+- Surface Velocity: V = πdn / 12
+- PV Rating: PV = P × V
 
 | Result | Value |
 |---|---|
@@ -118,7 +96,7 @@ $$
 
 ---
 
-## 4. Frame Design 
+## 4. Frame Design
 
 Design a frame to support the two pulley shafts while maintaining proper alignment and a center distance of 4–6 inches.
 
@@ -131,11 +109,12 @@ Design a frame to support the two pulley shafts while maintaining proper alignme
 **Safety Factor:** TBD
 
 ### CAD Assembly
+
 *Insert SolidWorks frame and assembly images.*
 
 ---
 
-## 5. Engineering Lessons Learned 
+## 5. Engineering Lessons Learned
 
 *Summarize specific engineering principles and observations from the completed design.*
 
@@ -148,4 +127,3 @@ Design a frame to support the two pulley shafts while maintaining proper alignme
 - *Machinery's Handbook* — Journal Bearings, p. 2440
 - DJ Dunn — Pulley Drive Systems
 - MEGR 2157 — A09 Assignment Instructions
-
