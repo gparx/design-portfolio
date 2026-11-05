@@ -69,10 +69,10 @@ Determine the minimum shaft diameter for the applied torque using AISI 1060 hard
 
 | Result | Value |
 |---|---|
-| Applied Torque | TBD |
-| Allowable Shear Stress | TBD |
-| Minimum Diameter | TBD |
-| Selected Diameter | TBD |
+| Applied Torque | 6.6 lbf*in |
+| Allowable Shear Stress | 12667 psi |
+| Minimum Diameter | 0.1384 in |
+| Selected Diameter | 1/16" (0.1875 in) |
 
 ---
 
