@@ -92,12 +92,12 @@ Size the journal bearings and select a material based on pressure, velocity, and
 
 | Result | Value |
 |---|---|
-| Bearing Load | TBD |
-| Bearing Length | TBD |
-| Pressure | TBD |
-| Velocity | TBD |
-| PV Rating | TBD |
-| Selected Material | TBD |
+| Bearing Load | 10 lbf |
+| Bearing Length | 0.2356 in |
+| Pressure | 53.3 psi |
+| Velocity | 73.6 ft/min |
+| PV Rating | 50,000 |
+| Selected Material | SAE OIL-IMP. SINTERED BRNZE |
 
 ---
 
