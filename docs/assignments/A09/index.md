@@ -59,7 +59,7 @@ Determine the tight-side and loose-side forces, required belt cross-sectional ar
 Determine the minimum shaft diameter for the applied torque using AISI 1060 hardened steel.
 
 
-** FBD & Calculations: **
+**FBD & Calculations:**
 
 - Maximum Shear Stress: τ_max = 16T / (πd³)
 - Minimum Shaft Diameter: d_min = ∛(16T / (πτ_allow))
@@ -80,7 +80,7 @@ Determine the minimum shaft diameter for the applied torque using AISI 1060 hard
 
 Size the journal bearings and select a material based on pressure, velocity, and PV limits from *Machinery's Handbook*.
 
-** FBD & Calculations **
+**FBD & Calculations**
 
 - Bearing Pressure: P = W / (Ld)
 - Surface Velocity: V = πdn / 12
@@ -96,7 +96,7 @@ Size the journal bearings and select a material based on pressure, velocity, and
 | Bearing Length | 0.2356 in |
 | Pressure | 53.3 psi |
 | Velocity | 73.6 ft/min |
-| PV Rating | 50,000 |
+| PV Rating | 3923 |
 | Selected Material | SAE OIL-IMP. SINTERED BRNZE |
 
 ---
