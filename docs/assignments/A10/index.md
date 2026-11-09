@@ -162,4 +162,4 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 - MEGR 2157 — A10 Assignment Instructions
 - [McMaster-Carr](https://www.mcmaster.com/)
-- SolidWorks — CAD and FEA
+- SolidWorks — CAD and FEA 
