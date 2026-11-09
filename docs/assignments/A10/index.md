@@ -17,7 +17,9 @@ Design a mechanically driven tensile testing machine capable of applying a 2 kN 
 | Maximum Crosshead Deflection | 0.10 mm |
 | Operation | Mechanical |
 
----
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 1. Lead Screw Design
 
@@ -40,7 +42,9 @@ Determine the minimum lead screw diameter, rotational speed range, and required 
 | Maximum Torque per Screw | ? |
 | Selected Lead Screw | ? |
 
----
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 2. Nut and Flange Design
 
@@ -58,7 +62,9 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 | Safety Factor | ? |
 | Selected Nut/Flange | ? |
 
----
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 3. Crosshead Design
 
@@ -90,7 +96,8 @@ Design the crosshead to support the 2 kN tensile load while maintaining a maximu
 ### Preliminary Sketch
 
 
----
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 4. FEA and Optimization
 
@@ -109,7 +116,8 @@ Perform SolidWorks FEA on the crosshead under a 2 kN axial load. Verify mesh con
 | Mass | ? | ? | ? | ? |
 
 
----
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 5. Engineering Drawing
 
@@ -121,7 +129,8 @@ Create a detailed SolidWorks drawing of the final crosshead using third-angle pr
 - X.XXX ± 0.005
 
 
----
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 6. Cost Analysis
 
@@ -133,7 +142,9 @@ Create a detailed SolidWorks drawing of the final crosshead using third-angle pr
 | Other Hardware | ? | ? | ? | ? |
 | **Total** | | | **?** | |
 
----
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 7. Parametric CAD Assembly
 
@@ -150,12 +161,14 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 **CAD Files:**
 
 
----
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## 8. Engineering Lessons Learned
 
 
----
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
 
 ## References
 
