@@ -40,8 +40,8 @@ Determine the minimum lead screw diameter, rotational speed range, and required 
 | Rotational Speed Range | 0.315 - 15.75 rpm |
 | Friction Coeff. | 0.15454 |
 | Maximum Torque per Screw | 1.64 N*m |
-| Selected Screw Diameter |  |
-| Selected Lead Screw |  |
+| Selected Lead Screw | 5/8"-8 316 Stainless Steel Acme Lead Screw |
+| Selected Screw Diameter | 0.625 in |
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
