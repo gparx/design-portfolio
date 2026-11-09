@@ -1,3 +1,4 @@
+
 # A10 — Lead Screw Design
 
 ## Overview
@@ -33,11 +34,11 @@ Determine the minimum lead screw diameter, rotational speed range, and required 
 
 | Result | Value |
 |---|---|
-| Minimum Root Diameter | TBD |
-| Selected Screw Diameter | TBD |
-| Rotational Speed Range | TBD |
-| Maximum Torque per Screw | TBD |
-| Selected Lead Screw | TBD |
+| Minimum Root Diameter | ? |
+| Selected Screw Diameter | ? |
+| Rotational Speed Range | ? |
+| Maximum Torque per Screw | ? |
+| Selected Lead Screw | ? |
 
 ---
 
@@ -51,11 +52,11 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 | Result | Value |
 |---|---|
 | Nut Material | Bronze |
-| Thread Engagement | TBD |
-| Bearing Stress | TBD |
-| Thread Bending Stress | TBD |
-| Safety Factor | TBD |
-| Selected Nut/Flange | TBD |
+| Thread Engagement | ? |
+| Bearing Stress | ? |
+| Thread Bending Stress | ? |
+| Safety Factor | ? |
+| Selected Nut/Flange | ? |
 
 ---
 
@@ -78,13 +79,13 @@ Design the crosshead to support the 2 kN tensile load while maintaining a maximu
 
 | Result | Value |
 |---|---|
-| Selected Material | TBD |
-| Crosshead Length | TBD |
-| Crosshead Width | TBD |
-| Crosshead Height | TBD |
-| Maximum Stress | TBD |
-| Maximum Deflection | TBD |
-| Safety Factor | TBD |
+| Selected Material | ? |
+| Crosshead Length | ? |
+| Crosshead Width | ? |
+| Crosshead Height | ? |
+| Maximum Stress | ? |
+| Maximum Deflection | ? |
+| Safety Factor | ? |
 
 ### Preliminary Sketch
 
@@ -101,11 +102,11 @@ Perform SolidWorks FEA on the crosshead under a 2 kN axial load. Verify mesh con
 
 | Result | Initial | Refined 1 | Refined 2 | Optimized |
 |---|---|---|---|---|
-| Elements | TBD | TBD | TBD | TBD |
-| Max Stress | TBD | TBD | TBD | TBD |
-| Max Deflection | TBD | TBD | TBD | TBD |
-| Safety Factor | TBD | TBD | TBD | TBD |
-| Mass | TBD | TBD | TBD | TBD |
+| Elements | ? | ? | ? | ? |
+| Max Stress | ? | ? | ? | ? |
+| Max Deflection | ? | ? | ? | ? |
+| Safety Factor | ? | ? | ? | ? |
+| Mass | ? | ? | ? | ? |
 
 
 ---
@@ -126,11 +127,11 @@ Create a detailed SolidWorks drawing of the final crosshead using third-angle pr
 
 | Item | Quantity | Cost/Item | Total | Purchase Link |
 |---|---|---|---|---|
-| Lead Screws | 2 | TBD | TBD | TBD |
-| Bronze Nut/Flange | 2 | TBD | TBD | TBD |
-| Aluminum Frame | TBD | TBD | TBD | TBD |
-| Other Hardware | TBD | TBD | TBD | TBD |
-| **Total** | | | **TBD** | |
+| Lead Screws | 2 | ? | ? | ? |
+| Bronze Nut/Flange | 2 | ? | ? | ? |
+| Aluminum Frame | ? | ? | ? | ? |
+| Other Hardware | ? | ? | ? | ? |
+| **Total** | | | **?** | |
 
 ---
 
@@ -153,12 +154,12 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ## 8. Engineering Lessons Learned
 
-*Summarize engineering decisions, calculations, material selection, FEA optimization, and assembly challenges.*
 
 ---
 
 ## References
 
 - MEGR 2157 — A10 Assignment Instructions
+
 - [McMaster-Carr](https://www.mcmaster.com/)
 - SolidWorks — CAD and FEA 
