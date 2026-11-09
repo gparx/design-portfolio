@@ -124,6 +124,7 @@ Perform SolidWorks FEA on the crosshead under a 2 kN axial load. Verify mesh con
 Create a detailed SolidWorks drawing of the final crosshead using third-angle projection and ASME Y14.5 dimensioning standards.
 
 **General Tolerances:**
+
 - X.X ± 0.02
 - X.XX ± 0.01
 - X.XXX ± 0.005
