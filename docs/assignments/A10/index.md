@@ -53,6 +53,16 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 **FBD & Calculations:**
 
+- Engaged Threads: nₑ = Lₑ / p
+
+- Bearing Stress: σᵦ = 2F / (nₑπdₘp)
+
+- Thread Bending Stress: σ_bend = 6F / (nₑπdₘp)
+
+- Allowable Stress: σ_allow = Sᵧ / N
+
+- Actual Safety Factor: N_actual = Sᵧ / σ_bend
+
 
 | Result | Value |
 |---|---|
