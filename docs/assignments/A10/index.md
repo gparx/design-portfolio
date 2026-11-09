@@ -1,4 +1,3 @@
-
 # A10 — Lead Screw Design
 
 ## Overview
