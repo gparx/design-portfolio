@@ -95,6 +95,9 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 - McMaster Flange part was missing yield strength so we used a general 14,000 psi standard yield strength for the material.
 
+<img width="1087" height="329" alt="image" src="https://github.com/user-attachments/assets/2abefb1f-d93f-4570-a572-2c251b8435ae" />
+
+- Holes to be drilled through flange to mount onto crosshead
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
