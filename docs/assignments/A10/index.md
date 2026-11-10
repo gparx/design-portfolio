@@ -105,33 +105,28 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 ### Strength Analysis
 
+
+| Known | Value |
+|---|---|
+| Applied Load 449.62 lbf |
+| Support Span | 8 in |
+| Beam Width | 2 in |
+| Trial Thickness | 1 in |
+| Required Safety Factor | 4 |
+
+
+| Unknowns | 
+|---|
+| Maximum Bending Moment | 
+| Area Moment of Inertia | 
+| Maximum Bending Stress | 
+| Minimum Required Yield Strength | 
+| Actual Safety Factor | 
+
+
 - Maximum Bending Moment: M = FL/4
 - Bending Stress: σ = Mc/I
 - Allowable Stress: σ_allow = Sy/N
-
-
-| Knowns | Value |
-|---|---|
-| Total Applied Load | 449.62 lbf |
-| Load per Lead Screw | 224.81 lbf |
-| Safety Factor | 4 |
-| Maximum Deflection | 0.003937 in |
-| Overall Beam Length | 10 in (assumed) |
-| Support Span | 8 in (assumed) |
-| Beam Width | 2 in (assumed) |
-| Beam Thickness | 1 in (assumed) |
-
-
-| Unknowns | Value |
-|---|---|
-| Maximum Bending Moment | ? |
-| Area Moment of Inertia | ?|
-| Maximum Bending Stress | ? |
-| Minimum Required Yield Strength | ? |
-| Minimum Required Elastic Modulus | ? |
-| Selected Material | ? |
-| Actual Deflection | ? |
-| Actual Safety Factor | ? |
 
 
 
