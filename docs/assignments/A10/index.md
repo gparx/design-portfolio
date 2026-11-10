@@ -295,11 +295,12 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ---
 
-
-
-
 **Final Assembly:**
 
+
+<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5f716647-2699-472a-81ca-51a4518bbbd7" />
+
+---
 
 **CAD Files:**
 
