@@ -129,12 +129,23 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 | Actual Safety Factor | 
 
 
-- Maximum Bending Moment: M = FL/4
+- Maximum Bending Moment: M = PL/4
 - Bending Stress: σ = Mc/I
 - Allowable Stress: σ_allow = Sy/N
 
 <img width="934" height="922" alt="Screenshot 2026-11-09 225707" src="https://github.com/user-attachments/assets/a2336076-77e4-4bb0-9822-bb443105408d" />
 
+| Solved | Value |
+|---|---|
+| Maximum Bending Moment | 899.24 lbf·in |
+| Area Moment of Inertia | 0.1667 in⁴ |
+| Maximum Bending Stress | 2,698 psi |
+| Minimum Required Yield Strength | 10,791 psi |
+| Selected Material | 6061-T6 Aluminum |
+| Material Yield Strength | 35,000 psi |
+| Actual Safety Factor | 14.83 |
+| Required Safety Factor | 4 |
+| Result | Preliminary Pass |
 
 
 ### Deflection Analysis
