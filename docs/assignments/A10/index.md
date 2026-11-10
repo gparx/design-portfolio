@@ -249,6 +249,38 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ---
 
+### Bronze nut/flanges
+
+- In order: Import -> Hole Sketch -> Holes -> Mate w/ Crosshead -> Material Assignment -> 2nd Nut 
+
+<img width="371" height="239" alt="1_Imported_Nut" src="https://github.com/user-attachments/assets/2b945e41-f841-454b-b6d3-95de96f22b2c" />
+
+
+<img width="440" height="486" alt="2_Hole_Sketch" src="https://github.com/user-attachments/assets/6597f266-a282-4c2a-8f99-fc66cf303ce4" />
+
+
+<img width="595" height="476" alt="3_HoleWizard" src="https://github.com/user-attachments/assets/10e01b55-7ff9-412d-a00e-9a0d2f5a103e" />
+
+
+<img width="228" height="286" alt="4_Mated_w_Crosshead" src="https://github.com/user-attachments/assets/cafd0150-3d89-4bf6-8afc-c7758c8ac1ba" />
+
+
+<img width="614" height="482" alt="5_Assigned_Matl" src="https://github.com/user-attachments/assets/5abf5611-9f2b-410d-bfc5-e734d748c34a" />
+
+
+<img width="397" height="209" alt="6_Added_2nd_Nut" src="https://github.com/user-attachments/assets/c338b9f9-1f70-4adf-baa2-764d1b55ef32" />
+
+
+---
+
+### Mounting Bolts
+
+
+<img width="803" height="586" alt="Imported Mated_bolts" src="https://github.com/user-attachments/assets/bb8b3edc-9d40-44f6-8ef6-b7e50f1b0e75" />
+
+
+---
+
 ### Lead screws
 
 - In order: -> Import Lead Screws -> Cut -> Assemble
@@ -263,11 +295,7 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ---
 
-### Bronze nut/flanges
 
-
-
-### Aluminum T-slot frame
 
 
 **Final Assembly:**
