@@ -93,7 +93,7 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 ## 3. Crosshead Design
 
-Design the crosshead to support the 2 kN tensile load while maintaining a maximum deflection of 0.10 mm.
+Design the crosshead to support the 2 kN (449.62 lbf)tensile load while maintaining a maximum deflection of 0.10 mm.
 
 ### Strength Analysis
 
@@ -126,7 +126,7 @@ Design the crosshead to support the 2 kN tensile load while maintaining a maximu
 
 ## 4. FEA and Optimization
 
-Perform SolidWorks FEA on the crosshead under a 2 kN axial load. Verify mesh convergence and optimize the geometry.
+Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Verify mesh convergence and optimize the geometry.
 
 **Boundary Conditions:**
 - Load: 2,000 N
