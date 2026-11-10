@@ -2,7 +2,7 @@
 # A10 — Lead Screw Design
 
 ## Overview
-Design a mechanically driven tensile testing machine capable of applying a 2 kN axial load using two lead screws and a movable crosshead.
+Design a mechanically driven tensile testing machine capable of applying a 2 kN (449.62 lbf) axial load using two lead screws and a movable crosshead.
 
 ### Design Specifications
 
