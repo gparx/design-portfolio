@@ -103,6 +103,11 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintaining a maximum deflection of 0.10 mm.
 
+### FBD
+
+<img width="743" height="253" alt="Screenshot 2026-11-09 225756" src="https://github.com/user-attachments/assets/ed50efe2-7b52-43f7-97f2-d04a5ded6727" />
+
+
 ### Strength Analysis
 
 
@@ -128,6 +133,7 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 - Bending Stress: σ = Mc/I
 - Allowable Stress: σ_allow = Sy/N
 
+<img width="934" height="922" alt="Screenshot 2026-11-09 225707" src="https://github.com/user-attachments/assets/a2336076-77e4-4bb0-9822-bb443105408d" />
 
 
 
@@ -149,6 +155,9 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 ### Preliminary Sketch
 
+<img width="1088" height="565" alt="image" src="https://github.com/user-attachments/assets/3fc9cdf6-8525-4413-a191-64ece2d6840f" />
+
+- Per Machinery's Handbook pg. 656, locational fit H7 for nominal diameter 0.71-1.19" is +0.0008/-0.0000
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
