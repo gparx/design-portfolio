@@ -203,7 +203,39 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 4. FEA and Optimization
+##  Cost Analysis
+
+
+| Item | Quantity | Cost/Item | Total | Purchase Link |
+|---|---|---|---|---|
+| Lead Screws | 2 | ? | ? | ? |
+| Bronze Nut/Flange | 2 | ? | ? | ? |
+| Aluminum Frame | ? | ? | ? | ? |
+| Other Hardware | ? | ? | ? | ? |
+| **Total** | | | **?** | |
+
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
+
+## Parametric CAD Assembly
+
+Model the crosshead parametrically in SolidWorks and assemble the following components:
+
+- Designed crosshead
+- Two identical lead screws
+- Two bronze nut/flanges
+- Aluminum T-slot frame
+
+**Final Assembly:**
+
+
+**CAD Files:**
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
+
+## FEA and Optimization
 
 Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Verify mesh convergence and optimize the geometry.
 
@@ -237,33 +269,11 @@ Create a detailed SolidWorks drawing of the final crosshead using third-angle pr
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 6. Cost Analysis
-
-| Item | Quantity | Cost/Item | Total | Purchase Link |
-|---|---|---|---|---|
-| Lead Screws | 2 | ? | ? | ? |
-| Bronze Nut/Flange | 2 | ? | ? | ? |
-| Aluminum Frame | ? | ? | ? | ? |
-| Other Hardware | ? | ? | ? | ? |
-| **Total** | | | **?** | |
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 7. Parametric CAD Assembly
-
-Model the crosshead parametrically in SolidWorks and assemble the following components:
-
-- Designed crosshead
-- Two identical lead screws
-- Two bronze nut/flanges
-- Aluminum T-slot frame
-
-**Final Assembly:**
-
-
-**CAD Files:**
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
