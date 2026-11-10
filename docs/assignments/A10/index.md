@@ -277,4 +277,7 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 - MEGR 2157 — A10 Assignment Instructions
 - [Acme General Purpose 2G Thread Series Limiting Dimensions & Tolerances](https://www.dependableacme.com/internal-and-external-thread-dimensions)
 - [McMaster-Carr](https://www.mcmaster.com/)
+- [Lead Screw](https://www.mcmaster.com/97014A320/)
+- [Bronze Bearing](https://www.mcmaster.com/95120A119/)
+- [Socket Head Screw](https://www.mcmaster.com/92200A151/)
 - SolidWorks — CAD and FEA 
