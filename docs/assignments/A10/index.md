@@ -222,10 +222,53 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 Model the crosshead parametrically in SolidWorks and assemble the following components:
 
-- Designed crosshead
-- Two identical lead screws
-- Two bronze nut/flanges
-- Aluminum T-slot frame
+### Crosshead
+
+- In order: Parametrics -> Sketching & Extrusion -> Holes -> Material Assignment
+
+
+<img width="523" height="104" alt="2_Global_vars" src="https://github.com/user-attachments/assets/00be718b-77a9-4a9f-8315-164359b1b746" />
+
+
+<img width="830" height="362" alt="4_CH_Extrusion" src="https://github.com/user-attachments/assets/a34638bb-2f58-47b9-afc8-80c5f97deabf" />
+
+
+<img width="617" height="227" alt="5_Hole_Sketch" src="https://github.com/user-attachments/assets/51ecf932-8003-401a-a561-9e8e808549a9" />
+
+
+<img width="691" height="273" alt="8_Bolthole_mirrored" src="https://github.com/user-attachments/assets/a537b291-56ae-4a9a-85b0-2ad74bd67fb5" />
+
+
+<img width="740" height="283" alt="10_bolthole_feature" src="https://github.com/user-attachments/assets/7760fed9-5455-48a7-bea8-8b41a611c0de" />
+
+
+<img width="614" height="486" alt="11_Material_Assigned" src="https://github.com/user-attachments/assets/6e066310-92c5-4479-8322-d46fcd8d243f" />
+
+
+<img width="838" height="583" alt="12_Finished_Part" src="https://github.com/user-attachments/assets/7d55cd1f-7056-48d3-a729-ba8875e733d6" />
+
+---
+
+### Lead screws
+
+- In order: -> Import Lead Screws -> Cut -> Assemble
+
+<img width="614" height="514" alt="1_Imported_LS" src="https://github.com/user-attachments/assets/4e3300a3-1299-4945-9ea5-5f7a6c489239" />
+
+
+<img width="881" height="572" alt="2_Cutting_LS" src="https://github.com/user-attachments/assets/1f98f1f6-e9ba-4e36-b971-3bfe25448073" />
+
+
+<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5f716647-2699-472a-81ca-51a4518bbbd7" />
+
+---
+
+### Bronze nut/flanges
+
+
+
+### Aluminum T-slot frame
+
 
 **Final Assembly:**
 
