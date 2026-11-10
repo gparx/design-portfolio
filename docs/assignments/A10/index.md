@@ -191,7 +191,9 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 ### Preliminary Sketch
 
-<img width="1088" height="565" alt="image" src="https://github.com/user-attachments/assets/3fc9cdf6-8525-4413-a191-64ece2d6840f" />
+
+<img width="1190" height="916" alt="image" src="https://github.com/user-attachments/assets/1c36eb16-a757-4922-98b2-63b8103956a4" />
+
 
 - Per Machinery's Handbook pg. 656, locational fit H7 for nominal diameter 0.71-1.19" is +0.0008/-0.0000
 
