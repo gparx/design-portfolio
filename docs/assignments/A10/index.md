@@ -290,12 +290,15 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 <img width="881" height="572" alt="2_Cutting_LS" src="https://github.com/user-attachments/assets/1f98f1f6-e9ba-4e36-b971-3bfe25448073" />
 
+
+<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5f716647-2699-472a-81ca-51a4518bbbd7" />
+
 ---
 
 **Final Assembly:**
 
 
-<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5f716647-2699-472a-81ca-51a4518bbbd7" />
+
 
 ---
 
