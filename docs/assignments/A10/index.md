@@ -273,6 +273,6 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 ## References
 
 - MEGR 2157 — A10 Assignment Instructions
-- [Dimension](https://www.dependableacme.com/internal-and-external-thread-dimensions)
+- [Acme General Purpose 2G Thread Series Limiting Dimensions & Tolerances](https://www.dependableacme.com/internal-and-external-thread-dimensions)
 - [McMaster-Carr](https://www.mcmaster.com/)
 - SolidWorks — CAD and FEA 
