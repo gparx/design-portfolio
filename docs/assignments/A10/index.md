@@ -53,6 +53,10 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 **FBD & Calculations:**
 
+<img width="461" height="350" alt="Screenshot 2026-11-09 203015" src="https://github.com/user-attachments/assets/9d094343-8ad7-4adc-a0fc-883a9af019a5" />
+
+
+
 - Engaged Threads: nₑ = Lₑ / p
 
 - Thread Bending Stress: σ_bend = 6F / (nₑπdₘp)
@@ -61,6 +65,8 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 - Actual Safety Factor: N_actual = Sᵧ / σ_bend
 
+
+<img width="750" height="377" alt="Screenshot 2026-11-09 203012" src="https://github.com/user-attachments/assets/d1ca5da8-d5e2-46eb-af89-224e9418eb70" />
 
 
 | Result | Value |
