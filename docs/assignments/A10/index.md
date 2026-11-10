@@ -27,6 +27,14 @@ Determine the minimum lead screw diameter, rotational speed range, and required 
 
 **FBD & Calculations:**
 
+
+<img width="1219" height="1105" alt="Screenshot 2026-11-09 214926" src="https://github.com/user-attachments/assets/9046748b-efd4-40d7-bd4d-c9e2e24db4b6" />
+
+
+<img width="2314" height="945" alt="Screenshot 2026-11-09 214930" src="https://github.com/user-attachments/assets/e2fa4149-091f-440a-8ab9-de280ed58416" />
+
+
+
 - Axial Stress: σ = F/A
 - Allowable Stress: σ_allow = Sy/N
 - Minimum Root Diameter: d_min = √(4FN/πSy)
