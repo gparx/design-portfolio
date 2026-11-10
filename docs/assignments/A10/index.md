@@ -150,19 +150,44 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 ### Deflection Analysis
 
+
+| Known | Value |
+|---|---|
+| Applied Load | 449.62 lbf |
+| Support Span | 8 in |
+| Beam Width | 2 in |
+| Trial Thickness | 1 in |
+| Maximum Allowable Deflection | 0.003937 in (0.10 mm) |
+
+
+| Unknowns |
+|---|
+| Area Moment of Inertia |
+| Minimum Required Elastic Modulus |
+| Selected Material |
+| Material Elastic Modulus |
+| Actual Maximum Deflection |
+
 - Maximum Deflection: δ = FL³/(48EI)
 - Deflection Limit: 0.10 mm
 
 
-| Result | Value |
+<img width="881" height="699" alt="image" src="https://github.com/user-attachments/assets/06150fc8-8e5f-440f-a684-c6063ba7f4ea" />
+
+
+
+| Solved | Value |
 |---|---|
-| Selected Material | ? |
-| Crosshead Length | ? |
-| Crosshead Width | ? |
-| Crosshead Height | ? |
-| Maximum Stress | ? |
-| Maximum Deflection | ? |
-| Safety Factor | ? |
+| Area Moment of Inertia | 0.1667 in⁴ |
+| Minimum Required Elastic Modulus | 7.3 × 10⁶ psi |
+| Selected Material | 6061-T6 Aluminum |
+| Material Elastic Modulus | 10 × 10⁶ psi |
+| Actual Maximum Deflection | 0.002878 in (0.0731 mm)|
+| Allowable Deflection | 0.003937 in (0.10 mm)|
+| Result | Preliminary Pass |
+
+
+
 
 ### Preliminary Sketch
 
