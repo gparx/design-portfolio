@@ -110,6 +110,21 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 - Allowable Stress: σ_allow = Sy/N
 
 
+| Knowns | Value |
+|---|---|
+| Total Applied Load | 449.62 lbf |
+| Load per Lead Screw | 224.81 lbf |
+| Safety Factor | 4 |
+| Maximum Deflection | 0.003937 in |
+| Overall Beam Length | 10 in (assumed) |
+| Support Span | 8 in (assumed) |
+| Beam Width | 2 in (assumed) |
+| Trial Beam Thickness | 1 in (assumed) |
+
+
+
+
+
 ### Deflection Analysis
 
 - Maximum Deflection: δ = FL³/(48EI)
