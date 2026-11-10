@@ -108,7 +108,7 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 
 | Known | Value |
 |---|---|
-| Applied Load 449.62 lbf |
+| Applied Load | 449.62 lbf |
 | Support Span | 8 in |
 | Beam Width | 2 in |
 | Trial Thickness | 1 in |
