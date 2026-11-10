@@ -55,8 +55,6 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 - Engaged Threads: nₑ = Lₑ / p
 
-- Bearing Stress: σᵦ = 2F / (nₑπdₘp)
-
 - Thread Bending Stress: σ_bend = 6F / (nₑπdₘp)
 
 - Allowable Stress: σ_allow = Sᵧ / N
@@ -66,12 +64,14 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 
 | Result | Value |
 |---|---|
-| Nut Material | Bronze |
-| Thread Engagement | ? |
-| Bearing Stress | ? |
-| Thread Bending Stress | ? |
-| Safety Factor | ? |
-| Selected Nut/Flange | ? |
+| Selected Nut/Flange | 932 Bearing Bronze Acme Flange Nut, 5/8"-8 |
+| Nut Material | 932 Bearing Bronze |
+| Thread Engagement | 10 (assumed) |
+| Thread Bending Stress |  |
+| Allowable Stress |  |
+| Safety Factor |  |
+| Verdict |  |
+
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
