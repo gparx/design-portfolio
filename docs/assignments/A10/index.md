@@ -21,7 +21,7 @@ Design a mechanically driven tensile testing machine capable of applying a 2 kN 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 1. Lead Screw Design
+## 1. Lead Screw Design (Ethan)
 
 Determine the minimum lead screw diameter, rotational speed range, and required torque.
 
@@ -55,7 +55,7 @@ Determine the minimum lead screw diameter, rotational speed range, and required 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 2. Nut and Flange Design
+## 2. Nut and Flange Design (Grant)
 
 Select a bronze nut/flange compatible with the chosen lead screw. Verify thread bearing and bending stresses using a safety factor of 4.
 
@@ -99,7 +99,7 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 3. Crosshead Design
+## 3. Crosshead Design (Grant)
 
 Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintaining a maximum deflection of 0.10 mm.
 
@@ -273,6 +273,6 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 ## References
 
 - MEGR 2157 — A10 Assignment Instructions
-
+- [Dimension](https://www.dependableacme.com/internal-and-external-thread-dimensions)
 - [McMaster-Carr](https://www.mcmaster.com/)
 - SolidWorks — CAD and FEA 
