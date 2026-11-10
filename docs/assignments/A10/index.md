@@ -119,8 +119,19 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 | Overall Beam Length | 10 in (assumed) |
 | Support Span | 8 in (assumed) |
 | Beam Width | 2 in (assumed) |
-| Trial Beam Thickness | 1 in (assumed) |
+| Beam Thickness | 1 in (assumed) |
 
+
+| Unknowns | Value |
+|---|---|
+| Maximum Bending Moment | ? |
+| Area Moment of Inertia | ?|
+| Maximum Bending Stress | ? |
+| Minimum Required Yield Strength | ? |
+| Minimum Required Elastic Modulus | ? |
+| Selected Material | ? |
+| Actual Deflection | ? |
+| Actual Safety Factor | ? |
 
 
 
