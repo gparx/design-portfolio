@@ -62,16 +62,24 @@ Select a bronze nut/flange compatible with the chosen lead screw. Verify thread 
 - Actual Safety Factor: N_actual = Sᵧ / σ_bend
 
 
+
 | Result | Value |
 |---|---|
 | Selected Nut/Flange | 932 Bearing Bronze Acme Flange Nut, 5/8"-8 |
-| Nut Material | 932 Bearing Bronze |
+| Material | 932 Bearing Bronze |
+| Thread Size | 5/8"-8 Acme |
 | Thread Engagement | 10 (assumed) |
-| Thread Bending Stress |  |
-| Allowable Stress |  |
-| Safety Factor |  |
-| Verdict |  |
+| Thread Pitch | 0.125 in |
+| Mean Diameter | 0.5625 in |
+| Thread Root Diameter | 0.645 in |
+| Thread Bending Stress | 533 psi |
+| Assumed Yield Strength | 14,000 psi |
+| Allowable Stress | 3,500 psi |
+| Required Safety Factor | 4 |
+| Calculated Safety Factor | 26.3 (estimated) |
+| Verdict | Preliminary Pass |
 
+- McMaster Flange part was missing yield strength so we used a general 14,000 psi standard yield strength for the material.
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
