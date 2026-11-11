@@ -203,17 +203,12 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-##  Cost Analysis
+##  Cost Analysis (Ethan)
 
 
-| Item | Quantity | Cost/Item | Total | Purchase Link |
-|---|---|---|---|---|
-| Lead Screws | 2 | ? | ? | ? |
-| Bronze Nut/Flange | 2 | ? | ? | ? |
-| Aluminum Frame | ? | ? | ? | ? |
-| Other Hardware | ? | ? | ? | ? |
-| **Total** | | | **?** | |
+<img width="1242" height="555" alt="image" src="https://github.com/user-attachments/assets/cfba52aa-e5d0-4616-bd31-29d5e98db230" />
 
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
