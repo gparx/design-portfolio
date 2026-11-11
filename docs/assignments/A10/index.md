@@ -303,13 +303,6 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ---
 
-**Final Assembly:**
-
-
-
-
----
-
 **CAD Files:**
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
@@ -322,6 +315,16 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 **Boundary Conditions:**
 - Load: 2,000 N
 - Fixtures: Nut/flange attachment interfaces
+
+### Setup
+
+<img width="689" height="347" alt="1_Added_Hole_CH" src="https://github.com/user-attachments/assets/8b9e69fd-0e54-41c5-bd5a-00e0099c6f79" />
+
+<img width="200" height="527" alt="2_Created_Study" src="https://github.com/user-attachments/assets/eb9e6542-c244-4947-8ff4-f81321535e01" />
+
+<img width="587" height="505" alt="3_Loading" src="https://github.com/user-attachments/assets/0b75f94b-b64d-47ee-9bbf-c342383fc028" />
+
+---
 
 | Result | Initial | Refined 1 | Refined 2 | Optimized |
 |---|---|---|---|---|
