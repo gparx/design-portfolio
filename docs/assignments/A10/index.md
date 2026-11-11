@@ -213,7 +213,7 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## Parametric CAD Assembly
+## Parametric CAD Assembly (Bryan)
 
 Model the crosshead parametrically in SolidWorks and assemble the following components:
 
@@ -302,7 +302,7 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## FEA and Optimization
+## FEA and Optimization (Bryan)
 
 Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Verify mesh convergence and optimize the geometry.
 
@@ -336,7 +336,7 @@ Create a detailed SolidWorks drawing of the final crosshead using third-angle pr
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 
-## 8. Engineering Lessons Learned
+## 8. Engineering Lessons Learned (Ethan)
 
 Ethan — Lead Screw Calculations
 I completed the lead screw calculations and learned how the screw’s lead determines the rotational speed needed to move the crosshead. For the selected screw, each revolution moves the nut 0.125 inches. Using this value, I calculated the speed range needed to meet the required crosshead movement. I also learned how to use the inclined plane model from class to solve for the force needed to overcome the axial load and friction. Multiplying that force by the pitch radius gave the required torque. Working through the force balances made the torque equation easier to understand. Another thing I learned was to use the thread root diameter when calculating axial stress because this is the smallest section carrying the load.
