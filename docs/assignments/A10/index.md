@@ -213,7 +213,13 @@ Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintai
 ##  Cost Analysis (Ethan)
 
 
-<img width="1242" height="555" alt="image" src="https://github.com/user-attachments/assets/cfba52aa-e5d0-4616-bd31-29d5e98db230" />
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+|---|---|---|---|---|---|
+| 1 | 2 | Acme Lead Screw, 5/8"-8, 36" Long | $102.38 | $204.76 | [97014A320](https://www.mcmaster.com/97014A320/) |
+| 2 | 2 | Bronze Acme Flange Nut, 5/8"-8 | $138.20 | $276.40 | [95120A119](https://www.mcmaster.com/95120A119/) |
+| 3 | 1 Pack (10 Screws) | Socket Head Screw, #6-32, 3/4" Long | $4.41/pack | $4.41 | [92200A151](https://www.mcmaster.com/92200A151/) |
+| | | | **Total Cost** | **$485.57** | |
+
 
 ---
 
