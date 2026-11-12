@@ -347,17 +347,16 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 
 ---
 
-| Result | Initial (Mesh 1) | Refined 1 (Mesh 2) | Refined 2 (Mesh 3) | Optimized |
-|---|---|---|---|---|
-| Mesh Cells | 236,650 | 275,946 | 293,619 | ? |
-| Max Stress (psi) | 12,200 | 21,800 | 24,100 | ? |
-| Max Stress Location | Flange Nut Threads | Flange Nut Threads | Flange Nut Threads | ? |
-| Max Deflection (mm) | 0.0971 | 0.0969 | 0.0971 | ? |
-| Max Deflection Location | Middle of Crosshead | Middle of Crosshead | Middle of Crosshead | ? |
-| Safety Factor at Max Stress | 1.15 | 0.64 | 0.58 | ? |
-| Mass | ? | ? | ? | ? |
-| Change in Max Stress | — | 79.28% | 10.73% | ? |
-| Change in Max Deflection | — | 0.23% | 0.23% | ? |
+| Result | Initial (Mesh 1) | Refined 1 (Mesh 2) | Refined 2 (Mesh 3) |
+|---|---|---|---|
+| Mesh Cells | 236,650 | 275,946 | 293,619 |
+| Max Stress (psi) | 12,200 | 21,800 | 24,100 |
+| Max Stress Location | Flange Nut Threads | Flange Nut Threads | Flange Nut Threads |
+| Max Deflection (mm) | 0.0971 | 0.0969 | 0.0971 |
+| Max Deflection Location | Middle of Crosshead | Middle of Crosshead | Middle of Crosshead |
+| Safety Factor at Max Stress | 1.15 | 0.64 | 0.58 |
+| Change in Max Stress | — | 79.28% | 10.73% |
+| Change in Max Deflection | — | 0.23% | 0.23% | 
 
 
 
