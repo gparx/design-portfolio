@@ -358,7 +358,42 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 | Change in Max Stress | — | 79.28% | 10.73% |
 | Change in Max Deflection | — | 0.23% | 0.23% | 
 
+### Design 2 
 
+<img width="384" height="584" alt="Optimized_design" src="https://github.com/user-attachments/assets/dc89bdfb-47c4-4c53-b0f6-cd7a129abb73" />
+
+### Design 2 - Mesh 1
+
+<img width="526" height="476" alt="Mesh1_Defl" src="https://github.com/user-attachments/assets/71c90b3a-ea57-4ba6-9a1e-e4d3ae8c84c2" />
+
+<img width="477" height="473" alt="Mesh1_Stress" src="https://github.com/user-attachments/assets/3a09a4b4-c91c-4561-b635-018fcc198e65" />
+
+### Design 2 - Mesh 2
+
+<img width="467" height="440" alt="Mesh2_Defl" src="https://github.com/user-attachments/assets/88149d03-9129-4cc5-858d-4279236293f2" />
+
+<img width="493" height="438" alt="Mesh2_Stress" src="https://github.com/user-attachments/assets/107ee8dc-dc07-4446-8af9-566ed91d9a99" />
+
+### Design 2 - Mesh 3
+
+<img width="467" height="465" alt="Mesh3_Defl" src="https://github.com/user-attachments/assets/1832262a-0431-47ab-98ea-99fecdd1f902" />
+
+<img width="515" height="470" alt="Mesh3_Stress" src="https://github.com/user-attachments/assets/a52056c7-9d3b-4939-801c-7bb13087a7ce" />
+
+
+
+| Result | Mesh 1 | Mesh 2 | Mesh 3 |
+|---|---|---|---|
+| Mesh Cells | 110,830 | 133,727 | 142,338 |
+| Max Stress (psi) | 18,400 | 21,600 | 15,100 |
+| Max Stress Location | Flange Nut Threads | Flange Nut Threads | Flange Nut Threads |
+| Max Deflection (mm) | 0.144 | 0.144 | 0.144 |
+| Max Deflection Location | Middle of Crosshead | Middle of Crosshead | Middle of Crosshead |
+| Safety Factor at Max Stress | 0.763 | 0.649 | 0.927 |
+| Change in Max Stress | — | 17.43% | 29.92% |
+| Change in Max Deflection | — | 0.00% | 0.00% |
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
