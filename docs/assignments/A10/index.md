@@ -407,6 +407,14 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 - Design 2 Mass: 4.32lbs
 - Design 2 Volume: 44.49 in^3
 
+### Conclusion 
+
+The revised FEA predicted a maximum resultant displacement of approximately 0.1444 mm, compared with the required vertical deflection limit of 0.10 mm. I suspected that the simulation setup and thread-contact behavior may have affected the results. 
+
+The low estimated safety factor was controlled primarily by the highly concentrated stress at the flange nut threads. This peak changed considerably with mesh refinement, suggesting that the thread geometry and contact definitions may not accurately represent the actual load sharing. I therefore treated the reported safety factor as preliminary.
+
+In all honesty, the limits seem to be disrupted by the FEA itself, and not how, in actuality, the Lead Screw would perform. This is likely due to how the assembly was exactly set up; with our knowledge being limited to how it should be set up, these issues can slip through the cracks and seemingly would require an entire overhaul of the design. If I were given the opportunity again, I would definitely attempt to reconstruct the assembly in an attempt to avoid this issue of outlier concentration entirely. Unfortunately, these analysis can be extremely finicky which can otherwise turn a extremely support and well build model to have a completely gross outlier concentrations. 
+
 ---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
