@@ -424,6 +424,10 @@ In all honesty, the limits seem to be disrupted by the FEA itself, and not how, 
 
 Create a detailed SolidWorks drawing of the final crosshead using third-angle projection and ASME Y14.5 dimensioning standards.
 
+
+<img width="1190" height="921" alt="Screenshot 2026-11-11 233303" src="https://github.com/user-attachments/assets/2663fa7e-f925-4b7d-9921-81cb57eb8b13" />
+
+
 **General Tolerances:**
 
 - X.X ± 0.02
