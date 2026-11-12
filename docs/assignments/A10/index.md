@@ -1,6 +1,12 @@
 
 # A10 — Lead Screw Design
 
+
+## TEAM PDF DOCUMENT LINKED BELOW (FOR SUBMISSION) 
+
+[TEAM PDF DOCUMENT](https://github.com/user-attachments/files/34730903/A10_EthanMinton_GrantParker_BryanMccanch.pdf)
+
+
 ## Overview
 Design a mechanically driven tensile testing machine capable of applying a 2 kN (449.62 lbf) axial load using two lead screws and a movable crosshead.
 
