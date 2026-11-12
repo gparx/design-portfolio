@@ -303,7 +303,10 @@ Model the crosshead parametrically in SolidWorks and assemble the following comp
 
 ---
 
-**CAD Files:**
+## CAD FILES
+
+[DOWNLOAD CAD FILE ZIP](https://github.com/user-attachments/files/34729936/drive-download-20261112T050428Z-1-001.zip)
+
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
