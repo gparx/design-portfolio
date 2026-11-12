@@ -358,6 +358,9 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 | Change in Max Stress | — | 79.28% | 10.73% |
 | Change in Max Deflection | — | 0.23% | 0.23% | 
 
+- Design 1 Mass: 5.25 lbs
+- Design 1 Volume: 52.57 in^3
+
 ### Design 2 
 
 <img width="384" height="584" alt="Optimized_design" src="https://github.com/user-attachments/assets/dc89bdfb-47c4-4c53-b0f6-cd7a129abb73" />
@@ -392,6 +395,9 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 | Safety Factor at Max Stress | 0.763 | 0.649 | 0.927 |
 | Change in Max Stress | — | 17.43% | 29.92% |
 | Change in Max Deflection | — | 0.00% | 0.00% |
+
+- Design 2 Mass: 4.32lbs
+- Design 2 Volume: 44.49 in^3
 
 ---
 
