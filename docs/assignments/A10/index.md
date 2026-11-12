@@ -325,7 +325,27 @@ Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Ve
 <img width="587" height="505" alt="3_Loading" src="https://github.com/user-attachments/assets/0b75f94b-b64d-47ee-9bbf-c342383fc028" />
 
 ---
+### Design 1 - Mesh 1
 
+<img width="506" height="567" alt="Mesh1_Delf" src="https://github.com/user-attachments/assets/0fce4599-8daf-4df0-b0f2-32c18e704b15" />
+
+<img width="431" height="376" alt="Mesh1_Max_Stress" src="https://github.com/user-attachments/assets/fbbf09ae-c979-44d7-8c8c-d10d16ed7a49" />
+
+<img width="545" height="548" alt="Mesh1_Stress" src="https://github.com/user-attachments/assets/ed774d79-9297-4311-94c2-bfdc0eea351f" />
+
+### Design 1 - Mesh 2
+
+<img width="592" height="565" alt="Mesh2_Defl" src="https://github.com/user-attachments/assets/df5f3b7f-c53f-4e0a-98dd-8ec4f2a44f6e" />
+
+<img width="573" height="576" alt="Mesh2_Stress" src="https://github.com/user-attachments/assets/b838bfab-7192-4ebe-9d52-49c6bee38656" />
+
+### Design 1 - Mesh 3
+
+<img width="577" height="580" alt="Mesh3_Defl" src="https://github.com/user-attachments/assets/beeb1020-fc04-4054-b148-092105c2d782" />
+
+<img width="604" height="525" alt="Mesh3_Stress" src="https://github.com/user-attachments/assets/3adbc6c3-9a2e-4915-bd44-7b1109675961" />
+
+---
 
 | Result | Initial (Mesh 1) | Refined 1 (Mesh 2) | Refined 2 (Mesh 3) | Optimized |
 |---|---|---|---|---|
