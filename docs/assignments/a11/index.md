@@ -187,6 +187,18 @@
   
 ---
 
+<img width="1546" height="988" alt="Screenshot 2026-11-16 140359" src="https://github.com/user-attachments/assets/d2a21b8c-01ab-4e2a-a1ee-42eb4b7b55b8" />
+
+---
+
+<img width="2030" height="1212" alt="Screenshot 2026-11-16 140446" src="https://github.com/user-attachments/assets/a99d5884-ede7-4a45-b1ee-80d0837d4a87" />
+
+---
+
+<img width="2168" height="1074" alt="Screenshot 2026-11-16 140449" src="https://github.com/user-attachments/assets/83658ed2-1db7-43ad-8897-6a955d42687c" />
+
+---
+
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 3. Coupler Design
