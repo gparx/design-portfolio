@@ -63,6 +63,9 @@
 | Motor Shaft and Mounting Dimensions |
 
 ### Motor Specifications
+
+<img width="1189" height="872" alt="Screenshot 2026-11-15 202610" src="https://github.com/user-attachments/assets/bc43ce39-51bb-45c9-8689-d7b2248493a4" />
+
 ### Torque and Speed Verification
 ### Speed–Torque Curve
 ### Selected Motor
