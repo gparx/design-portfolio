@@ -95,10 +95,6 @@
 
 ---
 
-<img width="2292" height="928" alt="image" src="https://github.com/user-attachments/assets/6cc70370-9e32-4da8-b8d8-d8591976994f" />
-
----
-
 <img width="1747" height="805" alt="Screenshot 2026-11-15 215418" src="https://github.com/user-attachments/assets/ded96bf7-09da-490e-b680-bb292f42d875" />
 
 ---
