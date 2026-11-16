@@ -1,6 +1,36 @@
 
 # A11 – Motor Selection and Design
 
+A tensile tester is a mechanical testing device used to measure how materials respond to uniaxial tension. It applies a controlled pulling force to a specimen while recording the resulting elongation, allowing engineers to determine properties such as yield strength, ultimate tensile strength, and elongation at break. This data is essential for understanding a material’s mechanical behavior and suitability for design applications. Develop the motorized drive and structural integration for the 2 kN tensile tester, focusing on motor selection, mounting, frame stability, and clamp design. This phase will ensure that the crosshead moves smoothly under controlled torque and speed while maintaining precise load alignment and secure specimen gripping.
+
+## A10 – Previous Design Specifications
+
+| Parameter | Value |
+|---|---|
+| Application | Tensile Testing Machine |
+| Maximum Load | 2,000 N |
+| Load per Lead Screw | 1,000 N |
+| Safety Factor | 4 |
+| Crosshead Speed | 1–50 mm/min |
+| Lead Screws | 2 × McMaster 97014A320 |
+| Screw Material | 316 Stainless Steel |
+| Screw Thread | 5/8"-8 ACME |
+| Screw Length | 18 in |
+| Screw Lead | 0.125 in/rev (3.175 mm/rev) |
+| Required Screw Speed | 0.315–15.75 RPM |
+| Estimated Torque per Screw | 1.63 N·m |
+| Assumed Friction Coefficient | 0.15434 |
+| Flange Nuts | 2 × McMaster 95120A119 |
+| Nut Material | 932 Bearing Bronze |
+| Nut Dimensions | Ø0.875 in body, Ø1.50 in flange, 1.25 in height |
+| Crosshead Material | 6061-T6 Aluminum |
+| Crosshead Dimensions | 10 × 2 × 1 in |
+| Screw Center Spacing | 8 in |
+| Max Allowable Deflection | 0.10 mm |
+| Frame | 80 × 40 mm, 40-Series Aluminum T-Slot |
+| Frame Connectors | 12 Corner Brackets, 24 M8 Fasteners |
+| A10 Component Cost | $867.92 |
+
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 1. Motor Selection
