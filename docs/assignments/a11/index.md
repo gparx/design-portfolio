@@ -140,7 +140,19 @@
 ---
 ### Free Body Diagram
 
+---
+
+<img width="1114" height="428" alt="Screenshot 2026-11-15 235730" src="https://github.com/user-attachments/assets/79e42674-1122-47b6-9694-aef7125044c3" />
+
+---
+
 ### Bearing Stress Analysis
+
+---
+
+<img width="1048" height="982" alt="Screenshot 2026-11-15 235756" src="https://github.com/user-attachments/assets/36a2401c-7913-48db-996f-2c9e939a40b3" />
+
+---
 
 ### Minimum Bracket Thickness
 
