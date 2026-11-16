@@ -105,6 +105,23 @@
 
 - Conclusion: At 15.7 RPM Motor can operate at 13.28N*m of pull-out torque, exceeding our minimum of 6.52 N*m from the motor while meeting our RPM Goals.
 
+
+### Motor Selection Summary
+
+| Parameter | Value |
+|---|---|
+| Selected Motor | 23HS30-2904S-MG10 |
+| Motor Type | NEMA 23 Geared Stepper |
+| Gear Ratio | 10:1 |
+| Required Output Torque | 6.52 N·m |
+| Required Output Speed | 0.315–15.75 RPM |
+| Motor Speed Range | 3.15–157.5 RPM |
+| Pull-Out Torque at 15.7 RPM | 13.28 N·m |
+| Gearbox Efficiency | 90% |
+| Rated Current | 2.9 A/phase |
+| Output Shaft Diameter | 14 mm |
+| Quantity | 2 |
+
 ---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
