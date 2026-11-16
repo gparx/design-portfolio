@@ -40,7 +40,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 1. Motor Selection
+## 1. Motor Selection ( Grant )
 ### Knowns and Unknowns
 
 | Known Parameter | Value |
