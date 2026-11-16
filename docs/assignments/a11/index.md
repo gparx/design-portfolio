@@ -105,9 +105,7 @@
 
 - Conclusion: At 15.7 RPM Motor can operate at 13.28N*m, exceeding our minimum torque needed from the motor while meeting our RPM Goals.
 
-
 ---
-### Selected Motor
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
