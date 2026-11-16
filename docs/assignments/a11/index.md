@@ -5,6 +5,7 @@ A tensile tester is a mechanical testing device used to measure how materials re
 
 ## A10 – Previous Design Specifications
 
+
 | Parameter | Value |
 |---|---|
 | Application | Tensile Testing Machine |
@@ -30,6 +31,8 @@ A tensile tester is a mechanical testing device used to measure how materials re
 | Frame | 80 × 40 mm, 40-Series Aluminum T-Slot |
 | Frame Connectors | 12 Corner Brackets, 24 M8 Fasteners |
 | A10 Component Cost | $867.92 |
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
