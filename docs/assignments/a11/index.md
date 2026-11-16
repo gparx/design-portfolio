@@ -165,6 +165,11 @@
 
 ### Minimum Bracket Thickness
 
+---
+
+<img width="1102" height="707" alt="Screenshot 2026-11-16 002524" src="https://github.com/user-attachments/assets/6d61a5ac-96e0-4f21-9b85-eb2e69ba83f0" />
+
+---
 ### Selected Dimensions and Material
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
