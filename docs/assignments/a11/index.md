@@ -126,10 +126,24 @@
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 2. Motor Mount Design
+
 ### Knowns and Unknowns
+
+---
+
+<img width="805" height="797" alt="Screenshot 2026-11-15 231507" src="https://github.com/user-attachments/assets/ebe929b6-4eca-4ca6-a7b7-688f4af8bf18" />
+
+---
+
+<img width="2260" height="881" alt="Screenshot 2026-11-15 231438" src="https://github.com/user-attachments/assets/5e33bdf7-12ae-410a-b3b5-f5365094ef3e" />
+
+---
 ### Free Body Diagram
+
 ### Bearing Stress Analysis
+
 ### Minimum Bracket Thickness
+
 ### Selected Dimensions and Material
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
