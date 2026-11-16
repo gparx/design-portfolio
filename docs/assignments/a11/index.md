@@ -42,6 +42,26 @@
 
 ## 1. Motor Selection
 ### Knowns and Unknowns
+
+| Known Parameter | Value |
+|---|---|
+| Maximum Tensile Load | 2,000 N |
+| Number of Lead Screws | 2 |
+| Load per Screw | 1,000 N |
+| Screw Lead | 3.175 mm/rev |
+| Required Screw Speed | 0.315–15.75 RPM |
+| Estimated Torque per Screw | 1.63 N·m |
+| Required Safety Factor | 4 |
+
+| Unknown Parameter |
+|---|
+| Required Motor Design Torque |
+| Required Mechanical Power |
+| Selected Motor Type and Model |
+| Motor Rated Speed and Torque |
+| Motor Voltage, Current, and Efficiency |
+| Motor Shaft and Mounting Dimensions |
+
 ### Motor Specifications
 ### Torque and Speed Verification
 ### Speed–Torque Curve
