@@ -84,6 +84,13 @@
 ---
 
 ### Torque and Speed Verification
+
+---
+
+<img width="1086" height="664" alt="Screenshot 2026-11-15 212300" src="https://github.com/user-attachments/assets/7b489af2-0911-4a76-b6d7-eb18353ec272" />
+
+---
+
 ### Speed–Torque Curve
 ### Selected Motor
 
