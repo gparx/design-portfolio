@@ -74,6 +74,10 @@
 
 ---
 
+- Stepper motors provide high torque and lower speeds with incremental control. This is precisely what we are looking for if were trying to apply a lot of torque to a lead screw to add tensile stress to a material.
+
+---
+
 <img width="1817" height="1200" alt="Screenshot 2026-11-15 204330" src="https://github.com/user-attachments/assets/b4ea8b1d-18fe-40a3-b631-a7cf7da46c11" />
 [LINK TO MOTOR HERE](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-mg-series-planetary-gearbox-23hs30-2904s-mg10)
 
