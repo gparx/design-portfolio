@@ -201,7 +201,8 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 3. Coupler Design
+## 3. Coupler Design ( Grant )
+
 ### Knowns and Unknowns
 ### Free Body Diagram
 ### Torsional Shear Stress Analysis
