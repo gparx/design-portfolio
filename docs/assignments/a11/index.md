@@ -99,6 +99,11 @@
 
 ---
 
+<img width="1747" height="805" alt="Screenshot 2026-11-15 215418" src="https://github.com/user-attachments/assets/ded96bf7-09da-490e-b680-bb292f42d875" />
+
+---
+
+- Conclusion: At 15.7 RPM Motor can operate at 13.28N*m 
 
 
 ---
