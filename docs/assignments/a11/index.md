@@ -127,7 +127,7 @@
 
 ## 2. Motor Mount Design ( Grant )
 
-### Knowns and Unknowns
+### Unknowns
 
 | Unknown Parameter | Symbol |
 |---|---|
