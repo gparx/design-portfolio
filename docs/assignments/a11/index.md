@@ -170,7 +170,22 @@
 <img width="1102" height="707" alt="Screenshot 2026-11-16 002524" src="https://github.com/user-attachments/assets/6d61a5ac-96e0-4f21-9b85-eb2e69ba83f0" />
 
 ---
-### Selected Dimensions and Material
+
+### Calculated Results
+
+| Parameter | Value |
+|---|---|
+| Mounting Hole Pattern | 47.14 × 47.14 mm |
+| Hole Diameter | 5.2 mm |
+| Bolt Diameter | 5.0 mm (M5) |
+| Bolt Radius, r | 33.33 mm |
+| Force per Bolt, Fb | 12.23 N |
+| Minimum Thickness, t_min | 0.0354 mm |
+| Selected Thickness | 6.35 mm |
+
+- Conclusion: The minimum required thickness is 0.0354 mm. A common standard aluminum plate thickness is 6.35mm (0.25in) which covers our required thickness.
+  
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
