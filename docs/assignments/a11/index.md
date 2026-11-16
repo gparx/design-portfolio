@@ -103,7 +103,7 @@
 
 ---
 
-- Conclusion: At 15.7 RPM Motor can operate at 13.28N*m, exceeding our minimum torque needed from the motor while meeting our RPM Goals.
+- Conclusion: At 15.7 RPM Motor can operate at 13.28N*m of pull-out torque, exceeding our minimum of 6.52 N*m from the motor while meeting our RPM Goals.
 
 ---
 
