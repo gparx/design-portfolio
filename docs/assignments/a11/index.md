@@ -92,6 +92,16 @@
 ---
 
 ### Speed–Torque Curve
+
+---
+
+<img width="2292" height="928" alt="image" src="https://github.com/user-attachments/assets/6cc70370-9e32-4da8-b8d8-d8591976994f" />
+
+---
+
+
+
+---
 ### Selected Motor
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
