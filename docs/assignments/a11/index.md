@@ -129,6 +129,15 @@
 
 ### Knowns and Unknowns
 
+| Unknown Parameter | Symbol |
+|---|---|
+| Bolt Radius | r |
+| Force per Bolt | F |
+| Bearing Stress | σ |
+| Minimum Bracket Thickness | t_min |
+| Selected Bracket Thickness | t |
+
+
 ---
 
 <img width="805" height="797" alt="Screenshot 2026-11-15 231507" src="https://github.com/user-attachments/assets/ebe929b6-4eca-4ca6-a7b7-688f4af8bf18" />
