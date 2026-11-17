@@ -223,6 +223,14 @@
 
 ---
 
+### Keyway
+
+---
+
+<img width="1093" height="565" alt="Screenshot 2026-11-16 221132" src="https://github.com/user-attachments/assets/f057963b-f279-4fd9-9c2a-30f40b54f49b" />
+
+---
+
 ### Assembly Check
 
 ---
