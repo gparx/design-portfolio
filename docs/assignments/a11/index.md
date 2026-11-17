@@ -203,11 +203,23 @@
 
 ## 3. Coupler Design ( Grant )
 
-### Knowns and Unknowns
-### Free Body Diagram
-### Torsional Shear Stress Analysis
-### Coupler Wall Thickness
-### Selected Coupler
+---
+
+<img width="1181" height="1634" alt="image" src="https://github.com/user-attachments/assets/b8015a40-0cb0-4e4e-b995-42538ab972bf" />
+
+---
+
+### Designed Coupler
+
+---
+
+<img width="890" height="621" alt="Screenshot 2026-11-16 211704" src="https://github.com/user-attachments/assets/613c2183-0d5f-4079-8d23-d62ec3a5287e" />
+
+---
+
+<img width="1113" height="640" alt="Screenshot 2026-11-16 211709" src="https://github.com/user-attachments/assets/1090fd01-9f51-42d9-ad61-38a1cb0ce4f0" />
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
