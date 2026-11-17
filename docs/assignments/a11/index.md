@@ -203,6 +203,8 @@
 
 ## 3. Coupler Design ( Grant )
 
+### FBD, Theoretical Design and Calculations
+
 ---
 
 <img width="1181" height="1634" alt="image" src="https://github.com/user-attachments/assets/b8015a40-0cb0-4e4e-b995-42538ab972bf" />
@@ -218,6 +220,18 @@
 ---
 
 <img width="1113" height="640" alt="Screenshot 2026-11-16 211709" src="https://github.com/user-attachments/assets/1090fd01-9f51-42d9-ad61-38a1cb0ce4f0" />
+
+---
+
+### Assembly Check
+
+---
+
+<img width="1453" height="796" alt="Screenshot 2026-11-16 215510" src="https://github.com/user-attachments/assets/bd0795f5-1079-4a79-9c1f-a8750692ca65" />
+
+---
+
+<img width="1599" height="975" alt="Screenshot 2026-11-16 215528" src="https://github.com/user-attachments/assets/48f64683-49f0-41fd-8b3e-5ddec26b4e77" />
 
 ---
 
