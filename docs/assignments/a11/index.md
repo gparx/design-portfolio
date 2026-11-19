@@ -246,19 +246,16 @@
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 4. Frame Connection Design
-### Knowns and Unknowns
-### Free Body Diagram
-### Force and Moment Analysis
-### Connector Stress Analysis
-### Selected T-Slot Connectors
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
-
-## 5. Top Frame FEA
 
 ---
 
 <img width="446" height="557" alt="1_Frame_Idea_to_verify" src="https://github.com/user-attachments/assets/4a911f4d-b4ca-49b6-ad3f-78b4710d5ad7" />
+
+---
+
+<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+
+## 5. Top Frame FEA
 
 ---
 
