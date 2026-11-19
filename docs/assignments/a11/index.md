@@ -338,11 +338,16 @@
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 7. Floating Bearing Mount (Bryan)
-### Knowns and Unknowns
-### Bearing and Fit Selection
-### Mount Dimensions
-### Clearance Holes and Tolerances
-### Final Design
+
+---
+
+<img width="1189" height="969" alt="Screenshot 2026-11-18 195057" src="https://github.com/user-attachments/assets/cc0eb3e6-f711-43b9-a1a8-aad9e3804f86" />
+
+---
+
+<img width="522" height="464" alt="2_Modeled_Part" src="https://github.com/user-attachments/assets/887aeb8a-dc2f-4afb-9c55-2b89449c7716" />
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
