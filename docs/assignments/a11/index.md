@@ -369,15 +369,23 @@
 
 *Note: Costs account for required purchase quantities and full packs. Custom motor coupler fabrication costs, shipping, and taxes are not included.*
 
-**Notes:**
-- Prices reflect the purchase quantity, including full packs where required.
-- Corner bracket pricing is historical; M5 fastener pricing comes from alternative sellers.
-- TBD items are excluded from the subtotal.
-- Shipping, taxes, and fabrication costs are excluded.
+### Design Cost
 
+| Person | Hours Worked | Cost/Hour | Cost |
+|:---:|:---:|---:|---:|
+| Grant | 12 | $30.00 | $360.00 |
+| Ethan | 12 | $30.00 | $360.00 |
+| Bryan | 12 | $30.00 | $360.00 |
+| | **36** | **Total Design Cost** | **$1,080.00** |
 
-### Engineering Labor
 ### Total Project Cost
+
+| Category | Cost |
+|---|---:|
+| Materials and Components | $659.79 |
+| Design Labor | $1,080.00 |
+| **Total Project Cost** | **$1,739.79** |
+
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
