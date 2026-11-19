@@ -5,7 +5,7 @@
 
 ## GROUP SUBMISSION DOCUMENT
 
-- This webpage is for individual display, to see the final, collaborated document download from link below:
+- This webpage is for individual display, to see the final collaborated document download from link below:
 
 [Download our official group submission document here](???)
 
