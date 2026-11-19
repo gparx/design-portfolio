@@ -378,6 +378,7 @@
 | 10 | 2 | Acme Lead Screw, 5/8"-8, 36" Long | $102.38 | $204.76 | [97014A320](https://www.mcmaster.com/97014A320/) |
 | 11 | 2 | Bronze Acme Flange Nut, 5/8"-8 | $138.20 | $276.40 | [95120A119](https://www.mcmaster.com/95120A119/) |
 | 12 | 1 Pack (10 Screws) | Socket Head Screw, #6-32, 3/4" Long | $4.41/pack | $4.41 | [92200A151](https://www.mcmaster.com/92200A151/) |
+| 13 | 1 | 6061 Aluminum Crosshead Stock (1.5" × 2" × 12") | $32.25 | $32.25 | [Grainger](https://www.grainger.com/product/Aluminum-Flat-Bar-Stock-6061-2EZZ5) |
 | | | | **Total Material Cost** | **$1,145.36** | |
 
 ### Design Cost
