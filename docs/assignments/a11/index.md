@@ -7,7 +7,7 @@
 
 - This webpage is for individual display, to see the final collaborated document download from link below:
 
-[Download our official group submission document here](???)
+[Download our official group submission document here]([A11_MotorFinal.pdf](https://github.com/user-attachments/files/35067546/A11_MotorFinal.pdf)
 
 ---
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
