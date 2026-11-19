@@ -255,26 +255,88 @@
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 5. Top Frame FEA
-### Model Setup
-### Design 1
-#### Mesh 1
-#### Mesh 2
-#### Mesh 3
-### Mesh Convergence
-### Safety Factor
-### Optimization
+
+---
+
+<img width="446" height="557" alt="1_Frame_Idea_to_verify" src="https://github.com/user-attachments/assets/4a911f4d-b4ca-49b6-ad3f-78b4710d5ad7" />
+
+---
+
+<img width="438" height="341" alt="2_Bracket_Hand_Calcs" src="https://github.com/user-attachments/assets/83dd1569-56da-4325-975d-69220332c5b6" />
+
+---
+
+<img width="499" height="386" alt="3_Top_Bar_Fixture Force" src="https://github.com/user-attachments/assets/6cd1a0e8-8092-4561-a90c-df0dedb0a73a" />
+
+---
+
+<img width="379" height="393" alt="4_Top_Bar_Torque" src="https://github.com/user-attachments/assets/ef6c53f8-ef57-4b64-8614-5694199af2fa" />
+
+---
+
+<img width="755" height="451" alt="5_Top_Bar_Stress1" src="https://github.com/user-attachments/assets/9d9e7692-5404-4a41-90ec-9a76b69dac31" />
+
+---
+
+<img width="701" height="445" alt="6_Top_Bar_Defl1" src="https://github.com/user-attachments/assets/9153e66f-d34c-48bc-bc91-51defd26361c" />
+
+---
+
+<img width="595" height="539" alt="7_Max_Stress_Location" src="https://github.com/user-attachments/assets/aeb6f974-c75b-489f-ad56-e80731664bd7" />
+
+---
+
+<img width="527" height="377" alt="8_Top_Bar_Stress2" src="https://github.com/user-attachments/assets/192c49c9-3eaa-4f8e-a388-13b7a4bfe057" />
+
+---
+
+<img width="683" height="384" alt="9_Top_Bar_Defl2" src="https://github.com/user-attachments/assets/eefadb63-03c2-4b7d-9f9b-2f68a26a2058" />
+
+---
+
+<img width="351" height="138" alt="10_Top_Bar_Convergence" src="https://github.com/user-attachments/assets/d5aefc6a-ae2d-4cd0-9816-5934be7c26d5" />
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 6. Vertical Frame FEA
-### Model Setup
-### Design 1
-#### Mesh 1
-#### Mesh 2
-#### Mesh 3
-### Mesh Convergence
-### Safety Factor
-### Optimization
+
+<img width="380" height="281" alt="11_Side_Bar_Fixture" src="https://github.com/user-attachments/assets/91d0ac64-5ae5-4450-80cf-a6673092f0e8" />
+
+---
+
+<img width="594" height="597" alt="13_Side_Bar_Transverse_Force" src="https://github.com/user-attachments/assets/ea3aed0a-606a-4b6e-a4de-94fb5fd5fe9e" />
+
+---
+
+<img width="440" height="417" alt="14_Side_Bar_Stress1" src="https://github.com/user-attachments/assets/74414fba-e377-4f95-b781-e7b20339cd14" />
+
+---
+
+<img width="449" height="278" alt="15_Side_Bar_Max_Stress" src="https://github.com/user-attachments/assets/0be5b7f5-6998-465f-8405-9db93726edbf" />
+
+---
+
+<img width="558" height="521" alt="16_Side_bar_Defl1" src="https://github.com/user-attachments/assets/6cbf5ffa-76f7-4b51-8113-e6ae3024b02a" />
+
+---
+
+<img width="631" height="494" alt="16_Side_Bar_Stress2" src="https://github.com/user-attachments/assets/5b312d63-6dea-45b4-ad43-cbe8316636e1" />
+
+---
+
+<img width="539" height="462" alt="17_Side_Bar_Defl2" src="https://github.com/user-attachments/assets/684c52b5-da1b-4276-bb7a-21f7bf936eb1" />
+
+---
+
+<img width="350" height="143" alt="18_Side_bar_Converges" src="https://github.com/user-attachments/assets/4ebe21ea-1c13-4cb5-b32e-048dd2734694" />
+
+---
+
+<img width="797" height="65" alt="19_FoS_and_Optimization" src="https://github.com/user-attachments/assets/67914bce-6b61-4f26-bf06-d76983e935a8" />
+
+---
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
