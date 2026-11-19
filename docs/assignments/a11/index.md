@@ -363,7 +363,6 @@
 | 4 | 8 | M5 Flange Locknuts (100-pack) | $3.52/pack | $3.52 | [McMaster](https://www.mcmaster.com/94920A120/) |
 | 5 | 8 | T-Slot Nut & Screw Combos (4-pack) | $25.10/pack | $50.20 | [McMaster](https://www.mcmaster.com/5021N15/) |
 | 6 | 1 | 932 Bearing Bronze Stock (Floating Bearing) | $187.45 | $187.45 | [McMaster](https://www.mcmaster.com/8234K22/) |
-| 7 | 1 | Custom Motor Coupler | TBD | TBD | — |
 | 8 | 1 | NEMA 23 Motor Mount | $5.75 | $5.75 | [RobotShop](https://www.robotshop.com/products/stepper-motor-mounting-bracket-nema-23) |
 | 9 | 1 | NEMA 23 Geared Stepper Motor (10:1) | $40.05 | $40.05 | [StepperOnline](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-mg-series-planetary-gearbox-23hs30-2904s-mg10) |
 | | | | **Total Priced Cost** | **$659.79** | |
