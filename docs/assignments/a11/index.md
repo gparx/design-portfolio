@@ -418,7 +418,7 @@
 
 ---
 
-[DOWNLOAD CAD FILES HERE](https://drive.google.com/drive/folders/1u-TWogEifa_BrdLtgf8Pgp2fLFRhht96?usp=sharing)
+[DOWNLOAD FILES HERE](https://drive.google.com/drive/folders/1u-TWogEifa_BrdLtgf8Pgp2fLFRhht96?usp=sharing)
 
 ---
 
