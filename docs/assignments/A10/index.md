@@ -1,477 +1,484 @@
-
-# A10 — Lead Screw Design
-
-
-## TEAM PDF DOCUMENT LINKED BELOW (FOR SUBMISSION) 
-
-[TEAM PDF DOCUMENT](https://github.com/user-attachments/files/34730903/A10_EthanMinton_GrantParker_BryanMccanch.pdf)
+# A10 – Lead Screw Translating System
 
 
-## Overview
-Design a mechanically driven tensile testing machine capable of applying a 2 kN (449.62 lbf) axial load using two lead screws and a movable crosshead.
+## Leadscrew Selection - Ethan Minton
 
-### Design Specifications
-
-| Parameter | Value |
-|---|---|
-| Maximum Load | 2,000 N |
-| Lead Screws | 2 |
-| Load per Screw | 1,000 N (equal sharing) |
-| Safety Factor | 4 |
-| Crosshead Speed | 1–50 mm/min |
-| Minimum Screw Length | 18 in |
-| Maximum Crosshead Deflection | 0.10 mm |
-| Operation | Mechanical |
-
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
-
-
-## 1. Lead Screw Design (Ethan)
-
-Determine the minimum lead screw diameter, rotational speed range, and required torque.
-
-**FBD & Calculations:**
+### Minimum Diameter
 
 For part 1, I used axial stress to calculate the minimum lead screw diameter. I assumed the centered 2 kN load was shared equally between the two separate screws found on each side of the model shown, giving 1,000 N per screw. Using a reference yield strength of 205 MPa sourced from Atimaterials to find a general value for Stainless Steels and then using the required safety factor of 4, I solved symbolically for the diameter before plugging in the values. This gave a minimum thread root diameter of 0.196 inches. The root diameter is used because it is the smallest section carrying the axial load.
 
+
+<img width="785" height="297" alt="Screenshot 2026-11-10 233445" src="https://github.com/user-attachments/assets/8085e7e4-f46d-44cb-93fc-f2e134ed09bc" />
+
+<img width="1380" height="642" alt="Screenshot 2026-11-10 233513" src="https://github.com/user-attachments/assets/8fe7a00c-178e-4d29-8371-bab71aa17e24" />
+
+https://www.atimaterials.com/Products/Pages/ati-316.aspx
+
+### Rotational Speed
+
 For part 2, I calculated the rotational speed needed to move the crosshead between 1 and 50 mm/min. The selected screw has a lead of 0.125 inches per revolution, which converts to 3.175 mm/rev. I treated the screw as rotating in place while the nut was prevented from rotating, allowing the nut and crosshead to move along the screw. Starting with (v=Ln), I solved symbolically for (n=v/L), then substituted the minimum and maximum linear speeds. This gave a required speed range of 0.315–15.75 rpm for each screw.
 
+<img width="1305" height="560" alt="Screenshot 2026-11-10 233934" src="https://github.com/user-attachments/assets/e8d629b8-1731-4511-861b-747561bdf1ec" />
 
-<img width="1219" height="1105" alt="Screenshot 2026-11-09 214926" src="https://github.com/user-attachments/assets/9046748b-efd4-40d7-bd4d-c9e2e24db4b6" />
-
+### Max Torque 
 
 For part 3, I used the inclined plane method from class to calculate the torque needed to turn each lead screw. I assumed the centered 2 kN specimen load was shared equally, giving 1,000 N per screw. I used the basic Acme thread geometry to estimate the pitch radius because an exact pitch diameter was not listed on the product page. Since a friction coefficient for the selected screw and bronze nut was not provided, I back-calculated an effective coefficient of 0.15434 from Roton’s published torque ratio. I assumed this could represent the McMaster combination because both use a 5/8–8 Acme screw with a bronze nut. After solving the force balances symbolically, I substituted the values and multiplied the driving force by the pitch radius. This gave an estimated raising torque of 1.63 N·m per screw at steady speed under the specified specimen load.
 
+<img width="1365" height="697" alt="Screenshot 2026-11-10 234209" src="https://github.com/user-attachments/assets/b06e9238-0c3f-4fd7-9b5b-bf6e61c87437" />
 
-<img width="2314" height="945" alt="Screenshot 2026-11-09 214930" src="https://github.com/user-attachments/assets/e2fa4149-091f-440a-8ab9-de280ed58416" />
+<img width="1628" height="565" alt="Screenshot 2026-11-10 234250" src="https://github.com/user-attachments/assets/4908238c-c82d-4f40-bc97-fa5ea1d6e06b" />
 
+https://www.roton.com/products/acme-lead-screws-nuts/engineering-data/
 
+## Nut and Flange Design — Grant Parker
 
-- Axial Stress: σ = F/A
-- Allowable Stress: σ_allow = Sy/N
-- Minimum Root Diameter: d_min = √(4FN/πSy)
-- Rotational Speed: n = v/lead
-- Torque: Calculated using thread geometry and friction.
+I selected the [McMaster 95120A119 flange nut](https://www.mcmaster.com/95120A119/), made from 932 bearing bronze with 5/8–8 right-hand Acme threads. The nut has a listed height of 1.25 inches, a body diameter of 0.875 inches, and a flange diameter of 1.50 inches. These dimensions were used to plan the mounting features on the crosshead.
 
+### Knowns and Unknowns
 
-| Result | Value |
+| Known | Value |
 |---|---|
-| Minimum Root Diameter | 0.196 in |
-| Rotational Speed Range | 0.315 - 15.75 rpm |
-| Friction Coeff. | 0.15454 |
-| Maximum Torque per Screw | 1.64 N*m |
-| Selected Lead Screw | 5/8"-8 316 Stainless Steel Acme Lead Screw |
-| Selected Screw Diameter | 0.625 in |
+| Total specimen load | 2,000 N |
+| Load per nut, assuming equal sharing | 1,000 N = 224.81 lbf |
+| Assumed effective engagement length, L_e | 1.25 in |
+| Thread pitch, p | 0.125 in |
+| Internal thread root diameter, d_r | 0.645 in |
+| Assumed nut yield strength, S_y | 14,000 psi |
+| Required safety factor | 4 |
 
+The unknowns were the number of engaged threads, thread bending stress, allowable stress, and calculated safety factor.
 
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+I assumed the centered load was shared equally between the two nuts. The FBD represents the force transferred between the screw threads and the crosshead through one nut.
 
+<img width="461" height="350" alt="Nut free-body diagram" src="https://github.com/user-attachments/assets/3396a6a6-e738-4068-9653-57dc6e0ed011" />
 
-## 2. Nut and Flange Design (Grant)
+I assumed the full 1.25-inch nut height provided effective thread engagement and that the engaged threads shared the load equally. This simplified the initial thread calculation. Dividing the engagement length by the pitch gave 10 engaged threads.
 
-Select a bronze nut/flange compatible with the chosen lead screw. Verify thread bearing and bending stresses using a safety factor of 4.
+The 0.645-inch value came from the minimum internal major diameter in Dependable Acme’s 5/8–8 Class 2G thread table. For the nut, this is the diameter at the internal thread roots.
 
-**FBD & Calculations:**
+Since the McMaster listing did not provide yield strength, I used 14,000 psi as a preliminary material estimate. St. Paul Foundry lists this minimum value for as-cast C93200 bronze. Applying it to the purchased nut remains an assumption because its exact material condition was not confirmed.
 
-<img width="461" height="350" alt="Screenshot 2026-11-09 203015" src="https://github.com/user-attachments/assets/9d094343-8ad7-4adc-a0fc-883a9af019a5" />
+<img width="750" height="377" alt="Thread engagement and thread bending calculations" src="https://github.com/user-attachments/assets/08cc9528-a58e-495a-906a-ce6b0ee97578" />
 
+The estimated bending stress was 533 psi. Dividing the assumed yield strength by the required safety factor gave an allowable stress of 3,500 psi. The calculated safety factor was approximately 26.3, so the nut passed this preliminary thread-bending check under the stated assumptions.
 
+## Crosshead Design — Grant Parker
 
-- Engaged Threads: nₑ = Lₑ / p
+### Dimension Selection
 
-- Thread Bending Stress: σ_bend = 6F / (nₑπdₘp)
+I used the selected nut’s 1.50-inch flange diameter to help determine the crosshead dimensions. I selected a width of 2 inches, leaving 0.25 inches between each centered flange and the side edges. With an 8-inch spacing between the screws and a 10-inch overall length, each screw center was 1 inch from the nearest end. This also left 0.25 inches between the flange and the end of the crosshead. These dimensions were design choices based on the researched hardware dimensions.
 
-- Allowable Stress: σ_allow = Sᵧ / N
+I modeled the crosshead as a simply supported beam with the 2,000 N specimen load acting at the center. The support span was 8 inches, giving equal support reactions of 1,000 N, or 224.81 lbf. I used an initial rectangular cross section of 2 inches wide by 1 inch thick.
 
-- Actual Safety Factor: N_actual = Sᵧ / σ_bend
-
-
-<img width="750" height="377" alt="Screenshot 2026-11-09 203012" src="https://github.com/user-attachments/assets/d1ca5da8-d5e2-46eb-af89-224e9418eb70" />
-
-
-| Result | Value |
-|---|---|
-| Selected Nut/Flange | 932 Bearing Bronze Acme Flange Nut, 5/8"-8 |
-| Material | 932 Bearing Bronze |
-| Thread Size | 5/8"-8 Acme |
-| Thread Engagement | 10 (assumed) |
-| Thread Pitch | 0.125 in |
-| Mean Diameter | 0.5625 in |
-| Thread Root Diameter | 0.645 in |
-| Thread Bending Stress | 533 psi |
-| Assumed Yield Strength | 14,000 psi |
-| Allowable Stress | 3,500 psi |
-| Required Safety Factor | 4 |
-| Calculated Safety Factor | 26.3 (estimated) |
-| Verdict | Preliminary Pass |
-
-- McMaster Flange part was missing yield strength so we used a general 14,000 psi standard yield strength for the material.
-
-<img width="1087" height="329" alt="image" src="https://github.com/user-attachments/assets/2abefb1f-d93f-4570-a572-2c251b8435ae" />
-
-- Holes to be drilled through flange to mount onto crosshead
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
-
-
-## 3. Crosshead Design (Grant)
-
-Design the crosshead to support the 2 kN (449.62 lbf) tensile load while maintaining a maximum deflection of 0.10 mm.
-
-### FBD
-
-<img width="743" height="253" alt="Screenshot 2026-11-09 225756" src="https://github.com/user-attachments/assets/ed50efe2-7b52-43f7-97f2-d04a5ded6727" />
-
+<img width="743" height="253" alt="Crosshead free-body diagram" src="https://github.com/user-attachments/assets/821e25fd-067b-48cd-886d-afcc90f1f6c3" />
 
 ### Strength Analysis
 
+<img width="323" height="335" alt="Strength analysis knowns" src="https://github.com/user-attachments/assets/ddf1148f-ead4-48d4-b19b-e38467390bcf" />
 
-| Known | Value |
-|---|---|
-| Applied Load | 449.62 lbf |
-| Support Span | 8 in |
-| Beam Width | 2 in |
-| Trial Thickness | 1 in |
-| Required Safety Factor | 4 |
+<img width="278" height="337" alt="Strength analysis unknowns" src="https://github.com/user-attachments/assets/0fbc593c-b251-45f2-806a-b86c15c69ed7" />
 
+I calculated the maximum bending moment and area moment of inertia, then substituted these into the bending stress equation. This gave a maximum bending stress of approximately 2,698 psi. Applying the required safety factor of 4 gave a minimum required yield strength of 10,791 psi.
 
-| Unknowns | 
-|---|
-| Maximum Bending Moment | 
-| Area Moment of Inertia | 
-| Maximum Bending Stress | 
-| Minimum Required Yield Strength | 
-| Actual Safety Factor | 
+I selected 6061-T6 aluminum and used a reference yield strength of 40,000 psi. Kaiser Aluminum lists this typical yield strength and an elastic modulus of 10 million psi for T6/T651 material. Using these reference properties gave a preliminary safety factor of approximately 14.83.
 
-
-- Maximum Bending Moment: M = PL/4
-- Bending Stress: σ = Mc/I
-- Allowable Stress: σ_allow = Sy/N
-
-<img width="934" height="922" alt="Screenshot 2026-11-09 225707" src="https://github.com/user-attachments/assets/a2336076-77e4-4bb0-9822-bb443105408d" />
-
-| Solved | Value |
-|---|---|
-| Maximum Bending Moment | 899.24 lbf·in |
-| Area Moment of Inertia | 0.1667 in⁴ |
-| Maximum Bending Stress | 2,698 psi |
-| Minimum Required Yield Strength | 10,791 psi |
-| Selected Material | 6061-T6 Aluminum |
-| Material Yield Strength | 35,000 psi |
-| Actual Safety Factor | 14.83 |
-| Required Safety Factor | 4 |
-| Result | Preliminary Pass |
-
+<img width="934" height="922" alt="Crosshead strength calculations" src="https://github.com/user-attachments/assets/ff84e66b-6c34-4854-832b-28d2a79972ec" />
 
 ### Deflection Analysis
 
+<img width="465" height="342" alt="Deflection analysis knowns" src="https://github.com/user-attachments/assets/5cacd7b4-f086-4fa1-8ca7-0b0f79f2a73b" />
 
-| Known | Value |
-|---|---|
-| Applied Load | 449.62 lbf |
-| Support Span | 8 in |
-| Beam Width | 2 in |
-| Trial Thickness | 1 in |
-| Maximum Allowable Deflection | 0.003937 in (0.10 mm) |
+<img width="297" height="332" alt="Deflection analysis unknowns" src="https://github.com/user-attachments/assets/84258154-f4cf-471e-bd1b-71eb3938ae00" />
 
+I used the same dimensions and loading to check the 0.10 mm deflection requirement. Rearranging the beam deflection equation gave a minimum required elastic modulus of approximately 7.3 × 10⁶ psi. The selected reference modulus of 10 × 10⁶ psi exceeded this requirement.
 
-| Unknowns |
-|---|
-| Area Moment of Inertia |
-| Minimum Required Elastic Modulus |
-| Selected Material |
-| Material Elastic Modulus |
-| Actual Maximum Deflection |
+Using this modulus gave a calculated deflection of 0.002878 inches, or 0.0731 mm. This was approximately 73.1% of the allowable deflection, so the initial dimensions passed the deflection check.
 
-- Maximum Deflection: δ = FL³/(48EI)
-- Deflection Limit: 0.10 mm
+<img width="881" height="699" alt="Crosshead deflection calculations" src="https://github.com/user-attachments/assets/65860c67-d6ba-4686-bd3c-10600402158b" />
 
+These hand calculations treated the crosshead as a solid rectangular beam with ideal supports. The center hole, mounting holes, and attachment details would be evaluated further in the FEA.
 
-<img width="881" height="699" alt="image" src="https://github.com/user-attachments/assets/06150fc8-8e5f-440f-a684-c6063ba7f4ea" />
+### Crosshead Sketch
 
+I included front, top, and side views showing the overall dimensions and mounting arrangement. The sketch connects the dimensions used in the calculations to the SolidWorks model.
 
+<img width="1190" height="916" alt="Crosshead multiview sketch" src="https://github.com/user-attachments/assets/42fc37bb-33da-4859-a434-ecd4525cbfe0" />
 
-| Solved | Value |
-|---|---|
-| Area Moment of Inertia | 0.1667 in⁴ |
-| Minimum Required Elastic Modulus | 7.3 × 10⁶ psi |
-| Selected Material | 6061-T6 Aluminum |
-| Material Elastic Modulus | 10 × 10⁶ psi |
-| Actual Maximum Deflection | 0.002878 in (0.0731 mm)|
-| Allowable Deflection | 0.003937 in (0.10 mm)|
-| Result | Preliminary Pass |
-
-
-
-
-### Preliminary Sketch
-
-
-<img width="1190" height="916" alt="image" src="https://github.com/user-attachments/assets/1c36eb16-a757-4922-98b2-63b8103956a4" />
-
-
-- Per Machinery's Handbook pg. 656, locational fit H7 for nominal diameter 0.71-1.19" is +0.0008/-0.0000
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
-
-
-##  Cost Analysis (Ethan)
-
+## Bill of Materials - Ethan Minton
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
 |---|---|---|---|---|---|
-| 1 | 2 | Acme Lead Screw, 5/8"-8, 36" Long | $102.38 | $204.76 | [97014A320](https://www.mcmaster.com/97014A320/) |
-| 2 | 2 | Bronze Acme Flange Nut, 5/8"-8 | $138.20 | $276.40 | [95120A119](https://www.mcmaster.com/95120A119/) |
-| 3 | 1 Pack (10 Screws) | Socket Head Screw, #6-32, 3/4" Long | $4.41/pack | $4.41 | [92200A151](https://www.mcmaster.com/92200A151/) |
-| | | | **Total Cost** | **$485.57** | |
+| 1 | 2 | 316 Stainless Steel Acme Lead Screw, 5/8"-8, 36" Long; Cut to 18" | $102.38 | $204.76 | [97014A320](https://www.mcmaster.com/97014A320/) |
+| 2 | 2 | 932 Bronze Acme Flange Nut, 5/8"-8 Right-Hand Thread | $138.20 | $276.40 | [95120A119](https://www.mcmaster.com/95120A119/) |
+| 3 | 1 pack of 10; 8 used | 18-8 Stainless Steel Socket Head Screw, 6-32 × 3/4" | $4.41 per pack | $4.41 | [92200A151](https://www.mcmaster.com/92200A151/) |
+| 4 | 1 stock length | 80 × 40 mm, 40-Series Double T-Slot Aluminum Profile, 10 ft; Assignment Reference Price | $262.23 | $262.23 | [Assignment Frame Profile Resource](https://www.grainger.com/category/material-handling/structural-framing-systems/t-slot-framing-systems/profiles-for-t-slot-framing/metric-profiles-for-t-slot-framing?attrs=Relative+Profile+Weight%7CHeavy~~Series%7C40+Series&filters=attrs) |
+| 5 | 12 | 40-Series Two-Hole Gusseted Inside Corner Bracket | $7.73 | $92.76 | [80/20 40-4332](https://8020.net/40-4332.html) |
+| 6 | 24 | M8 × 16 mm Button Head Screw and Compatible Slide-In T-Nut Assembly | $1.14 | $27.36 | [80/20 75-3422](https://8020.net/75-3422.html) |
+| | | | **Total Estimated Cost of Listed Components** | **$867.92** | |
 
 
----
+## Parametric Modeling and Assembly - Bryan Mccanch
 
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+### Crosshead Design
 
+I started by creating the tensile tester assembly and adding a new crosshead part.
 
-## Parametric CAD Assembly (Bryan)
+<img width="185" height="209" alt="1_Assembly Part_Creation" src="https://github.com/user-attachments/assets/d9fa2edb-13d2-4a60-9969-a089aed68789" />
 
-Model the crosshead parametrically in SolidWorks and assemble the following components:
+I added global variables for the crosshead dimensions, hole diameter, and hole spacing. This allowed me to control the dimensions and make changes in one place.
 
-### Crosshead
+<img width="523" height="104" alt="2_Global_vars" src="https://github.com/user-attachments/assets/38dc6d83-4a85-4477-9dba-56a216ca54c9" />
 
-- In order: Parametrics -> Sketching & Extrusion -> Holes -> Material Assignment
+I sketched a rectangle and linked the dimensions to the global variables. The crosshead was set to 10 inches long and 2 inches wide.
 
+<img width="353" height="233" alt="3_CH_Sketch" src="https://github.com/user-attachments/assets/bacab578-8b61-46fe-bac4-47485c269d4c" />
 
-<img width="523" height="104" alt="2_Global_vars" src="https://github.com/user-attachments/assets/00be718b-77a9-4a9f-8315-164359b1b746" />
+I extruded the rectangle to a thickness of 1 inch using the height variable.
 
+<img width="830" height="362" alt="4_CH_Extrusion" src="https://github.com/user-attachments/assets/957c513a-173c-4391-b43e-c0913a14dbc0" />
 
-<img width="830" height="362" alt="4_CH_Extrusion" src="https://github.com/user-attachments/assets/a34638bb-2f58-47b9-afc8-80c5f97deabf" />
+I sketched two holes along the centerline and set their centers 8 inches apart. Both hole diameters were linked to the 0.875-inch global variable.
 
+<img width="617" height="227" alt="5_Hole_Sketch" src="https://github.com/user-attachments/assets/f2dde11a-36fe-4e6f-9ba7-9488cc146ba8" />
 
-<img width="617" height="227" alt="5_Hole_Sketch" src="https://github.com/user-attachments/assets/51ecf932-8003-401a-a561-9e8e808549a9" />
+I cut both holes through the crosshead to create the openings for the lead screw nuts.
 
+<img width="659" height="462" alt="6_Hole_Cut" src="https://github.com/user-attachments/assets/f7661d44-3362-4987-b23b-322f9221830e" />
 
-<img width="691" height="273" alt="8_Bolthole_mirrored" src="https://github.com/user-attachments/assets/a537b291-56ae-4a9a-85b0-2ad74bd67fb5" />
+I used a circular sketch pattern to create four equally spaced bolt locations around the first opening.
 
+<img width="461" height="534" alt="7_Bolthole_sketch" src="https://github.com/user-attachments/assets/f2e590bb-2f9e-4df8-89b3-7af12040adf5" />
 
-<img width="740" height="283" alt="10_bolthole_feature" src="https://github.com/user-attachments/assets/7760fed9-5455-48a7-bea8-8b41a611c0de" />
+I mirrored the bolt locations across the middle of the crosshead. This gave both ends the same mounting pattern.
 
+<img width="691" height="273" alt="8_Bolthole_mirrored" src="https://github.com/user-attachments/assets/450326f0-9964-4c09-88f8-e0810037568c" />
 
-<img width="614" height="486" alt="11_Material_Assigned" src="https://github.com/user-attachments/assets/6e066310-92c5-4479-8322-d46fcd8d243f" />
+I used Hole Wizard to select #6-32 tapped holes. I set the holes and threads to go through the crosshead.
 
+<img width="184" height="624" alt="9_Holewizard_Details" src="https://github.com/user-attachments/assets/eade1ef6-af2c-450c-8dc7-1b33806b224a" />
 
-<img width="838" height="583" alt="12_Finished_Part" src="https://github.com/user-attachments/assets/7d55cd1f-7056-48d3-a729-ba8875e733d6" />
+I placed the tapped holes at the sketch points around both openings. This created four mounting holes for each nut flange.
 
----
+<img width="740" height="283" alt="10_bolthole_feature" src="https://github.com/user-attachments/assets/57d6a305-f397-4756-8201-c3c0ddf960a3" />
 
-### Bronze nut/flanges
+I assigned 6061-T6 aluminum from the SolidWorks material library to the crosshead.
 
-- In order: Import -> Hole Sketch -> Holes -> Mate w/ Crosshead -> Material Assignment -> 2nd Nut 
+<img width="614" height="486" alt="11_Material_Assigned" src="https://github.com/user-attachments/assets/4d115857-3c0e-4226-b87a-8e94caf92fbc" />
 
-<img width="371" height="239" alt="1_Imported_Nut" src="https://github.com/user-attachments/assets/2b945e41-f841-454b-b6d3-95de96f22b2c" />
+The finished crosshead has two main openings and eight tapped mounting holes. The part was ready to be used in the tensile tester assembly.
 
+<img width="838" height="583" alt="12_Finished_Part" src="https://github.com/user-attachments/assets/9e5b0795-7872-488c-9e10-64e99c66f49f" />
 
-<img width="440" height="486" alt="2_Hole_Sketch" src="https://github.com/user-attachments/assets/6597f266-a282-4c2a-8f99-fc66cf303ce4" />
+### Flange Nut Assembly
 
+I started by importing the flange nut CAD model into the assembly. This gave me the nut geometry and threads without having to model them separately.
 
-<img width="595" height="476" alt="3_HoleWizard" src="https://github.com/user-attachments/assets/10e01b55-7ff9-412d-a00e-9a0d2f5a103e" />
+<img width="371" height="239" alt="1_Imported_Nut" src="https://github.com/user-attachments/assets/54be6891-fd21-4f12-b492-8950da94a42d" />
 
+I used a circular sketch pattern to create four equally spaced bolt locations around the flange. These locations matched the mounting pattern on the crosshead.
 
-<img width="228" height="286" alt="4_Mated_w_Crosshead" src="https://github.com/user-attachments/assets/cafd0150-3d89-4bf6-8afc-c7758c8ac1ba" />
+<img width="440" height="486" alt="2_Hole_Sketch" src="https://github.com/user-attachments/assets/a2d905b1-f95f-4873-aed7-e21d5e981f37" />
 
+I used Hole Wizard to create four #24 drilled holes through the flange. These holes allow the mounting screws to pass through and thread into the crosshead.
 
-<img width="614" height="482" alt="5_Assigned_Matl" src="https://github.com/user-attachments/assets/5abf5611-9f2b-410d-bfc5-e734d748c34a" />
+<img width="595" height="476" alt="3_HoleWizard" src="https://github.com/user-attachments/assets/fefab1e4-cd9e-4715-bfeb-c9a022a0ba58" />
 
+I mated the nut to the crosshead with the center openings lined up. The flange sat against the bottom face of the crosshead.
 
-<img width="397" height="209" alt="6_Added_2nd_Nut" src="https://github.com/user-attachments/assets/c338b9f9-1f70-4adf-baa2-764d1b55ef32" />
+<img width="228" height="286" alt="4_Mated_w_Crosshead" src="https://github.com/user-attachments/assets/a031dda2-7d50-4894-83bf-bedce36a3425" />
 
+I assigned Commercial Bronze, UNS C22000, from the SolidWorks material library to the nut.
 
----
+<img width="614" height="482" alt="5_Assigned_Matl" src="https://github.com/user-attachments/assets/59e7fd3e-f3d9-4fc5-a193-d734dd541f74" />
 
-### Mounting Bolts
+I added a second flange nut and mated it to the opening at the other end of the crosshead. Both nuts were now positioned for the lead screws.
 
+<img width="397" height="209" alt="6_Added_2nd_Nut" src="https://github.com/user-attachments/assets/1175218b-9447-451f-909e-fcc1644b2266" />
 
-<img width="803" height="586" alt="Imported Mated_bolts" src="https://github.com/user-attachments/assets/bb8b3edc-9d40-44f6-8ef6-b7e50f1b0e75" />
+### Mounting Bolt and Leadscrew Assembly 
 
+I imported the socket head screws and mated them into the mounting holes. I added four screws to each flange to secure both nuts to the crosshead.
 
----
+<img width="803" height="586" alt="Imported Mated_bolts" src="https://github.com/user-attachments/assets/b395b4b3-f1c2-4659-a0ca-e5b40939753b" />
 
-### Lead screws
+I imported the lead screw model and created a reference plane 18 inches from the end. This gave me a location to shorten the screw to the selected length.
 
-- In order: -> Import Lead Screws -> Cut -> Assemble
+<img width="614" height="514" alt="1_Imported_LS" src="https://github.com/user-attachments/assets/d7b9420c-54f8-4710-8086-04391bcf8b4f" />
 
-<img width="614" height="514" alt="1_Imported_LS" src="https://github.com/user-attachments/assets/4e3300a3-1299-4945-9ea5-5f7a6c489239" />
+I sketched on the reference plane and used a through-all extruded cut to remove the extra length. This shortened the lead screw model from 36 inches to 18 inches.
 
+<img width="881" height="572" alt="2_Cutting_LS" src="https://github.com/user-attachments/assets/bdbafef0-2863-469e-9184-cb4ab6996111" />
 
-<img width="881" height="572" alt="2_Cutting_LS" src="https://github.com/user-attachments/assets/1f98f1f6-e9ba-4e36-b971-3bfe25448073" />
+I added the second lead screw and mated both screws to the flange nuts. This positioned the screws parallel to each other and completed this portion of the assembly.
 
+<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5bba3e83-5ce1-4ff6-8ca4-862240d48aab" />
 
-<img width="400" height="422" alt="3_Mated_LS+Final assembly" src="https://github.com/user-attachments/assets/5f716647-2699-472a-81ca-51a4518bbbd7" />
+## Finite Element Analysis — Bryan Mccanch
 
+### FEA Setup
 
-### Assembly with Theoretical Frame
+I added a hole at the center of the crosshead to represent the specimen attachment location. This provided a surface for applying the specimen load.
 
-<img width="1259" height="1794" alt="Screenshot 2026-11-12 000415" src="https://github.com/user-attachments/assets/bbfb5a71-8f1a-43bb-abe4-eb2aa38301b1" />
+<img width="689" height="347" alt="Center specimen attachment hole" src="https://github.com/user-attachments/assets/63ab500e-9224-44ba-8818-023885bd028c" />
 
----
+I created a static study named “Initial_Static” in SolidWorks Simulation. This allowed me to evaluate the stresses and displacement under the applied load.
 
-## CAD FILES
+<img width="200" height="527" alt="Creating the static study" src="https://github.com/user-attachments/assets/5d91a088-b814-4f10-a59e-6d05b0d9644c" />
 
-[CAD FILES](https://github.com/user-attachments/files/34730742/drive-download-20261112T053941Z-1-001.zip)
+I applied a 2,000 N downward force to the inside surface of the center hole. This represented the load transferred from the specimen into the crosshead.
 
+<img width="587" height="505" alt="Applying the 2000 N specimen load" src="https://github.com/user-attachments/assets/2a5a19df-5465-4fd4-9dcc-43300f5d4f7f" />
 
+## Design 1
 
+### Mesh 1
 
+#### Stress
 
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+I ran the initial study using a reported mesh count of 236,650 cells. The maximum von Mises stress was approximately 12,160 psi, with the peak reported at the flange nut threads.
 
+<img width="545" height="548" alt="Mesh1_Stress" src="https://github.com/user-attachments/assets/7eeba02d-2324-4e0e-bebf-6d113fb60188" />
 
-## FEA and Optimization (Bryan)
+#### Maximum Stress Location
 
-Perform SolidWorks FEA on the crosshead under a 2 kN (449.62 lbf) axial load. Verify mesh convergence and optimize the geometry.
+I viewed the underside of the crosshead to locate the stress concentration. The highest stress was concentrated near the nut and lead screw interface, so this area needed closer attention during mesh refinement.
 
-**Boundary Conditions:**
-- Load: 2,000 N
-- Fixtures: Nut/flange attachment interfaces
+<img width="431" height="376" alt="Mesh1_Max_Stress" src="https://github.com/user-attachments/assets/e4b527cf-56d2-43aa-8831-082be0591384" />
 
-### Setup
 
-<img width="689" height="347" alt="1_Added_Hole_CH" src="https://github.com/user-attachments/assets/8b9e69fd-0e54-41c5-bd5a-00e0099c6f79" />
+#### Displacement
 
-<img width="200" height="527" alt="2_Created_Study" src="https://github.com/user-attachments/assets/eb9e6542-c244-4947-8ff4-f81321535e01" />
+The maximum resultant displacement was 0.09711 mm near the middle of the crosshead. This was below 0.10 mm and followed the expected pattern of the center moving farther than the supported ends.
 
-<img width="587" height="505" alt="3_Loading" src="https://github.com/user-attachments/assets/0b75f94b-b64d-47ee-9bbf-c342383fc028" />
+<img width="506" height="567" alt="Mesh1_Delf" src="https://github.com/user-attachments/assets/dc30d0f3-e72a-42b6-b1bc-92e5097f76f4" />
 
----
-### Design 1 - Mesh 1
 
-<img width="506" height="567" alt="Mesh1_Delf" src="https://github.com/user-attachments/assets/0fce4599-8daf-4df0-b0f2-32c18e704b15" />
+### Mesh 2
 
-<img width="431" height="376" alt="Mesh1_Max_Stress" src="https://github.com/user-attachments/assets/fbbf09ae-c979-44d7-8c8c-d10d16ed7a49" />
+#### Stress
 
-<img width="545" height="548" alt="Mesh1_Stress" src="https://github.com/user-attachments/assets/ed774d79-9297-4311-94c2-bfdc0eea351f" />
+I refined the mesh, increasing the reported count to 275,946 cells. The maximum stress increased to 21,800 psi and remained at the flange nut threads. This was a 79.28% increase from Mesh 1.
 
-### Design 1 - Mesh 2
+<img width="573" height="576" alt="Mesh2_Stress" src="https://github.com/user-attachments/assets/5b8bc805-9a6b-421d-b28d-8b39f245d768" />
 
-<img width="592" height="565" alt="Mesh2_Defl" src="https://github.com/user-attachments/assets/df5f3b7f-c53f-4e0a-98dd-8ec4f2a44f6e" />
+#### Displacement
 
-<img width="573" height="576" alt="Mesh2_Stress" src="https://github.com/user-attachments/assets/b838bfab-7192-4ebe-9d52-49c6bee38656" />
+The maximum resultant displacement was 0.09689 mm near the middle of the crosshead. This changed by approximately 0.23% from Mesh 1, showing that the displacement was much less sensitive to this refinement than the peak stress.
 
-### Design 1 - Mesh 3
+<img width="592" height="565" alt="Mesh2_Defl" src="https://github.com/user-attachments/assets/1d026cd4-6040-4b94-9e59-9c8de690cada" />
 
-<img width="577" height="580" alt="Mesh3_Defl" src="https://github.com/user-attachments/assets/beeb1020-fc04-4054-b148-092105c2d782" />
+### Mesh 3
 
-<img width="604" height="525" alt="Mesh3_Stress" src="https://github.com/user-attachments/assets/3adbc6c3-9a2e-4915-bd44-7b1109675961" />
+#### Stress
 
----
+I refined the mesh again, increasing the reported count to 293,619 cells. The maximum stress increased to 24,140 psi at the same reported location. The increase from Mesh 2 was approximately 10.73%.
 
-| Result | Initial (Mesh 1) | Refined 1 (Mesh 2) | Refined 2 (Mesh 3) |
-|---|---|---|---|
-| Mesh Cells | 236,650 | 275,946 | 293,619 |
-| Max Stress (psi) | 12,200 | 21,800 | 24,100 |
-| Max Stress Location | Flange Nut Threads | Flange Nut Threads | Flange Nut Threads |
-| Max Deflection (mm) | 0.0971 | 0.0969 | 0.0971 |
-| Max Deflection Location | Middle of Crosshead | Middle of Crosshead | Middle of Crosshead |
-| Safety Factor at Max Stress | 1.15 | 0.64 | 0.58 |
-| Change in Max Stress | — | 79.28% | 10.73% |
-| Change in Max Deflection | — | 0.23% | 0.23% | 
+<img width="604" height="525" alt="Mesh3_Stress" src="https://github.com/user-attachments/assets/86b5b8da-a125-4a59-9b20-316545b4bc39" />
 
-- Design 1 Mass: 5.25 lbs
-- Design 1 Volume: 52.57 in^3
+#### Displacement
 
-### Design 2 
+The maximum resultant displacement was 0.09711 mm near the middle of the crosshead. This changed by approximately 0.23% from Mesh 2 and remained below 0.10 mm.
 
-<img width="384" height="584" alt="Optimized_design" src="https://github.com/user-attachments/assets/dc89bdfb-47c4-4c53-b0f6-cd7a129abb73" />
+<img width="577" height="580" alt="Mesh3_Defl" src="https://github.com/user-attachments/assets/f9d3eaeb-4a1c-4cc9-a0cb-b65ad6969635" />
 
-### Design 2 - Mesh 1
-
-<img width="526" height="476" alt="Mesh1_Defl" src="https://github.com/user-attachments/assets/71c90b3a-ea57-4ba6-9a1e-e4d3ae8c84c2" />
-
-<img width="477" height="473" alt="Mesh1_Stress" src="https://github.com/user-attachments/assets/3a09a4b4-c91c-4561-b635-018fcc198e65" />
-
-### Design 2 - Mesh 2
-
-<img width="467" height="440" alt="Mesh2_Defl" src="https://github.com/user-attachments/assets/88149d03-9129-4cc5-858d-4279236293f2" />
-
-<img width="493" height="438" alt="Mesh2_Stress" src="https://github.com/user-attachments/assets/107ee8dc-dc07-4446-8af9-566ed91d9a99" />
-
-### Design 2 - Mesh 3
-
-<img width="467" height="465" alt="Mesh3_Defl" src="https://github.com/user-attachments/assets/1832262a-0431-47ab-98ea-99fecdd1f902" />
-
-<img width="515" height="470" alt="Mesh3_Stress" src="https://github.com/user-attachments/assets/a52056c7-9d3b-4939-801c-7bb13087a7ce" />
-
-
+### Mesh Comparison
 
 | Result | Mesh 1 | Mesh 2 | Mesh 3 |
 |---|---|---|---|
-| Mesh Cells | 110,830 | 133,727 | 142,338 |
-| Max Stress (psi) | 18,400 | 21,600 | 15,100 |
-| Max Stress Location | Flange Nut Threads | Flange Nut Threads | Flange Nut Threads |
-| Max Deflection (mm) | 0.144 | 0.144 | 0.144 |
-| Max Deflection Location | Middle of Crosshead | Middle of Crosshead | Middle of Crosshead |
-| Safety Factor at Max Stress | 0.763 | 0.649 | 0.927 |
-| Change in Max Stress | — | 17.43% | 29.92% |
-| Change in Max Deflection | — | 0.00% | 0.00% |
+| Reported mesh cells | 236,650 | 275,946 | 293,619 |
+| Maximum von Mises stress | 12,160 psi | 21,800 psi | 24,140 psi |
+| Reported maximum stress location | Flange nut threads | Flange nut threads | Flange nut threads |
+| Maximum resultant displacement, URES | 0.09711 mm | 0.09689 mm | 0.09711 mm |
+| Maximum displacement location | Middle of crosshead | Middle of crosshead | Middle of crosshead |
+| Stress change from previous mesh | — | 79.28% | 10.73% |
+| Displacement change from previous mesh | — | 0.23% | 0.23% |
+| Estimated nut safety factor using 14,000 psi yield | 1.15 | 0.64 | 0.58 |
 
-- Design 2 Mass: 4.32lbs
-- Design 2 Volume: 44.49 in^3
+### Convergence Discussion
 
-### Conclusion 
+I noticed unusual behavior in the maximum stress near the flange nut threads. The peak was concentrated in a very small area and increased as the mesh was refined, while the maximum displacement stayed nearly constant. Between Mesh 2 and Mesh 3, the stress increased by 10.73%, while the displacement changed by approximately 0.23%.
+
+This localized peak appeared questionable and may be a mesh or contact artifact associated with the modeled thread geometry. A sharp thread root or contact edge could produce a numerical stress singularity. However, the screenshots alone do not confirm this, so the peak should be investigated rather than automatically treated as a realistic stress or ignored.
+
+### Safety Factor
+
+Using the assumed bronze yield strength of 14,000 psi and the Mesh 3 peak stress gave an estimated safety factor of 0.58. This value was controlled by the highly localized stress at the flange nut threads.
+
+Because that peak may be affected by the mesh and contact definitions, I treated this safety factor as preliminary. Further checks of the thread geometry, material assignments, contacts, and local mesh are needed before drawing a final strength conclusion. These results do not yet verify the required safety factor of 4.
+
+### Load Path and Deformation
+
+The specimen load enters through the center hole and bends the crosshead between the two nut connections. The load then transfers through the flange nuts into the lead screws and their supports.
+
+The displayed deformation also shows sideways bending of the lead screws. This needs further review of the support and contact definitions. Crosshead twisting cannot be determined from these views alone; displacement across both sides of the crosshead should be compared.
+
+## Design 2
+
+### Revised Crosshead Geometry
+
+I added two pockets to the crosshead to remove material and reduce mass. I kept solid material around the center attachment hole and the flange nut mounting areas. The pockets also included rounded corners to avoid sharp internal corners.
+
+<img width="384" height="584" alt="Optimized_design" src="https://github.com/user-attachments/assets/3fa6a230-fb2b-4d4d-b59f-1bda5faba0c4" />
+
+### Mesh 1
+
+#### Stress
+
+I ran the revised design using a reported mesh count of 110,830 cells. The maximum von Mises stress was approximately 18,360 psi, with the peak again reported at the flange nut threads.
+
+<img width="477" height="473" alt="Mesh1_Stress (1)" src="https://github.com/user-attachments/assets/d04850a3-8999-4a96-9a89-e51cb3fe2811" />
+
+#### Displacement
+
+The maximum resultant displacement was 0.1444 mm near the middle of the crosshead. This was higher than the 0.09711 mm reported for Design 1, showing a stiffness penalty in the revised model.
+
+<img width="526" height="476" alt="Mesh1_Defl" src="https://github.com/user-attachments/assets/0a50178e-ba86-4889-9bbc-d2b020a61bc9" />
+
+### Mesh 2
+
+#### Stress
+
+I refined the mesh, increasing the reported count to 133,727 cells. The maximum stress increased to 21,560 psi at the flange nut threads. This was a 17.43% increase from Mesh 1.
+
+<img width="493" height="438" alt="Mesh2_Stress (1)" src="https://github.com/user-attachments/assets/d080bcda-4945-4d09-bdcd-fb2893ea841f" />
+
+#### Displacement
+
+The maximum resultant displacement remained approximately 0.1444 mm near the middle of the crosshead. The displayed result changed very little even though the peak stress increased.
+
+<img width="467" height="440" alt="Mesh2_Defl (1)" src="https://github.com/user-attachments/assets/05e9d8d0-7635-4f39-af3c-d05e03808fa2" />
+
+### Mesh 3
+
+#### Stress
+
+I refined the mesh again, increasing the reported count to 142,338 cells. The maximum stress decreased to 15,110 psi, which was approximately 29.92% lower than Mesh 2. The reported maximum remained at the flange nut threads.
+
+<img width="515" height="470" alt="Mesh3_Stress (1)" src="https://github.com/user-attachments/assets/43ab4d8d-38d2-4f9d-93ab-3aa26a313b5a" />
+
+#### Displacement
+
+The maximum resultant displacement remained approximately 0.1444 mm near the middle of the crosshead. The displacement was stable to the precision shown across all three meshes.
+
+<img width="467" height="465" alt="Mesh3_Defl (1)" src="https://github.com/user-attachments/assets/9ae4a40f-9fb3-4902-aaba-fa52bdebecce" />
+
+### Mesh Comparison
+
+| Result | Mesh 1 | Mesh 2 | Mesh 3 |
+|---|---|---|---|
+| Reported mesh cells | 110,830 | 133,727 | 142,338 |
+| Maximum von Mises stress | 18,360 psi | 21,560 psi | 15,110 psi |
+| Reported maximum stress location | Flange nut threads | Flange nut threads | Flange nut threads |
+| Maximum resultant displacement, URES | 0.1444 mm | 0.1444 mm | 0.1444 mm |
+| Maximum displacement location | Middle of crosshead | Middle of crosshead | Middle of crosshead |
+| Stress change from previous mesh | — | 17.43% increase | 29.92% decrease |
+| Displacement change at displayed precision | — | Approximately 0.00% | Approximately 0.00% |
+| Estimated nut safety factor using 14,000 psi yield | 0.76 | 0.65 | 0.93 |
+
+### Flange Nut Stress Concentration and Convergence
+
+I noticed the same unusual stress concentration at the flange nut that appeared in Design 1. The maximum stress was concentrated in a very small region near the threads, while most of the surrounding assembly showed much lower stress.
+
+The isolated peak seemed unrealistic as a measure of the overall crosshead strength. It may be affected by the mesh, thread geometry, or contact definitions. The stress increased between Mesh 1 and Mesh 2, then decreased between Mesh 2 and Mesh 3, while the displacement stayed nearly constant. This showed that the reported peak stress was still sensitive to the mesh.
+
+These results suggest a possible mesh or contact artifact, but they do not prove that the concentration is artificial. Further checks are needed before dismissing the peak or using it as a final strength result.
+
+### Safety Factor
+
+Using the previously assumed bronze yield strength of 14,000 psi gave estimated nut safety factors of 0.76, 0.65, and 0.93. These values were controlled by the localized peak reported at the flange nut threads.
+
+Because the peak stress had not converged and may be affected by the modeled thread contact, I treated these safety factors as preliminary. The results did not verify the required safety factor of 4. The crosshead’s own stress and safety factor also need to be evaluated separately from the nut.
+
+### Comparison with Design 1
+
+| Result Using Mesh 3 | Design 1 | Design 2 |
+|---|---|---|
+| Maximum reported von Mises stress | 24,140 psi | 15,110 psi |
+| Reported maximum stress location | Flange nut threads | Flange nut threads |
+| Maximum resultant displacement | 0.09711 mm | 0.1444 mm |
+| Estimated nut safety factor using 14,000 psi yield | 0.58 | 0.93 |
+| Reported mass | 5.25 lb | 4.32 lb |
+| Reported volume | 52.57 in³ | 44.49 in³ |
+
+The revised design reduced the reported mass by 0.93 lb, or approximately 17.7%. The reported volume decreased by 8.08 in³, or approximately 15.4%. This showed that the pockets removed material from the crosshead.
+
+The maximum resultant displacement increased by approximately 48.7%, showing a stiffness penalty in the revised model. Although Design 2 had a lower reported peak stress on Mesh 3, neither design established a converged peak stress. The localized concentration at the flange nut remained questionable and may be affected by the mesh or contact definitions.
+
+
+### Deflection Requirement
+
+The reported resultant displacement of 0.1444 mm was above the numerical limit of 0.10 mm. However, these plots show URES rather than the vertical displacement component requested in the assignment.
+
+A vertical displacement plot at the grip line is needed before making a final comparison with that requirement. Based on the available results, I could not report Design 2 as meeting all constraints.
+
+### Load Path and Deformation
+
+The load enters through the center attachment hole and travels through the remaining crosshead material to the flange nut connections. It then transfers into the lead screws and their supports.
+
+The displayed deformation shows bending near the middle of the crosshead and sideways bending of the lead screws. The support and contact definitions need further review, and displacement across both sides of the crosshead should be compared to evaluate twisting.
+
+### Final Verification 
 
 The revised FEA predicted a maximum resultant displacement of approximately 0.1444 mm, compared with the required vertical deflection limit of 0.10 mm. I suspected that the simulation setup and thread-contact behavior may have affected the results. 
 
 The low estimated safety factor was controlled primarily by the highly concentrated stress at the flange nut threads. This peak changed considerably with mesh refinement, suggesting that the thread geometry and contact definitions may not accurately represent the actual load sharing. I therefore treated the reported safety factor as preliminary.
 
-In all honesty, the limits seem to be disrupted by the FEA itself, and not how, in actuality, the Lead Screw would perform. This is likely due to how the assembly was exactly set up; with our knowledge being limited to how it should be set up, these issues can slip through the cracks and seemingly would require an entire overhaul of the design. If I were given the opportunity again, I would definitely attempt to reconstruct the assembly in an attempt to avoid this issue of outlier concentration entirely. Unfortunately, these analysis can be extremely finicky which can otherwise turn a extremely support and well build model to have a completely gross outlier concentrations. 
-
----
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+In all honesty, the limits seem to be disrupted by the FEA itself, and not how, in actuality, the Lead Screw would perform. This is likely due to how the assembly was exactly set up; with our knowledge being limited to how it should be set up, these issues can slip through the cracks and seemingly would require an entire overhaul of the design. If I were given the opportunity again, I would definitely attempt to reconstruct the assembly in an attempt to avoid this issue of outlier concentration entirely. Unfortunately, these analysis can be extremely finicky which can otherwise turn a extremely support and well build model to have a completely gross outlier concentrations.
 
 
-## Engineering Drawing
+### Crosshead Drawing 
 
-Create a detailed SolidWorks drawing of the final crosshead using third-angle projection and ASME Y14.5 dimensioning standards.
-
-
-<img width="1190" height="921" alt="Screenshot 2026-11-11 233303" src="https://github.com/user-attachments/assets/2663fa7e-f925-4b7d-9921-81cb57eb8b13" />
+<img width="1147" height="892" alt="image" src="https://github.com/user-attachments/assets/7973a283-0d1e-4f38-b049-5f27b04e6da8" />
 
 
-**General Tolerances:**
+## Lessons Learned
 
-- X.X ± 0.02
-- X.XX ± 0.01
-- X.XXX ± 0.005
+### Ethan — Lead Screw Calculations
 
-
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
-
-
-## 8. Engineering Lessons Learned (Ethan)
-
-Ethan — Lead Screw Calculations
 I completed the lead screw calculations and learned how the screw’s lead determines the rotational speed needed to move the crosshead. For the selected screw, each revolution moves the nut 0.125 inches. Using this value, I calculated the speed range needed to meet the required crosshead movement. I also learned how to use the inclined plane model from class to solve for the force needed to overcome the axial load and friction. Multiplying that force by the pitch radius gave the required torque. Working through the force balances made the torque equation easier to understand. Another thing I learned was to use the thread root diameter when calculating axial stress because this is the smallest section carrying the load.
 
-Grant — Second Calculation Section
+### Grant — Second Calculation Section
+
 I completed the second math section and learned how to connect the free-body diagram to the equations used to size the components. Solving symbolically first helped me understand how changing the load, material strength, or dimensions would affect the result. I also learned how to apply the safety factor of 4 by reducing the allowable stress used in the calculations. The selected hardware also affected the design because the calculated dimensions needed to provide space for the nut and flange mounting features. This helped me understand why the calculations and part selection needed to be considered together.
 
-Bryan — CAD Modeling and Assembly
+### Bryan — CAD Modeling and Assembly
+
 I completed the CAD modeling and assembly and learned how to create a screw mate in SolidWorks. Setting the travel per revolution connected the rotation of the lead screw to the linear movement of the nut and crosshead. I also learned how to combine mates that kept the components aligned while allowing the intended movement. The screw mate required checking the direction of travel and the amount of movement produced by each revolution. Working with downloaded components also taught me to check the thread size, thread direction, and number of thread starts when selecting compatible parts.
 
-The project took approximately 20 combined hours to complete.
+The project took approximately 30 dedicated hours to complete.
 
----
+## Resources
 
-<hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
+[Tensile Tester Assembly - DOWNLOAD ALL FILES BELOW FOR THIS TO FUNCTION](Tensile_Tester_Asm.SLDASM)
 
+[Lead Screw CAD](./Lead_Screw.SLDPRT)
 
-## References
+[Flange Nut CAD](./Flange_Nut.SLDPRT)
 
-- MEGR 2157 — A10 Assignment Instructions
-- [ACME Lead Screw Data](https://www.roton.com/products/acme-lead-screws-nuts/engineering-data/)
-- [Acme General Purpose 2G Thread Series Limiting Dimensions & Tolerances](https://www.dependableacme.com/internal-and-external-thread-dimensions)
-- [McMaster-Carr](https://www.mcmaster.com/)
-- [Lead Screw](https://www.mcmaster.com/97014A320/)
-- [Bronze Bearing](https://www.mcmaster.com/95120A119/)
-- [Socket Head Screw](https://www.mcmaster.com/92200A151/)
-- SolidWorks — CAD and FEA 
+[Crosshead CAD](./Crosshead.SLDPRT)
+
+[Crosshead Drawing CAD](./Crosshead.SLDDRW)
+
+[2 ft Rail CAD](./2ft_Rail.SLDPRT)
+
+[1 ft Rail CAD](./1ft_Rail.SLDPRT)
+
+[6-32 Mounting Screw CAD](./%236_32_Screw.SLDPRT)
+
+[ATI — 316 Stainless Steel Properties](https://www.atimaterials.com/Products/Pages/ati-316.aspx)
+
+[Roton — Acme Lead Screw Engineering Data](https://www.roton.com/products/acme-lead-screws-nuts/engineering-data/)
+
+[Dependable Acme — Thread Dimensions](https://www.dependableacme.com/internal-and-external-thread-dimensions/)
+
+[St. Paul Foundry — C93200 Bronze Properties](https://www.stpaulfoundry.com/AlloySpecs/alloy_specifications_data_page.aspx?id=C93200)
+
+[Kaiser Aluminum — 6061 Material Properties](https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf)
+
+[Assignment Resource — Grainger Frame Profiles](https://www.grainger.com/category/material-handling/structural-framing-systems/t-slot-framing-systems/profiles-for-t-slot-framing/metric-profiles-for-t-slot-framing?attrs=Relative+Profile+Weight%7CHeavy~~Series%7C40+Series&filters=attrs)
+
+[McMaster — Lead Screw](https://www.mcmaster.com/97014A320/)
+
+[McMaster — Bronze Flange Nut](https://www.mcmaster.com/95120A119/)
+
+[McMaster — Mounting Screw](https://www.mcmaster.com/92200A151/)
