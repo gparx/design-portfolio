@@ -245,7 +245,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 4. Frame Connection Design
+## 4. Frame Connection Design (Bryan)
 
 ---
 
@@ -255,7 +255,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 5. Top Frame FEA
+## 5. Top Frame FEA (Bryan)
 
 ---
 
@@ -297,7 +297,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 6. Vertical Frame FEA
+## 6. Vertical Frame FEA (Bryan)
 
 <img width="380" height="281" alt="11_Side_Bar_Fixture" src="https://github.com/user-attachments/assets/91d0ac64-5ae5-4450-80cf-a6673092f0e8" />
 
@@ -337,7 +337,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 7. Floating Bearing Mount
+## 7. Floating Bearing Mount (Bryan)
 ### Knowns and Unknowns
 ### Bearing and Fit Selection
 ### Mount Dimensions
