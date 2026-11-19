@@ -357,17 +357,19 @@
 
 | Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
 |:---:|:---:|---|---:|---:|---|
-| 1 | 4 | T-Slot Aluminum Extrusion (2 ft) | $51.82 | $207.28 | [McMaster](https://www.mcmaster.com/5537T112/) |
-| 2 | 8 | T-Slot 90° Corner Brackets | $20.18 | $161.44 | [McMaster](https://www.mcmaster.com/3136N924/) |
-| 3 | 8 | M5 × 65 mm Screws (25-pack) | $4.10/pack | $4.10 | [McMaster](https://www.mcmaster.com/91290A270/) |
-| 4 | 8 | M5 Flange Locknuts (100-pack) | $3.52/pack | $3.52 | [McMaster](https://www.mcmaster.com/94920A120/) |
-| 5 | 8 | T-Slot Nut & Screw Combos (4-pack) | $25.10/pack | $50.20 | [McMaster](https://www.mcmaster.com/5021N15/) |
-| 6 | 1 | 932 Bearing Bronze Stock (Floating Bearing) | $187.45 | $187.45 | [McMaster](https://www.mcmaster.com/8234K22/) |
+| 1 | 4 | T-Slot Aluminum Extrusion (2 ft) | $51.82 | $207.28 | [5537T112](https://www.mcmaster.com/5537T112/) |
+| 2 | 8 | T-Slot 90° Corner Brackets | $20.18 | $161.44 | [3136N924](https://www.mcmaster.com/3136N924/) |
+| 3 | 8 | M5 × 65 mm Screws (25-pack) | $4.10/pack | $4.10 | [91290A270](https://www.mcmaster.com/91290A270/) |
+| 4 | 8 | M5 Flange Locknuts (100-pack) | $3.52/pack | $3.52 | [94920A120](https://www.mcmaster.com/94920a120/) |
+| 5 | 8 | T-Slot Nut & Screw Combos (4-pack) | $25.10/pack | $50.20 | [5021N15](https://www.mcmaster.com/5021N15/) |
+| 6 | 1 | 932 Bearing Bronze Stock (Floating Bearing) | $187.45 | $187.45 | [8234K22](https://www.mcmaster.com/8234K22/) |
+| 7 | 1 | Custom Motor Coupler (Fabricated) | TBD | TBD | — |
 | 8 | 1 | NEMA 23 Motor Mount | $5.75 | $5.75 | [RobotShop](https://www.robotshop.com/products/stepper-motor-mounting-bracket-nema-23) |
 | 9 | 1 | NEMA 23 Geared Stepper Motor (10:1) | $40.05 | $40.05 | [StepperOnline](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-mg-series-planetary-gearbox-23hs30-2904s-mg10) |
-| | | | **Total Priced Cost** | **$659.79** | |
-
-*Note: Costs account for required purchase quantities and full packs. Custom motor coupler fabrication costs, shipping, and taxes are not included.*
+| 10 | 2 | Acme Lead Screw, 5/8"-8, 36" Long | $102.38 | $204.76 | [97014A320](https://www.mcmaster.com/97014A320/) |
+| 11 | 2 | Bronze Acme Flange Nut, 5/8"-8 | $138.20 | $276.40 | [95120A119](https://www.mcmaster.com/95120A119/) |
+| 12 | 1 Pack (10 Screws) | Socket Head Screw, #6-32, 3/4" Long | $4.41/pack | $4.41 | [92200A151](https://www.mcmaster.com/92200A151/) |
+| | | | **Total Material Cost** | **$1,145.36** | |
 
 ### Design Cost
 
@@ -376,15 +378,18 @@
 | Grant | 12 | $30.00 | $360.00 |
 | Ethan | 12 | $30.00 | $360.00 |
 | Bryan | 12 | $30.00 | $360.00 |
-| | **36** | **Total Design Cost** | **$1,080.00** |
+| | | **Total Design Cost** | **$1,080.00** |
 
 ### Total Project Cost
 
 | Category | Cost |
 |---|---:|
-| Materials and Components | $659.79 |
+| Materials and Components | $1,145.36 |
 | Design Labor | $1,080.00 |
-| **Total Project Cost** | **$1,739.79** |
+| **Total Cost of Project** | **$2,225.36** |
+
+*Note: Total excludes the unpriced custom motor coupler, shipping, and taxes. Fastener costs account for complete purchase packs.*
+
 
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
