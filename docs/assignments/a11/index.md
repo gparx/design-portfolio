@@ -407,12 +407,14 @@
 ## 9. Engineering Lessons Learned
 
 ## Engineering Drawings
-### Motor Mount
-### Coupler
-### Frame Components
-### Floating Bearing Mount
-### Crosshead (A10)
-### Assembly Drawing
+
+<img width="1578" height="1209" alt="Screenshot 2026-11-18 234021" src="https://github.com/user-attachments/assets/206ee89c-4696-4508-bd4a-f5150de18e63" />
+<img width="1574" height="1210" alt="Screenshot 2026-11-18 234024" src="https://github.com/user-attachments/assets/24dde891-a74c-43c9-baaa-dfc2a811b099" />
+<img width="1573" height="1209" alt="Screenshot 2026-11-18 234029" src="https://github.com/user-attachments/assets/b4e4cd1c-9f0d-41a3-852f-b7a9eebd9918" />
+<img width="1573" height="1216" alt="Screenshot 2026-11-18 234032" src="https://github.com/user-attachments/assets/27755721-1b5d-4dc6-ab24-39d45f3861f5" />
+<img width="1573" height="1208" alt="Screenshot 2026-11-18 234018" src="https://github.com/user-attachments/assets/e8ad53cc-986e-42ed-be79-6340f8ba297b" />
+
+
 
 ## Google Drive
 
