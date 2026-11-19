@@ -352,7 +352,31 @@
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
 ## 8. Bill of Materials and Labor Costs
+
 ### Bill of Materials
+
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+|:---:|:---:|---|---:|---:|---|
+| 1 | 4 | T-Slot Aluminum Extrusion (2 ft) | $51.82 | $207.28 | [McMaster](https://www.mcmaster.com/5537T112/) |
+| 2 | 8 | T-Slot 90° Corner Brackets | $20.18 | $161.44 | [McMaster](https://www.mcmaster.com/3136N924/) |
+| 3 | 8 | M5 × 65 mm Screws (25-pack) | $4.10/pack | $4.10 | [McMaster](https://www.mcmaster.com/91290A270/) |
+| 4 | 8 | M5 Flange Locknuts (100-pack) | $3.52/pack | $3.52 | [McMaster](https://www.mcmaster.com/94920A120/) |
+| 5 | 8 | T-Slot Nut & Screw Combos (4-pack) | $25.10/pack | $50.20 | [McMaster](https://www.mcmaster.com/5021N15/) |
+| 6 | 1 | 932 Bearing Bronze Stock (Floating Bearing) | $187.45 | $187.45 | [McMaster](https://www.mcmaster.com/8234K22/) |
+| 7 | 1 | Custom Motor Coupler | TBD | TBD | — |
+| 8 | 1 | NEMA 23 Motor Mount | $5.75 | $5.75 | [RobotShop](https://www.robotshop.com/products/stepper-motor-mounting-bracket-nema-23) |
+| 9 | 1 | NEMA 23 Geared Stepper Motor (10:1) | $40.05 | $40.05 | [StepperOnline](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-mg-series-planetary-gearbox-23hs30-2904s-mg10) |
+| | | | **Total Priced Cost** | **$659.79** | |
+
+*Note: Costs account for required purchase quantities and full packs. Custom motor coupler fabrication costs, shipping, and taxes are not included.*
+
+**Notes:**
+- Prices reflect the purchase quantity, including full packs where required.
+- Corner bracket pricing is historical; M5 fastener pricing comes from alternative sellers.
+- TBD items are excluded from the subtotal.
+- Shipping, taxes, and fabrication costs are excluded.
+
+
 ### Engineering Labor
 ### Total Project Cost
 
