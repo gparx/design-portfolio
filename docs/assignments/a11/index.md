@@ -351,7 +351,7 @@
 
 <hr style="border: none; height: 3px; background-color: #888; margin: 20px 0;">
 
-## 8. Bill of Materials and Labor Costs
+## 8. Bill of Materials and Labor Costs (Grant)
 
 ### Bill of Materials
 
